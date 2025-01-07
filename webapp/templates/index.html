@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificação de Plantas</title>
+</head>
+<body>
+    <h1>Classificação de Plantas</h1>
+    <form action="/classify" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" id="file-upload" style="display: none;" />
+        <label for="file-upload" style="cursor: pointer; background-color: #0a6b3b; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+            Escolher Imagem
+        </label>
+        <span id="file-name" style="margin-left: 10px;">Nenhum arquivo selecionado</span>
+        <br><br>
+        <button type="submit" style="background-color: #00ba7c; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
+            Enviar
+        </button>
+    </form>
+
+    <script>
+        // atualiza o nome do arquivo selecionado no formulário
+        document.getElementById('file-upload').addEventListener('change', function() {
+            const fileName = this.files[0] ? this.files[0].name : "Nenhum arquivo selecionado";
+            document.getElementById('file-name').textContent = fileName;
+        });
+    </script>
+</body>
+</html>

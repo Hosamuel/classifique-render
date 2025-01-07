@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado da Classificação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .result-item {
+            margin-bottom: 10px;
+        }
+        .result-item strong {
+            color: #555;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado da Classificação</h1>
+        <div class="result-item"><strong>Nome Científico:</strong> {{ result.scientific_name }}</div>
+        <div class="result-item"><strong>Nome Popular:</strong> {{ result.popular_name }}</div>
+        <div class="result-item"><strong>Link para Verificação:</strong> 
+            <a href="{{ result.link }}" target="_blank">{{ result.link }}</a>
+        </div>
+        <div class="result-item"><strong>Probabilidade de Acerto:</strong> {{ result.probability }}</div>
+    </div>
+</body>
+</html>
