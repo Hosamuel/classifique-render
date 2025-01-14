@@ -1,27 +1,39 @@
-from flask import Blueprint, render_template, request, jsonify # renderiza arquivos HTML do diretório templates, jsonify para as respostas de erro
+import logging
+from flask import Blueprint, render_template, request, jsonify, current_app
 from PIL import Image
+import time
 from webapp.model.predict import classify_image
 
-main = Blueprint('main', __name__)# registrando as rotas 
+main = Blueprint('main', __name__)
 
-@main.route('/')# pagina de inicio
-def index():
-    return render_template('index.html')  # renderiza a página inicial
+# Configuração de logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-@main.route('/classify', methods=['POST']) # pagina de resul/classificação
+@main.route('/classify', methods=['POST'])
 def classify():
-    if 'image' not in request.files:
-        return jsonify({'error': 'Nenhuma imagem enviada'}), 400
-
-    file = request.files['image']
-    if file.filename == '':
-        return jsonify({'error': 'Nenhum arquivo selecionado'}), 400
-
     try:
-        image = Image.open(file.stream)  # abrindo a imagem enviada
-        result = classify_image(image)  # usando a função do predict.py
+        logger.info("Iniciando classificação")
+        start_time = time.time()
 
-        # dividindo os resultados em partes para renderizar no html
+        if 'image' not in request.files:
+            logger.error("Nenhuma imagem enviada")
+            return jsonify({'error': 'Nenhuma imagem enviada'}), 400
+
+        file = request.files['image']
+        if file.filename == '':
+            logger.error("Nenhum arquivo selecionado")
+            return jsonify({'error': 'Nenhum arquivo selecionado'}), 400
+
+        # Limitar tamanho da imagem
+        image = Image.open(file.stream)
+        max_size = (800, 800)
+        image.thumbnail(max_size, Image.Resampling.LANCZOS)
+
+        logger.info("Iniciando classificação da imagem")
+        result = classify_image(image)
+        logger.info(f"Classificação concluída em {time.time() - start_time:.2f}s")
+
         result_lines = result.strip().split('\n')
         parsed_result = {
             "scientific_name": result_lines[0].split(": ")[1],
@@ -30,9 +42,11 @@ def classify():
             "probability": result_lines[3].split(": ")[1]
         }
         
+        logger.info("Retornando resultado")
         return render_template('result.html', result=parsed_result)
 
-    except Exception as e:# capturando o erro e devolvendo a mesagem de erro 
+    except Exception as e:
+        logger.error(f"Erro durante classificação: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
 

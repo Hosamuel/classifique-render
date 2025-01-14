@@ -35,13 +35,24 @@ class_links = [data[1]["link"] for data in sorted_class_data]
 
 num_classes = len(class_names)
 
-# Carregando o modelo ResNet50 
-model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V1)
-num_ftrs = model.fc.in_features
-model.fc = torch.nn.Linear(num_ftrs, num_classes)
-# Carregando os pesos do modelo
-model.load_state_dict(torch.load(str(model_path), weights_only=True, map_location=torch.device('cpu')))
-model.eval()
+# Cache para o modelo
+_model = None
+
+def load_model():
+    # Carregando o modelo ResNet50 
+    model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V1)
+    num_ftrs = model.fc.in_features
+    model.fc = torch.nn.Linear(num_ftrs, num_classes)
+    # Carregando os pesos do modelo
+    model.load_state_dict(torch.load(str(model_path), weights_only=True, map_location=torch.device('cpu')))
+    model.eval()
+    return model
+
+def get_model():
+    global _model
+    if _model is None:
+        _model = load_model()
+    return _model
 
 preprocess = transforms.Compose([
     transforms.Resize(256),
@@ -52,6 +63,7 @@ preprocess = transforms.Compose([
 
 # Função classifica imagem
 def classify_image(image):
+    model = get_model()  # usa o modelo em cache
     image = preprocess(image).unsqueeze(0)
     with torch.no_grad(): # sem calcular gradientes
         outputs = model(image) 
