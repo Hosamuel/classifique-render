@@ -36,5 +36,4 @@ def classify():
         return jsonify({'error': str(e)}), 500
 
 
-# Carregando o modelo salvo no arquivo 'model.pth'
-model = torch.load(r"webapp\model\model.pth", map_location=torch.device('cpu'), weights_only=True)
+
