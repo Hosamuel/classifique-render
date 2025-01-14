@@ -2,6 +2,19 @@ import torch
 import json
 import torchvision.transforms as transforms
 from torchvision import models
+import os
+import gdown
+
+# Função para baixar o modelo
+def download_model():
+    model_path = 'webapp/model/pesos_it_1.pth'
+    if not os.path.exists(model_path):
+        print("Baixando modelo...")
+        url = 'https://drive.google.com/uc?id=1qNTxUk-eInXkl0uvWR1g3FD074oyA0ck'
+        gdown.download(url, model_path, quiet=False)
+        print("Modelo baixado com sucesso!")
+
+download_model()
 
 json_path = r"new_names.json"
 
