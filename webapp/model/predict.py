@@ -4,19 +4,23 @@ import torchvision.transforms as transforms
 from torchvision import models
 import os
 import gdown
+from pathlib import Path
+
+# Usando Path para garantir compatibilidade entre sistemas operacionais
+current_dir = Path(__file__).parent
+json_path = current_dir / "new_names.json"
+model_path = current_dir / "pesos_it_1.pth"
 
 # Função para baixar o modelo
 def download_model():
-    model_path = 'webapp/model/pesos_it_1.pth'
-    if not os.path.exists(model_path):
+    if not model_path.exists():
         print("Baixando modelo...")
         url = 'https://drive.google.com/uc?id=1qNTxUk-eInXkl0uvWR1g3FD074oyA0ck'
-        gdown.download(url, model_path, quiet=False)
+        gdown.download(url, str(model_path), quiet=False)
         print("Modelo baixado com sucesso!")
 
+# Download do modelo se necessário
 download_model()
-
-json_path = r"new_names.json"
 
 with open(json_path, 'r', encoding='utf-8') as f:
     class_data = json.load(f)
@@ -34,9 +38,10 @@ num_classes = len(class_names)
 # Carregando o modelo ResNet50 
 model = models.resnet50(weights=models.ResNet50_Weights.IMAGENET1K_V1)
 num_ftrs = model.fc.in_features
-model.fc = torch.nn.Linear(num_ftrs, num_classes)# ajusta com as classes
-model.load_state_dict(torch.load("webapp\model\pesos_it_1.pth", weights_only=True, map_location=torch.device('cpu')))# pesos do modelo 
-model.eval()# modo de avaliação do modelo
+model.fc = torch.nn.Linear(num_ftrs, num_classes)
+# Carregando os pesos do modelo
+model.load_state_dict(torch.load(str(model_path), weights_only=True, map_location=torch.device('cpu')))
+model.eval()
 
 preprocess = transforms.Compose([
     transforms.Resize(256),
