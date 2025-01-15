@@ -1,14 +1,20 @@
+import logging
 from flask import Flask
 
-def create_app():# definindo a aplicação e configuração do flask
-    webapp = Flask(__name__)# instancia, "name" fará a localização dos templates
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
-    # Configurações do Flask
-    webapp.config['SECRET_KEY'] = 'senha_teste'
-
-    # Registro de rotas, que seram conectadas ao routes.py
-    from .routes import main
-    webapp.register_blueprint(main)# facilita/organiza a conecção das rotas na aplicação 
-
-    return webapp
+def create_app():
+    logger.info("Iniciando aplicação...")
+    app = Flask(__name__)
+    
+    try:
+        from .routes import main
+        app.register_blueprint(main)
+        logger.info("Blueprint registrado com sucesso")
+    except Exception as e:
+        logger.error(f"Erro ao registrar blueprint: {e}")
+        raise
+    
+    return app
 
