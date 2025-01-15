@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: seu-app-name
+    name: classifique-render
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn run:app
