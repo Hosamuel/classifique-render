@@ -1,26 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classificação de Plantas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f7f4;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+        }
+        h1 {
+            color: #2d5a27;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .upload-area {
+            border: 2px dashed #8fbc8f;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background-color: #f8faf8;
+        }
+        .file-label {
+            display: inline-block;
+            cursor: pointer;
+            background-color: #4a7c59;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+        }
+        .file-label:hover {
+            background-color: #3d6548;
+            transform: translateY(-2px);
+        }
+        #file-name {
+            display: block;
+            margin: 10px 0;
+            color: #666;
+            font-size: 0.9em;
+        }
+        button[type="submit"] {
+            background-color: #6b9080;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+        }
+        button[type="submit"]:hover {
+            background-color: #557c6a;
+            transform: translateY(-2px);
+        }
+        .leaf-decoration {
+            position: fixed;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        .leaf-top-right {
+            top: 20px;
+            right: 20px;
+            font-size: 60px;
+        }
+        .leaf-bottom-left {
+            bottom: 20px;
+            left: 20px;
+            font-size: 60px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Classificação de Plantas</h1>
-    <form action="/classify" method="POST" enctype="multipart/form-data">
-        <input type="file" name="image" id="file-upload" style="display: none;" />
-        <label for="file-upload" style="cursor: pointer; background-color: #0a6b3b; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
-            Escolher Imagem
-        </label>
-        <span id="file-name" style="margin-left: 10px;">Nenhum arquivo selecionado</span>
-        <br><br>
-        <button type="submit" style="background-color: #00ba7c; color: white; padding: 10px 20px; border: none; border-radius: 5px;">
-            Enviar
-        </button>
-    </form>
+    <div class="leaf-decoration leaf-top-right">🌿</div>
+    <div class="leaf-decoration leaf-bottom-left">🌿</div>
+    
+    <div class="container">
+        <h1>Classificação de Plantas</h1>
+        <form action="/classify" method="POST" enctype="multipart/form-data">
+            <div class="upload-area">
+                <input type="file" name="image" id="file-upload" style="display: none;" accept="image/*"/>
+                <label for="file-upload" class="file-label">
+                    Escolher Imagem
+                </label>
+                <span id="file-name">Nenhum arquivo selecionado</span>
+            </div>
+            <button type="submit">
+                Classificar Planta
+            </button>
+        </form>
+    </div>
 
     <script>
-        // atualiza o nome do arquivo selecionado no formulário
         document.getElementById('file-upload').addEventListener('change', function() {
             const fileName = this.files[0] ? this.files[0].name : "Nenhum arquivo selecionado";
             document.getElementById('file-name').textContent = fileName;

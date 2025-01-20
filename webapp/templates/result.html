@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,6 +34,26 @@
         a:hover {
             text-decoration: underline;
         }
+        .back-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto 0;
+            padding: 10px;
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .back-button:hover {
+            background-color: #1557b0;
+        }
+        #loading {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -45,6 +65,17 @@
             <a href="{{ result.link }}" target="_blank">{{ result.link }}</a>
         </div>
         <div class="result-item"><strong>Probabilidade de Acerto:</strong> {{ result.probability }}</div>
+        <a href="/" class="back-button">Voltar para Início</a>
+        
+        <div id="loading" style="display: none;">
+            <p>Processando imagem, por favor aguarde...</p>
+        </div>
     </div>
+
+    <script>
+        document.querySelector('form').onsubmit = function() {
+            document.getElementById('loading').style.display = 'block';
+        };
+    </script>
 </body>
 </html>
