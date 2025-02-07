@@ -3,6 +3,4 @@ __pycache__/
 .env
 venv/
 .vscode/
-*.pth
-webapp/model/pesos_it_1.pth
 *.pyc
