@@ -65,3 +65,20 @@ def receive_feedback():
         logger.error(f"Erro ao salvar feedback: {str(e)}")
         return jsonify({"error": "Erro ao salvar feedback"}), 500
 
+@main.route('/feedbacks-page', methods=['GET'])
+def feedbacks_page():
+    """Página HTML para exibir os feedbacks"""
+    try:
+        with open(feedback_data, 'r', encoding='utf-8') as f:
+            feedbacks = f.readlines()
+
+        feedback_list = [json.loads(feedback) for feedback in feedbacks]
+        return render_template('feedbacks.html', feedbacks=feedback_list)
+
+    except FileNotFoundError:
+        return render_template('feedbacks.html', feedbacks=[])
+
+    except Exception as e:
+        logger.error(f"Erro ao carregar feedbacks: {str(e)}")
+        return render_template('feedbacks.html', feedbacks=[])
+
