@@ -1,9 +1,9 @@
 import logging
-import json
 import time
 from flask import Blueprint, render_template, request, jsonify
 from PIL import Image
 from webapp.model.predict import classify_image
+from webapp.database import db, Feedback
 
 main = Blueprint('main', __name__)
 
@@ -46,38 +46,27 @@ def classify():
         logger.error(f"Erro durante classificação: {str(e)}")
         return jsonify({'error': 'Erro interno. Tente novamente.'}), 500
 
-
-# Caminho para salvar feedbacks
-feedback_data = "feedback.json"
-
 @main.route('/feedback', methods=['POST'])
 def receive_feedback():
-    """Recebe feedback do usuário e armazena no JSON"""
+    """Recebe feedback do usuário e salva no banco de dados"""
     data = request.get_json()
 
     try:
-        with open(feedback_data, 'a', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False)
-            f.write("\n")
+        feedback_entry = Feedback(correct=data['correct'], correct_name=data.get('correct_name'))
+        db.session.add(feedback_entry)
+        db.session.commit()
 
-        return jsonify({"message": "Feedback enviado com sucesso!"}), 200
+        return jsonify({"message": "Feedback salvo com sucesso!"}), 200
     except Exception as e:
         logger.error(f"Erro ao salvar feedback: {str(e)}")
         return jsonify({"error": "Erro ao salvar feedback"}), 500
 
 @main.route('/feedbacks-page', methods=['GET'])
 def feedbacks_page():
-    """Página HTML para exibir os feedbacks"""
+    """Renderiza uma página HTML para exibir os feedbacks armazenados no banco"""
     try:
-        with open(feedback_data, 'r', encoding='utf-8') as f:
-            feedbacks = f.readlines()
-
-        feedback_list = [json.loads(feedback) for feedback in feedbacks]
-        return render_template('feedbacks.html', feedbacks=feedback_list)
-
-    except FileNotFoundError:
-        return render_template('feedbacks.html', feedbacks=[])
-
+        feedbacks = Feedback.query.all()
+        return render_template('feedbacks.html', feedbacks=feedbacks)
     except Exception as e:
         logger.error(f"Erro ao carregar feedbacks: {str(e)}")
         return render_template('feedbacks.html', feedbacks=[])
