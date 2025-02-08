@@ -55,27 +55,25 @@ preprocess = transforms.Compose([
 
 # Função para classificar a imagem
 def classify_image(image):
-    """Recebe uma imagem PIL, faz a predição e retorna o resultado formatado."""
+    """Recebe uma imagem PIL, faz a predição e retorna as 3 classes provaveis."""
     model = get_model()  # Usa modelo em cache
-    image = preprocess(image).unsqueeze(0)  # Adiciona dimensão extra
+    image = preprocess(image).unsqueeze(0) 
 
     with torch.no_grad():  # Desativa cálculo de gradientes
         outputs = model(image)
         probabilities = torch.nn.functional.softmax(outputs, dim=1)[0]  # Probabilidades por classe
-        top_prob, top_catid = torch.max(probabilities, 0)  # Classe com maior probabilidade
     
-    # Extração das informações
-    scientific_name = class_names[top_catid.item()]
-    popular_name = class_populares[top_catid.item()]
-    link = class_links[top_catid.item()]
-    prob = top_prob.item() * 100  # Convertendo para %
+    # Pegando as 3 classes com maior probabilidade
+    top_probs, top_catids = torch.topk(probabilities, 3)
 
-    # Formatação do resultado
-    result = {
-        "scientific_name": scientific_name,
-        "popular_name": popular_name,
-        "link": link,
-        "probability": f"{prob:.2f}%"
-    }
+    # Criando a lista de resultados
+    results = []
+    for i in range(3):
+        results.append({
+            "scientific_name": class_names[top_catids[i].item()],
+            "popular_name": class_populares[top_catids[i].item()],
+            "link": class_links[top_catids[i].item()],
+            "probability": f"{top_probs[i].item() * 100:.2f}%"
+        })
 
-    return result
+    return results

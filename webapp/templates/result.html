@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado da Classificação</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f0f7f4;
             margin: 20px;
         }
         .container {
@@ -15,11 +17,12 @@
             padding: 20px;
             border: 1px solid #ddd;
             border-radius: 10px;
-            background-color: #f9f9f9;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #2d5a27;
         }
         .result-item {
             margin-bottom: 10px;
@@ -37,16 +40,22 @@
         .back-button {
             display: block;
             width: 200px;
-            margin: 20px auto 0;
+            margin: 20px auto;
             padding: 10px;
-            background-color: #1a73e8;
+            background-color: #6b9080;
             color: white;
             text-align: center;
             border-radius: 5px;
             text-decoration: none;
+            transition: all 0.3s ease;
         }
         .back-button:hover {
-            background-color: #1557b0;
+            background-color: #557c6a;
+            transform: translateY(-2px);
+        }
+        .chart-container {
+            margin-top: 20px;
+            text-align: center;
         }
         #loading {
             text-align: center;
@@ -59,23 +68,60 @@
 <body>
     <div class="container">
         <h1>Resultado da Classificação</h1>
-        <div class="result-item"><strong>Nome Científico:</strong> {{ result.scientific_name }}</div>
-        <div class="result-item"><strong>Nome Popular:</strong> {{ result.popular_name }}</div>
-        <div class="result-item"><strong>Link para Verificação:</strong> 
-            <a href="{{ result.link }}" target="_blank">{{ result.link }}</a>
+
+        {% for item in results %}
+        <div class="result-item">
+            <strong>Nome Científico:</strong> {{ item.scientific_name }} <br>
+            <strong>Nome Popular:</strong> {{ item.popular_name }} <br>
+            <strong>Probabilidade:</strong> {{ item.probability }} <br>
+            <strong>Link:</strong> <a href="{{ item.link }}" target="_blank">Ver mais</a>
         </div>
-        <div class="result-item"><strong>Probabilidade de Acerto:</strong> {{ result.probability }}</div>
+        <hr>
+        {% endfor %}
+
+        <div class="chart-container">
+            <canvas id="probabilityChart"></canvas>
+        </div>
+
         <a href="/" class="back-button">Voltar para Início</a>
-        
+
         <div id="loading" style="display: none;">
             <p>Processando imagem, por favor aguarde...</p>
         </div>
     </div>
 
     <script>
-        document.querySelector('form').onsubmit = function() {
-            document.getElementById('loading').style.display = 'block';
-        };
+        // Criando listas para armazenar os dados do gráfico
+        const results = JSON.parse('{{ results | tojson | safe }}');
+    
+        const labels = results.map(item => item.scientific_name);
+        const data = results.map(item => parseFloat(item.probability.replace('%', '')));
+    
+        // Criando o gráfico com Chart.js
+        const ctx = document.getElementById('probabilityChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Probabilidade (%)',
+                    data: data,
+                    backgroundColor: ['#4CAF50', '#FF9800', '#F44336'],
+                    borderColor: ['#388E3C', '#F57C00', '#D32F2F'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100
+                    }
+                }
+            }
+        });
     </script>
 </body>
 </html>
+

@@ -35,28 +35,11 @@ def classify():
         image.thumbnail(max_size, Image.Resampling.LANCZOS)
 
         logger.info("Iniciando classificação da imagem")
-        result = classify_image(image)
+        results = classify_image(image)
         logger.info(f"Classificação concluída em {time.time() - start_time:.2f}s")
 
-        # Verifica se result é um dicionário (o correto)
-        if isinstance(result, dict):
-            parsed_result = result
-        else:
-            # Caso ainda seja uma string, tenta processar
-            try:
-                result_lines = result.strip().split('\n')
-                parsed_result = {
-                    "scientific_name": result_lines[0].split(": ")[1],
-                    "popular_name": result_lines[1].split(": ")[1],
-                    "link": result_lines[2].split(": ")[1],
-                    "probability": result_lines[3].split(": ")[1]
-                }
-            except (IndexError, AttributeError):
-                logger.error("Erro ao processar os resultados")
-                return jsonify({'error': 'Erro ao processar os resultados da classificação.'}), 500
-
         logger.info("Retornando resultado")
-        return render_template('result.html', result=parsed_result)
+        return render_template('result.html', results=results)
 
     except Exception as e:
         logger.error(f"Erro durante classificação: {str(e)}")

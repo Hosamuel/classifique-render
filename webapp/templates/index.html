@@ -26,7 +26,7 @@
         }
         h1 {
             color: #2d5a27;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             font-size: 2.2em;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
@@ -36,6 +36,11 @@
             border-radius: 10px;
             margin-bottom: 20px;
             background-color: #f8faf8;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .upload-area:hover, .upload-area.dragover {
+            background-color: #e6f2e6;
         }
         .file-label {
             display: inline-block;
@@ -45,7 +50,7 @@
             padding: 12px 24px;
             border-radius: 25px;
             transition: all 0.3s ease;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
         .file-label:hover {
             background-color: #3d6548;
@@ -71,48 +76,68 @@
             background-color: #557c6a;
             transform: translateY(-2px);
         }
-        .leaf-decoration {
-            position: fixed;
-            opacity: 0.1;
-            z-index: -1;
-        }
-        .leaf-top-right {
-            top: 20px;
-            right: 20px;
-            font-size: 60px;
-        }
-        .leaf-bottom-left {
-            bottom: 20px;
-            left: 20px;
-            font-size: 60px;
+        .loading-message {
+            display: none;
+            margin-top: 15px;
+            font-size: 1em;
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="leaf-decoration leaf-top-right">🌿</div>
-    <div class="leaf-decoration leaf-bottom-left">🌿</div>
-    
     <div class="container">
         <h1>Classificação de Plantas</h1>
-        <form action="/classify" method="POST" enctype="multipart/form-data">
-            <div class="upload-area">
+        
+        <form id="upload-form" action="/classify" method="POST" enctype="multipart/form-data">
+            <div id="drop-zone" class="upload-area">
                 <input type="file" name="image" id="file-upload" style="display: none;" accept="image/*"/>
-                <label for="file-upload" class="file-label">
-                    Escolher Imagem
-                </label>
+                <label for="file-upload" class="file-label">Escolher Imagem</label>
+                <p>Ou arraste e solte sua imagem aqui</p>
                 <span id="file-name">Nenhum arquivo selecionado</span>
             </div>
-            <button type="submit">
-                Classificar Planta
-            </button>
+            <button type="submit">Classificar Planta</button>
+            <p class="loading-message" id="loading">Processando imagem, por favor aguarde...</p>
         </form>
     </div>
 
     <script>
-        document.getElementById('file-upload').addEventListener('change', function() {
-            const fileName = this.files[0] ? this.files[0].name : "Nenhum arquivo selecionado";
-            document.getElementById('file-name').textContent = fileName;
+        const fileInput = document.getElementById('file-upload');
+        const dropZone = document.getElementById('drop-zone');
+        const fileNameDisplay = document.getElementById('file-name');
+        const loadingMessage = document.getElementById('loading');
+        const uploadForm = document.getElementById('upload-form');
+
+        // Atualiza o nome do arquivo selecionado
+        fileInput.addEventListener('change', function() {
+            fileNameDisplay.textContent = this.files[0] ? this.files[0].name : "Nenhum arquivo selecionado";
+        });
+
+        // Implementação do Drag & Drop
+        dropZone.addEventListener('dragover', (event) => {
+            event.preventDefault();
+            dropZone.classList.add('dragover');
+        });
+
+        dropZone.addEventListener('dragleave', () => {
+            dropZone.classList.remove('dragover');
+        });
+
+        dropZone.addEventListener('drop', (event) => {
+            event.preventDefault();
+            dropZone.classList.remove('dragover');
+
+            const files = event.dataTransfer.files;
+            if (files.length > 0) {
+                fileInput.files = files;
+                fileNameDisplay.textContent = files[0].name;
+            }
+        });
+
+        // Exibir mensagem de carregamento ao enviar o formulário
+        uploadForm.addEventListener('submit', function() {
+            loadingMessage.style.display = 'block';
         });
     </script>
 </body>
 </html>
+
