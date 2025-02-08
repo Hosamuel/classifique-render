@@ -1,7 +1,8 @@
 import logging
+import json
+import time
 from flask import Blueprint, render_template, request, jsonify
 from PIL import Image
-import time
 from webapp.model.predict import classify_image
 
 main = Blueprint('main', __name__)
@@ -44,3 +45,23 @@ def classify():
     except Exception as e:
         logger.error(f"Erro durante classificação: {str(e)}")
         return jsonify({'error': 'Erro interno. Tente novamente.'}), 500
+
+
+# Caminho para salvar feedbacks
+feedback_data = "feedback.json"
+
+@main.route('/feedback', methods=['POST'])
+def receive_feedback():
+    """Recebe feedback do usuário e armazena no JSON"""
+    data = request.get_json()
+
+    try:
+        with open(feedback_data, 'a', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False)
+            f.write("\n")
+
+        return jsonify({"message": "Feedback enviado com sucesso!"}), 200
+    except Exception as e:
+        logger.error(f"Erro ao salvar feedback: {str(e)}")
+        return jsonify({"error": "Erro ao salvar feedback"}), 500
+

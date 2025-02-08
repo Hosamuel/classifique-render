@@ -57,11 +57,33 @@
             margin-top: 20px;
             text-align: center;
         }
-        #loading {
+        .feedback-section {
             text-align: center;
             margin-top: 20px;
-            font-weight: bold;
-            color: #666;
+        }
+        .feedback-btn {
+            padding: 10px 20px;
+            font-size: 1em;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .feedback-btn.correct {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .feedback-btn.incorrect {
+            background-color: #F44336;
+            color: white;
+        }
+        .feedback-btn:hover {
+            opacity: 0.8;
+        }
+        #correct-form {
+            display: none;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -83,21 +105,27 @@
             <canvas id="probabilityChart"></canvas>
         </div>
 
-        <a href="/" class="back-button">Voltar para Início</a>
+        <div class="feedback-section">
+            <p>A classificação foi correta?</p>
+            <button class="feedback-btn correct" onclick="sendFeedback(true)">👍 Sim</button>
+            <button class="feedback-btn incorrect" onclick="showCorrectionForm()">👎 Não</button>
 
-        <div id="loading" style="display: none;">
-            <p>Processando imagem, por favor aguarde...</p>
+            <div id="correct-form">
+                <p>Qual seria o nome correto?</p>
+                <input type="text" id="correct-name" placeholder="Digite o nome correto">
+                <button class="feedback-btn correct" onclick="sendFeedback(false)">Enviar</button>
+            </div>
         </div>
+
+        <a href="/" class="back-button">Voltar para Início</a>
     </div>
 
     <script>
-        // Criando listas para armazenar os dados do gráfico
         const results = JSON.parse('{{ results | tojson | safe }}');
-    
+
         const labels = results.map(item => item.scientific_name);
         const data = results.map(item => parseFloat(item.probability.replace('%', '')));
-    
-        // Criando o gráfico com Chart.js
+
         const ctx = document.getElementById('probabilityChart').getContext('2d');
         new Chart(ctx, {
             type: 'bar',
@@ -121,7 +149,28 @@
                 }
             }
         });
+
+        function showCorrectionForm() {
+            document.getElementById("correct-form").style.display = "block";
+        }
+
+        function sendFeedback(correct) {
+            const correctName = document.getElementById("correct-name").value;
+            const feedbackData = {
+                correct: correct,
+                correct_name: correct ? null : correctName
+            };
+
+            fetch('/feedback', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(feedbackData)
+            }).then(response => response.json())
+              .then(data => alert(data.message))
+              .catch(error => console.error("Erro ao enviar feedback:", error));
+        }
     </script>
 </body>
 </html>
+
 
