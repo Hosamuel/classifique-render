@@ -1,6 +1,6 @@
 import logging
 from flask import Flask
-from webapp.database import db, init_db  # Importa o banco
+from webapp.database import db, init_db
 from webapp.routes import main
 
 # Configuração de logging
@@ -12,11 +12,11 @@ def create_app():
     logger.info("Iniciando aplicação...")
     app = Flask(__name__)
 
-    # Configuração do banco de dados SQLite
+    # Configuração do banco de dados
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-    # Inicializa o banco de dados
+    # Inicializa o banco de dados corretamente
     init_db(app)
 
     # Registra as rotas
