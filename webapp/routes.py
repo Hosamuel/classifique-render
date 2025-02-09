@@ -60,14 +60,3 @@ def receive_feedback():
     except Exception as e:
         logger.error(f"Erro ao salvar feedback: {str(e)}")
         return jsonify({"error": "Erro ao salvar feedback"}), 500
-
-@main.route('/feedbacks-page', methods=['GET'])
-def feedbacks_page():
-    """Renderiza uma página HTML para exibir os feedbacks armazenados no banco"""
-    try:
-        feedbacks = Feedback.query.all()
-        return render_template('feedbacks.html', feedbacks=feedbacks)
-    except Exception as e:
-        logger.error(f"Erro ao carregar feedbacks: {str(e)}")
-        return render_template('feedbacks.html', feedbacks=[])
-
