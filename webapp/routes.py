@@ -3,7 +3,7 @@ import time
 from flask import Blueprint, render_template, request, jsonify
 from PIL import Image
 from webapp.model.predict import classify_image
-from webapp.database import db, Feedback
+#from webapp.database import db, Feedback
 
 main = Blueprint('main', __name__)
 
@@ -46,17 +46,36 @@ def classify():
         logger.error(f"Erro durante classificação: {str(e)}")
         return jsonify({'error': 'Erro interno. Tente novamente.'}), 500
 
-@main.route('/feedbacks', methods=['GET'])
-def get_feedbacks():
-    """Retorna todos os feedbacks salvos no banco de dados"""
-    try:
-        feedbacks = Feedback.query.all()
-        feedback_list = [
-            {"id": f.id, "correct": f.correct, "correct_name": f.correct_name}
-            for f in feedbacks
-        ]
-        return jsonify(feedback_list), 200
-    except Exception as e:
-        logger.error(f"Erro ao buscar feedbacks: {str(e)}")
-        return jsonify({"error": "Erro ao buscar feedbacks"}), 500
+
+# @main.route('/feedback', methods=['POST'])
+# def receive_feedback():
+#     """Recebe feedback do usuário e salva no banco de dados"""
+#     try:
+#         data = request.get_json()
+#         if not data or 'correct' not in data:
+#             return jsonify({"error": "Dados inválidos"}), 400
+
+#         feedback_entry = Feedback(correct=data['correct'], correct_name=data.get('correct_name'))
+#         db.session.add(feedback_entry)
+#         db.session.commit()
+
+#         return jsonify({"message": "Feedback salvo com sucesso!"}), 201
+#     except Exception as e:
+#         logger.error(f"Erro ao salvar feedback: {str(e)}")
+#         return jsonify({"error": "Erro ao salvar feedback"}), 500
+
+
+# @main.route('/feedbacks', methods=['GET'])
+# def get_feedbacks():
+#     """Retorna todos os feedbacks salvos no banco de dados"""
+#     try:
+#         feedbacks = Feedback.query.all()
+#         feedback_list = [
+#             {"id": f.id, "correct": f.correct, "correct_name": f.correct_name}
+#             for f in feedbacks
+#         ]
+#         return jsonify(feedback_list), 200
+#     except Exception as e:
+#         logger.error(f"Erro ao buscar feedbacks: {str(e)}")
+#         return jsonify({"error": "Erro ao buscar feedbacks"}), 500
 
