@@ -45,7 +45,7 @@ def load_model():
     model.fc = torch.nn.Linear(num_ftrs, num_classes)
 
     # Carregar pesos
-    model.load_state_dict(torch.load(str(model_path), map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load(str(model_path), map_location=torch.device('cpu'), weights_only=False))
     model.eval()
     return model
 
