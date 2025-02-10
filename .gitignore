@@ -4,4 +4,4 @@ __pycache__/
 venv/
 .vscode/
 *.pyc
-instance/database.db
+webapp/model/pesos_it_1.pth
