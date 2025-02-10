@@ -3,19 +3,30 @@ import json
 import torchvision.transforms as transforms
 from torchvision import models
 from pathlib import Path
+import gdown  # Para baixar arquivos do Google Drive
 
-# Caminhos do modelo e JSON
 current_dir = Path(__file__).parent
 json_path = current_dir / "new_names.json"
 model_path = current_dir / "pesos_it_1.pth"
 
-# Verifica se o modelo existe
+# Link do Google Drive 
+gdrive_url = "https://drive.google.com/uc?id=1-0hXv_-IF-JBVQDRYi1GSQ6biAUzpUBq"
+
+# Baixar pesos do Google Drive
 if not model_path.exists():
-    raise FileNotFoundError(f"Arquivo de pesos do modelo não encontrado: {model_path}")
+    print("Pesos do modelo não encontrados. Baixando do Google Drive...")
+    gdown.download(gdrive_url, str(model_path), quiet=False)
+    print(f"Modelo salvo em: {model_path}")
+
+if not model_path.exists():
+    raise FileNotFoundError(f"Erro: O arquivo de pesos do modelo não foi encontrado ou não pôde ser baixado: {model_path}")
 
 # Carregar classes do JSON
-with open(json_path, 'r', encoding='utf-8') as f:
-    class_data = json.load(f)
+if json_path.exists():
+    with open(json_path, 'r', encoding='utf-8') as f:
+        class_data = json.load(f)
+else:
+    raise FileNotFoundError(f"Erro: O arquivo JSON não foi encontrado: {json_path}")
 
 # Organizando classes em ordem alfabética
 sorted_class_data = sorted(class_data.items(), key=lambda x: x[1]["nomes_cientificos"][0])
@@ -33,7 +44,7 @@ def load_model():
     num_ftrs = model.fc.in_features
     model.fc = torch.nn.Linear(num_ftrs, num_classes)
 
-    # Carregar pesos treinados
+    # Carregar pesos
     model.load_state_dict(torch.load(str(model_path), map_location=torch.device('cpu')))
     model.eval()
     return model
@@ -45,7 +56,6 @@ def get_model():
         _model = load_model()
     return _model
 
-# Transformações para pré-processar a imagem
 preprocess = transforms.Compose([
     transforms.Resize(256),
     transforms.CenterCrop(224),
@@ -53,9 +63,8 @@ preprocess = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
 
-# Função para classificar a imagem
 def classify_image(image):
-    """Recebe uma imagem PIL, faz a predição e retorna as 3 classes provaveis."""
+    """Recebe uma imagem PIL, faz a predição e retorna as 3 classes prováveis."""
     model = get_model()  # Usa modelo em cache
     image = preprocess(image).unsqueeze(0) 
 
@@ -66,7 +75,7 @@ def classify_image(image):
     # Pegando as 3 classes com maior probabilidade
     top_probs, top_catids = torch.topk(probabilities, 3)
 
-    # Criando a lista de resultados
+    # Lista de resultados
     results = []
     for i in range(3):
         results.append({
@@ -77,3 +86,4 @@ def classify_image(image):
         })
 
     return results
+
