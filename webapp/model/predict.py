@@ -10,7 +10,7 @@ json_path = current_dir / "new_names.json"
 model_path = current_dir / "pesos_it_1.pth"
 
 # Link do Google Drive 
-gdrive_url = "https://drive.google.com/uc?id=1-0hXv_-IF-JBVQDRYi1GSQ6biAUzpUBq"
+gdrive_url = "https://drive.google.com/file/d/1-0hXv_-IF-JBVQDRYi1GSQ6biAUzpUBq/view?usp=sharing"
 
 # Baixar pesos do Google Drive
 if not model_path.exists():
