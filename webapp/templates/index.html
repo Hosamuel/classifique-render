@@ -4,140 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classificação de Plantas</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f7f4;
-            margin: 0;
-            padding: 20px;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 600px;
-            width: 90%;
-        }
-        h1 {
-            color: #2d5a27;
-            margin-bottom: 20px;
-            font-size: 2.2em;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-        }
-        .upload-area {
-            border: 2px dashed #8fbc8f;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            background-color: #f8faf8;
-            cursor: pointer;
-            transition: background 0.3s ease;
-        }
-        .upload-area:hover, .upload-area.dragover {
-            background-color: #e6f2e6;
-        }
-        .file-label {
-            display: inline-block;
-            cursor: pointer;
-            background-color: #4a7c59;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 25px;
-            transition: all 0.3s ease;
-            margin-bottom: 10px;
-        }
-        .file-label:hover {
-            background-color: #3d6548;
-            transform: translateY(-2px);
-        }
-        #file-name {
-            display: block;
-            margin: 10px 0;
-            color: #666;
-            font-size: 0.9em;
-        }
-        button[type="submit"] {
-            background-color: #6b9080;
-            color: white;
-            padding: 12px 30px;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 1.1em;
-            transition: all 0.3s ease;
-        }
-        button[type="submit"]:hover {
-            background-color: #557c6a;
-            transform: translateY(-2px);
-        }
-        .loading-message {
-            display: none;
-            margin-top: 15px;
-            font-size: 1em;
-            color: #666;
-        }
-    </style>
+    
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Croissant+One&family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>Classificação de Plantas</h1>
-        
-        <form id="upload-form" action="/classify" method="POST" enctype="multipart/form-data">
-            <div id="drop-zone" class="upload-area">
-                <input type="file" name="image" id="file-upload" style="display: none;" accept="image/*"/>
-                <label for="file-upload" class="file-label">Escolher Imagem</label>
-                <p>Ou arraste e solte sua imagem aqui</p>
-                <span id="file-name">Nenhum arquivo selecionado</span>
-            </div>
-            <button type="submit">Classificar Planta</button>
-            <p class="loading-message" id="loading">Processando imagem, por favor aguarde...</p>
-        </form>
+    <div class="header">
+        <img src="{{ url_for('static', filename='img/plant-7880652_1280.png') }}" alt="Logo Planta" width="90" style="margin-right: 18px;">
+        <h2>Classificação de Plantas</h2>
     </div>
+    
+    <div class="container">
+        <div class="text-container">
+            <h1>Descubra o Mundo das Plantas</h1>
+            <p>Carregue uma imagem e identifique as espécies para usar em suas atividades.</p>
+        </div>
+            <div class="upload-area" id="drop-zone">
+                <form id="upload-form" action="/classify" method="POST" enctype="multipart/form-data">
+                    
+                    <input 
+                        type="file" 
+                        name="image" 
+                        id="file-upload" 
+                        accept="image/*" 
+                        style="display: none;"
+                    >
+                    <label for="file-upload">📷 Escolher Imagem</label>
+                    <p>Ou arraste e solte sua imagem aqui</p>
+                    
+                    <div id="file-name"></div>
+                    
+                    <div id="preview-container">
+                        <img id="image-preview" src="#" alt="Prévia" style="display: none;">
+                    </div>
+                    
+                    <p class="loading-message" id="loading" style="display: none;">
+                        Processando imagem, por favor aguarde...
+                    </p>
+                    
+                    <!-- Botão de envio (ID para estilizar e controlar no JS) -->
+                    <button type="submit" id="submit-btn">Enviar</button>
+                    
+                    <!-- Botão de remover (ID para estilizar e controlar no JS) -->
+                    <button type="button" id="remove-file" style="display: none;">Remover imagem</button>
+                </form>
+            </div>        
 
-    <script>
-        const fileInput = document.getElementById('file-upload');
-        const dropZone = document.getElementById('drop-zone');
-        const fileNameDisplay = document.getElementById('file-name');
-        const loadingMessage = document.getElementById('loading');
-        const uploadForm = document.getElementById('upload-form');
-
-        // Atualiza o nome do arquivo selecionado
-        fileInput.addEventListener('change', function() {
-            fileNameDisplay.textContent = this.files[0] ? this.files[0].name : "Nenhum arquivo selecionado";
-        });
-
-        // Implementação do Drag & Drop
-        dropZone.addEventListener('dragover', (event) => {
-            event.preventDefault();
-            dropZone.classList.add('dragover');
-        });
-
-        dropZone.addEventListener('dragleave', () => {
-            dropZone.classList.remove('dragover');
-        });
-
-        dropZone.addEventListener('drop', (event) => {
-            event.preventDefault();
-            dropZone.classList.remove('dragover');
-
-            const files = event.dataTransfer.files;
-            if (files.length > 0) {
-                fileInput.files = files;
-                fileNameDisplay.textContent = files[0].name;
-            }
-        });
-
-        // Exibir mensagem de carregamento ao enviar o formulário
-        uploadForm.addEventListener('submit', function() {
-            loadingMessage.style.display = 'block';
-        });
-    </script>
+    </div>
+    
+    <div class="info-section">
+        <div class="info-text">
+            <h2>Sobre o Projeto</h2>
+            <p>Este projeto visa aprimorar a identificação de plantas utilizando Redes Neurais Convolucionais (CNNs) e Inteligência Artificial. 
+            A ideia principal é tornar a classificação de plantas mais acessível para botânicos, estudantes e amantes da natureza. 
+            Utilizando técnicas avançadas de processamento de imagens, nosso sistema reconhece 362 classes de plantas e fornece informações sobre a espécie identificada.</p>
+        </div>
+        <img src="{{ url_for('static', filename='img/sapling-154734_1280.png') }}" 
+             alt="Decoração Planta" class="right-decoration">
+    </div>
+    
+    <div class="footer">
+        <strong>Contato e Mais Informações</strong><br>
+        Para saber mais sobre o projeto ou contribuir, entre em contato conosco:<br>
+        Email: samuelbonfim.silva@mackenzista.com.br
+        <br>
+    </div>
 </body>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </html>
-
