@@ -263,6 +263,6 @@ body {
     }
 }
 * {
-    box-sizing: border-box; /* Garante que as margens e bordas não causem estouro */
+    box-sizing: border-box;
 }
 
