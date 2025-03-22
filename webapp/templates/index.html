@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classificação de Plantas</title>
+    <link rel="icon" href="{{ url_for('static', filename='img/terra.png') }}" type="image/png">
+    <title>DeepFlora</title>
     
     <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
 
@@ -12,14 +13,14 @@
 </head>
 <body>
     <div class="header">
-        <img src="{{ url_for('static', filename='img/plant-7880652_1280.png') }}" alt="Logo Planta" width="90" style="margin-right: 18px;">
-        <h2>Classificação de Plantas</h2>
+        <img src="{{ url_for('static', filename='img/DeepFlora.png') }}" alt="Logo Planta" width="90" style="margin-right: 18px;">
+        <h2>DeepFlora</h2>
     </div>
     
     <div class="container">
         <div class="text-container">
             <h1>Descubra o Mundo das Plantas</h1>
-            <p>Carregue uma imagem e identifique as espécies para usar em suas atividades.</p>
+            <p>Carregue uma imagem e identifique a espécie da sua planta.</p>
         </div>
             <div class="upload-area" id="drop-zone">
                 <form id="upload-form" action="/classify" method="POST" enctype="multipart/form-data">
@@ -43,11 +44,8 @@
                     <p class="loading-message" id="loading" style="display: none;">
                         Processando imagem, por favor aguarde...
                     </p>
-                    
-                    <!-- Botão de envio (ID para estilizar e controlar no JS) -->
+                    <!-- Botão de envio ID para estilizar JS -->
                     <button type="submit" id="submit-btn">Enviar</button>
-                    
-                    <!-- Botão de remover (ID para estilizar e controlar no JS) -->
                     <button type="button" id="remove-file" style="display: none;">Remover imagem</button>
                 </form>
             </div>        
@@ -57,9 +55,9 @@
     <div class="info-section">
         <div class="info-text">
             <h2>Sobre o Projeto</h2>
-            <p>Este projeto visa aprimorar a identificação de plantas utilizando Redes Neurais Convolucionais (CNNs) e Inteligência Artificial. 
-            A ideia principal é tornar a classificação de plantas mais acessível para botânicos, estudantes e amantes da natureza. 
-            Utilizando técnicas avançadas de processamento de imagens, esse sistema reconhece 362 classes de plantas e fornece informações sobre a espécie identificada.</p>
+            <p>Este projeto visa aprimorar a identificação de plantas utilizando Inteligência Artificial. A ideia principal é tornar 
+            a classificação de plantas mais acessível para botânicos, estudantes e amantes da natureza. 
+            Utilizando técnicas avançadas de processamento de imagens, esse sistema reconhece diversas classes de plantas e fornece informações sobre a espécie identificada.</p>
         </div>
         <img src="{{ url_for('static', filename='img/sapling-154734_1280.png') }}" 
              alt="Decoração Planta" class="right-decoration">
@@ -68,7 +66,7 @@
     <div class="footer">
         <strong>Contato e Mais Informações</strong><br>
         Para saber mais sobre o projeto ou contribuir, entre em contato conosco:<br>
-        Email: samuelbonfim.silva@mackenzista.com.br
+        Email: <a href="mailto:samuelbonfim.silva@mackenzista.com.br">samuelbonfim.silva@mackenzista.com.br</a>
         <br>
     </div>
 </body>

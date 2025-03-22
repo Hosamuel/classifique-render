@@ -1,10 +1,13 @@
-import os
-from webapp import create_app
+from flask import Flask
+from webapp.routes import main
 
-app = create_app()
+app = Flask(__name__, 
+    template_folder='webapp/templates',  
+    static_folder='webapp/static'        
+)
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=False)
+# Blueprint
+app.register_blueprint(main)
 
-
+if __name__ == '__main__':
+    app.run(debug=True)

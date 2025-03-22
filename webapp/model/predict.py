@@ -3,7 +3,7 @@ import json
 import torchvision.transforms as transforms
 from torchvision import models
 from pathlib import Path
-import gdown  # Para baixar arquivos do Google Drive
+import gdown  
 
 current_dir = Path(__file__).parent
 json_path = current_dir / "new_names.json"

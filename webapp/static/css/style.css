@@ -27,7 +27,7 @@ body {
 .container {
     max-width: 1060px;
     display: flex;
-    flex-wrap: wrap; /* Permite que os elementos se ajustem */
+    flex-wrap: wrap; 
     justify-content: center;
     gap: 40px;
     padding: 50px 20px;
@@ -37,7 +37,7 @@ body {
 .text-container {
     flex: 1;
     text-align: left;
-    min-width: 280px; /* Garante que não fique pequeno demais */
+    min-width: 280px; 
 }
 
 .text-container h1, .info-section h2 {
@@ -65,7 +65,7 @@ body {
     position: relative;
     cursor: pointer;
     transition: background 0.3s ease; 
-    min-width: 280px; /* Evita que fique muito pequeno */
+    min-width: 280px; 
 }
 
 /* Label do upload */
@@ -96,13 +96,13 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
     display: flex;
-    flex-wrap: wrap; /* Permite que os elementos fiquem um abaixo do outro */
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: space-between;
     gap: 10px;
 }
 
-/* Ajuste para a imagem decorativa */
+
 .right-decoration {
     max-width: 150px;
     height: auto;
@@ -124,6 +124,15 @@ body {
 .footer img {
     width: 120px;
     margin-top: 10px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 /* Estilização da área de preview */
@@ -180,7 +189,7 @@ body {
 /* Responsividade */
 @media (max-width: 1024px) {
     .container {
-        flex-direction: column; /* Empilha os elementos em telas menores */
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
@@ -204,7 +213,7 @@ body {
     }
 
     .header img {
-        width: 60px; /* Reduz mais a imagem */
+        width: 60px; 
         margin-bottom: 5px;
     }
 
@@ -237,8 +246,8 @@ body {
 
     .header img {
         position: absolute;
-        left: 0; /* Fixa na esquerda */
-        top: 6px; /* Fixa no topo */
+        left: 0; 
+        top: 6px; 
     }
     
     .container {

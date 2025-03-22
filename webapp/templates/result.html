@@ -3,174 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado da Classificação</title>
+    <link rel="icon" href="{{ url_for('static', filename='img/terra.png') }}" type="image/png">
+    <title>DeepFlora</title>
+
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Croissant+One&family=Cutive+Mono&display=swap" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f7f4;
-            margin: 20px;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            background-color: white;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #2d5a27;
-        }
-        .result-item {
-            margin-bottom: 10px;
-        }
-        .result-item strong {
-            color: #555;
-        }
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .back-button {
-            display: block;
-            width: 200px;
-            margin: 20px auto;
-            padding: 10px;
-            background-color: #6b9080;
-            color: white;
-            text-align: center;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-        .back-button:hover {
-            background-color: #557c6a;
-            transform: translateY(-2px);
-        }
-        .chart-container {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .feedback-section {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .feedback-btn {
-            padding: 10px 20px;
-            font-size: 1em;
-            margin: 5px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
-        .feedback-btn.correct {
-            background-color: #4CAF50;
-            color: white;
-        }
-        .feedback-btn.incorrect {
-            background-color: #F44336;
-            color: white;
-        }
-        .feedback-btn:hover {
-            opacity: 0.8;
-        }
-        #correct-form {
-            display: none;
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
 </head>
 <body>
+
+    <div class="header">
+        <img src="{{ url_for('static', filename='img/DeepFlora.png') }}" alt="Logo Planta" width="90" style="margin-right: 18px;">
+        <h2>DeepFlora</h2>
+    </div>
+
     <div class="container">
-        <h1>Resultado da Classificação</h1>
-
-        {% for item in results %}
-        <div class="result-item">
-            <strong>Nome Científico:</strong> {{ item.scientific_name }} <br>
-            <strong>Nome Popular:</strong> {{ item.popular_name }} <br>
-            <strong>Probabilidade:</strong> {{ item.probability }} <br>
-            <strong>Link:</strong> <a href="{{ item.link }}" target="_blank">Ver mais</a>
+        <div class="classification-section">
+            <h2>Classificação Considerada:</h2>
+            <div class="classification-details">
+                <div class="text-details">
+                    <p><strong>Nome Científico:</strong> <span id="scientific-name">{{ results[0].scientific_name if results else '-' }}</span></p>
+                    <p><strong>Nome Popular:</strong> <span id="popular-name">{{ results[0].popular_name if results else '-' }}</span></p>
+                    <p><strong>Link de Verificação:</strong> 
+                        <a href="{{ results[0].link if results else '#' }}" id="verification-link" class="detail-link" target="_blank">
+                            Ver detalhes
+                        </a>
+                    </p>
+                </div>
+                <div class="image-container">
+                    <img id="plant-image" src="{{ image_url if image_url else url_for('static', filename='img/default-placeholder.png') }}" alt="Imagem Enviada pelo Usuário">
+                </div>
+            </div>
         </div>
-        <hr>
-        {% endfor %}
-
-        <div class="chart-container">
-            <canvas id="probabilityChart"></canvas>
-        </div>
-
-        <div class="feedback-section">
-            <p>A classificação foi correta?</p>
-            <button class="feedback-btn correct" onclick="sendFeedback(true)">👍 Sim</button>
-            <button class="feedback-btn incorrect" onclick="showCorrectionForm()">👎 Não</button>
-
-            <div id="correct-form">
-                <p>Qual seria o nome correto?</p>
-                <input type="text" id="correct-name" placeholder="Digite o nome correto">
-                <button class="feedback-btn correct" onclick="sendFeedback(false)">Enviar</button>
+    
+        <div class="chart-section">
+            <h2>Resultados da Classificação:</h2>
+            <div style="height: 300px; width: 100%; max-width: 500px; margin: 0 auto;">
+                <canvas id="classificationChart"></canvas>
             </div>
         </div>
 
-        <a href="/" class="back-button">Voltar para Início</a>
+        {% if results|length > 1 %}
+        <div class="other-results">
+            <h3>Outras Espécies Prováveis:</h3>
+            <ul>
+                {% for result in results[1:3] %}
+                <li>
+                    <strong>{{ result.scientific_name }}</strong> ({{ result.popular_name }}) –
+                    <a href="{{ result.link }}" target="_blank">Ver detalhes</a>
+                    <span class="confidence">({{ result.probability }})</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
     </div>
 
-    <script>
-        const results = JSON.parse('{{ results | tojson | safe }}');
+    <div class="footer">
+        <strong>Contato e Mais Informações</strong><br>
+        Para saber mais sobre o projeto ou contribuir, entre em contato conosco:<br>
+        Email: <a href="mailto:samuelbonfim.silva@mackenzista.com.br">samuelbonfim.silva@mackenzista.com.br</a>
+        <br>
+    </div>
 
-        const labels = results.map(item => item.scientific_name);
-        const data = results.map(item => parseFloat(item.probability.replace('%', '')));
+    <div id="initial-data" 
+         data-results='{{ results|tojson|safe }}'
+         data-image-url="{{ image_url }}'
+         style="display: none;">
+    </div>
 
-        const ctx = document.getElementById('probabilityChart').getContext('2d');
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: labels,
-                datasets: [{
-                    label: 'Probabilidade (%)',
-                    data: data,
-                    backgroundColor: ['#4CAF50', '#FF9800', '#F44336'],
-                    borderColor: ['#388E3C', '#F57C00', '#D32F2F'],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 100
-                    }
-                }
-            }
-        });
-
-        function showCorrectionForm() {
-            document.getElementById("correct-form").style.display = "block";
-        }
-
-        function sendFeedback(correct) {
-            const correctName = document.getElementById("correct-name").value;
-            const feedbackData = {
-                correct: correct,
-                correct_name: correct ? null : correctName
-            };
-
-            fetch('/feedback', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(feedbackData)
-            }).then(response => response.json())
-              .then(data => alert(data.message))
-              .catch(error => console.error("Erro ao enviar feedback:", error));
-        }
-    </script>
+    <script src="{{ url_for('static', filename='js/result.js') }}"></script>
 </body>
 </html>
-
 
