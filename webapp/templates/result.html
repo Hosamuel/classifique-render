@@ -15,8 +15,10 @@
 <body>
 
     <div class="header">
-        <img src="{{ url_for('static', filename='img/DeepFlora.png') }}" alt="Logo Planta" width="90" style="margin-right: 18px;">
-        <h2>DeepFlora</h2>
+        <img src="{{ url_for('static', filename='img/DeepFlora.png') }}" alt="Logo Planta">
+        <a href="{{ url_for('main.home') }}">
+            <h2>DeepFlora</h2>
+        </a>
     </div>
 
     <div class="container">

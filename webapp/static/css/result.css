@@ -29,7 +29,15 @@ body {
     padding-left: 40px;
     font-family: 'Croissant One', cursive;
 }
+.header a {
+    text-decoration: none;
+    color: white;
+}
 
+.header img {
+    width: 90px;
+    margin-right: 18px;
+}
 /* Container principal */
 .container {
     max-width: 1060px;
