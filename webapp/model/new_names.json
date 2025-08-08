@@ -1,1669 +1,5242 @@
 {
-    "1355932": {
+    "abelmoschus_esculentus": {
         "nomes_cientificos": [
-            "Pelargonium_graveolens"
+            "abelmoschus_esculentus"
         ],
         "nomes_populares": [
-            "Malva-cheirosa",
-            "malva",
-            "pelargônio",
-            "malva-rosa"
+            "Quiabo"
         ],
-        "link": "https://hortodidatico.ufsc.br/malva-cheirosa/"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Abelmoschus_esculentus"
     },
-    "1355936": {
+    "acacia_dealbata": {
         "nomes_cientificos": [
-            "Cirsium_arvense"
-        ],
-        "nomes_populares": [
-            "cardo-das-vinhas",
-            "cardo-rasteiro"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/60132-Cirsium-arvense"
-    },
-    "1355937": {
-        "nomes_cientificos": [
-            "Cirsium_vulgare"
-        ],
-        "nomes_populares": [
-            "cardo-roxo"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/52989-Cirsium-vulgare"
-    },
-    "1355990": {
-        "nomes_cientificos": [
-            "Mercurialis_annua"
-        ],
-        "nomes_populares": [
-            "urtiga-bastarda",
-            "barredoiro",
-            "basalho",
-            "erva-mercúrio"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/68838-Mercurialis-annua"
-    },
-    "1356022": {
-        "nomes_cientificos": [
-            "Hypericum_perforatum"
-        ],
-        "nomes_populares": [
-            "Erva-de-São-João"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/56077-Hypericum-perforatum"
-    },
-    "1356075": {
-        "nomes_cientificos": [
-            "Tradescantia_fluminensis"
-        ],
-        "nomes_populares": [
-            "erva-da-fortuna",
-            "tradescância"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/79382-Tradescantia-fluminensis"
-    },
-    "1356111": {
-        "nomes_cientificos": [
-            "Lamium_amplexicaule"
-        ],
-        "nomes_populares": [
-            "urtiga-branca",
-            "lâmio-violeta",
-            "chupapitos"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/55459-Lamium-amplexicaule"
-    },
-    "1356257": {
-        "nomes_cientificos": [
-            "Melilotus_albus"
-        ],
-        "nomes_populares": [
-            "meliloto-branco"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/58907-Melilotus-albus"
-    },
-    "1356382": {
-        "nomes_cientificos": [
-            "Dryopteris_filix-mas"
-        ],
-        "nomes_populares": [
-            "samambaia macho"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/76721-Dryopteris-filix-mas"
-    },
-    "1356421": {
-        "nomes_cientificos": [
-            "Nephrolepis_exaltata"
-        ],
-        "nomes_populares": [
-            "samambaia espada",
-            "Samambaia americana",
-            "Boston fern"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/130866-Nephrolepis-exaltata"
-    },
-    "1356428": {
-        "nomes_cientificos": [
-            "Osmunda_regalis"
-        ],
-        "nomes_populares": [
-            "Feto-Real"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/82303-Osmunda-regalis"
-    },
-    "1356692": {
-        "nomes_cientificos": [
-            "Lithodora_fruticosa"
-        ],
-        "nomes_populares": [
-            "shrubby gromwell"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/186128-Lithodora-fruticosa"
-    },
-    "1356781": {
-        "nomes_cientificos": [
-            "Humulus_lupulus"
-        ],
-        "nomes_populares": [
-            "Lúpulo",
-            "pé-de-galo"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/53779-Humulus-lupulus"
-    },
-    "1356816": {
-        "nomes_cientificos": [
-            "Vaccaria_hispanica"
-        ],
-        "nomes_populares": [
-            "Saponária-Das-Vacas",
-            "cow basil"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/836721-Gypsophila-vaccaria"
-    },
-    "1357330": {
-        "nomes_cientificos": [
-            "Calendula_officinalis"
-        ],
-        "nomes_populares": [
-            "calêndula",
-            "margarida"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/75931-Calendula-officinalis"
-    },
-    "1357379": {
-        "nomes_cientificos": [
-            "Carthamus_lanatus"
-        ],
-        "nomes_populares": [
-            "cardo-beija-mão",
-            "cardo-cristo",
-            "cardo-sanguinho"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/234914-Carthamus-lanatus-lanatus"
-    },
-    "1357635": {
-        "nomes_cientificos": [
-            "Helminthotheca_echioides"
-        ],
-        "nomes_populares": [
-            "Raspa-Saias",
-            "Repassage"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/61906-Helminthotheca-echioides"
-    },
-    "1357677": {
-        "nomes_cientificos": [
-            "Lactuca_muralis"
-        ],
-        "nomes_populares": [
-            "alface-de-parede",
-            "wall lettuce"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/48543-Mycelis-muralis"
-    },
-    "1357705": {
-        "nomes_cientificos": [
-            "Limbarda_crithmoides"
-        ],
-        "nomes_populares": [
-            "Campana-da-Praia",
-            "madorneira-bastarda"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/326880-Limbarda-crithmoides"
-    },
-    "1358094": {
-        "nomes_cientificos": [
-            "Sedum_acre"
-        ],
-        "nomes_populares": [
-            "Sedum_acre"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/55734-Sedum-acre"
-    },
-    "1358095": {
-        "nomes_cientificos": [
-            "Sedum_album"
-        ],
-        "nomes_populares": [
-            "arroz-dos-telhados"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/1435254-Sedum-album"
-    },
-    "1358133": {
-        "nomes_cientificos": [
-            "Sedum_sediforme"
-        ],
-        "nomes_populares": [
-            "Erva-Pinheira-Enxuta "
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/734833-Petrosedum-sediforme"
-    },
-    "1358605": {
-        "nomes_cientificos": [
-            "Mercurialis_perennis"
-        ],
-        "nomes_populares": [
-            "Mercurialis_perennis"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/126757-Mercurialis-perennis"
-    },
-    "1358689": {
-        "nomes_cientificos": [
-            "Hypericum_androsaemum"
-        ],
-        "nomes_populares": [
-            "Hipericão-Do-Gerês",
-            "erva-da-pedra",
-            "erva-mijadeira",
-            "mijadeira"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/77480-Hypericum-androsaemum"
-    },
-    "1358752": {
-        "nomes_cientificos": [
-            "Lamium_purpureum"
-        ],
-        "nomes_populares": [
-            "Urtiga-roxa",
-            "Urtiga-violeta"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/55851-Lamium-purpureum"
-    },
-    "1358766": {
-        "nomes_cientificos": [
-            "Lavandula_stoechas"
-        ],
-        "nomes_populares": [
-            "Rosmaninho",
-            "alfazema"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/61904-Lavandula-stoechas"
-    },
-    "1359197": {
-        "nomes_cientificos": [
-            "Galega_officinalis"
-        ],
-        "nomes_populares": [
-            "arruda-caprária",
-            "galega"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/157393-Galega-officinalis"
-    },
-    "1359483": {
-        "nomes_cientificos": [
-            "Trifolium_angustifolium"
-        ],
-        "nomes_populares": [
-            "Trevo-de-Folhas-Estreitas",
-            "rabo-de-gato",
-            "trevo-massaroco"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/69939-Trifolium-angustifolium"
-    },
-    "1359485": {
-        "nomes_cientificos": [
-            "Trifolium_arvense"
-        ],
-        "nomes_populares": [
-            "Pé-de-Lebre",
-            "trevo-branco"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/79408-Trifolium-arvense"
-    },
-    "1359488": {
-        "nomes_cientificos": [
-            "Trifolium_campestre"
-        ],
-        "nomes_populares": [
-            "Trevo-Amarelo",
-            "trevão"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/57076-Trifolium-campestre"
-    },
-    "1359498": {
-        "nomes_cientificos": [
-            "Trifolium_incarnatum"
-        ],
-        "nomes_populares": [
-            "Trevo-Vermelho",
-            "erva-do-amor",
-            "trevo-encarnado"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/64268-Trifolium-incarnatum"
-    },
-    "1359508": {
-        "nomes_cientificos": [
-            "Trifolium_montanum"
-        ],
-        "nomes_populares": [
-            "trevo da montanha",
-            "Trifolium montanum"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/334750-Trifolium-montanum"
-    },
-    "1359517": {
-        "nomes_cientificos": [
-            "Trifolium_pratense"
-        ],
-        "nomes_populares": [
-            "trevo-dos-prados",
-            "trevo-ribeiro",
-            "trevo-de-vaca"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/51875-Trifolium-pratense"
-    },
-    "1359519": {
-        "nomes_cientificos": [
-            "Trifolium_resupinatum"
-        ],
-        "nomes_populares": [
-            "Trevo-de-Flores-Reviradas",
-            "trevo-da-pérsia",
-            "trevo-resupinado"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/79429-Trifolium-resupinatum"
-    },
-    "1359525": {
-        "nomes_cientificos": [
-            "Trifolium_stellatum"
-        ],
-        "nomes_populares": [
-            "Trevo-Estrelado"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/59417-Trifolium-stellatum"
-    },
-    "1359616": {
-        "nomes_cientificos": [
-            "Punica_granatum"
-        ],
-        "nomes_populares": [
-            "Romãzeira",
-            "romã"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/58300-Punica-granatum"
-    },
-    "1359620": {
-        "nomes_cientificos": [
-            "Alcea_rosea"
-        ],
-        "nomes_populares": [
-            "Alcea rósea"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/62205-Alcea-rosea"
-    },
-    "1359625": {
-        "nomes_cientificos": [
-            "Althaea_officinalis"
-        ],
-        "nomes_populares": [
-            "malva-branca",
-            "alteia",
-            "malvavisco"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/52565-Althaea-officinalis"
-    },
-    "1359669": {
-        "nomes_cientificos": [
-            "Nymphaea_alba"
-        ],
-        "nomes_populares": [
-            "Lírio-d’água",
-            "Ninféia-branca"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/62009-Nymphaea-alba"
-    },
-    "1360153": {
-        "nomes_cientificos": [
-            "Anemone_coronaria"
-        ],
-        "nomes_populares": [
-            "Anêmona-de-jardim",
-            "Anêmona ornamental"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/244745-Anemone-coronaria"
-    },
-    "1360550": {
-        "nomes_cientificos": [
-            "Hyoscyamus_albus"
-        ],
-        "nomes_populares": [
-            "meimendro-branco"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/163950-Hyoscyamus-albus"
-    },
-    "1360555": {
-        "nomes_cientificos": [
-            "Hyoscyamus_niger"
-        ],
-        "nomes_populares": [
-            "Meimendro-Negro"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/163951-Hyoscyamus-nigerconsole.log"
-    },
-    "1360588": {
-        "nomes_cientificos": [
-            "Daphne_gnidium"
-        ],
-        "nomes_populares": [
-            "Trovisco",
-            "erva-de-joão-pires",
-            "gorreiro",
-            "lauréola-macha",
-            "mezereão-menor",
-            "trovisco-fêmea",
-            "trovisqueira"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/82836-Daphne-gnidium"
-    },
-    "1360590": {
-        "nomes_cientificos": [
-            "Daphne_laureola"
-        ],
-        "nomes_populares": [
-            "Trovisco-Louro"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/127391-Daphne-laureola"
-    },
-    "1360671": {
-        "nomes_cientificos": [
-            "Chaerophyllum_temulum"
-        ],
-        "nomes_populares": [
-            "cerefolho",
-            "cerefolho-bravo",
-            "cerefólio-bravo",
-            "salsa-de-burro"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/55733-Chaerophyllum-temulum"
-    },
-    "1360811": {
-        "nomes_cientificos": [
-            "Thapsia_villosa"
-        ],
-        "nomes_populares": [
-            "Tápsia"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/450557-Thapsia-villosa"
-    },
-    "1360978": {
-        "nomes_cientificos": [
-            "Pancratium_maritimum"
-        ],
-        "nomes_populares": [
-            "narciso-das-areias",
-            "lírio-das-praias",
-            "pancrácio"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/78334-Pancratium-maritimum"
-    },
-    "1360998": {
-        "nomes_cientificos": [
-            "Anthericum_liliago"
-        ],
-        "nomes_populares": [
-            "lírio de São Bernardo",
-            "St Bernard's lily",
-            "Açucena-Fina"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/202500-Anthericum-liliago"
-    },
-    "1361024": {
-        "nomes_cientificos": [
-            "Butomus_umbellatus"
-        ],
-        "nomes_populares": [
-            "Junco-Florido"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/60462-Butomus-umbellatus"
-    },
-    "1361656": {
-        "nomes_cientificos": [
-            "Ophrys_apifera"
-        ],
-        "nomes_populares": [
-            "Abelheira",
-            "erva-abelha",
-            "erva-aranha"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/83816-Ophrys-apifera"
-    },
-    "1361663": {
-        "nomes_cientificos": [
-            "Ophrys_lutea"
-        ],
-        "nomes_populares": [
-            "Erva Vespa"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/59339-Ophrys-lutea"
-    },
-    "1361759": {
-        "nomes_cientificos": [
-            "Cirsium_palustre"
-        ],
-        "nomes_populares": [
-            "Cardo-Palustre"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/160623-Cirsium-palustre"
-    },
-    "1361823": {
-        "nomes_cientificos": [
-            "Lamium_galeobdolon"
-        ],
-        "nomes_populares": [
-            "Lamium galeobdolon"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/204339-Lamium-galeobdolon"
-    },
-    "1361824": {
-        "nomes_cientificos": [
-            "Lavandula_angustifolia"
-        ],
-        "nomes_populares": [
-            "Alfazema",
-            "lavanda"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/133395-Lavandula-angustifolia"
-    },
-    "1361850": {
-        "nomes_cientificos": [
-            "Trifolium_rubens"
-        ],
-        "nomes_populares": [
-            "Trevo-Ornamental"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/244538-Trifolium-rubens"
-    },
-    "1362294": {
-        "nomes_cientificos": [
-            "Epipactis_helleborine"
-        ],
-        "nomes_populares": [
-            "Heleborina-de-Folha-Larga",
-            "heleborinha"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/50717-Epipactis-helleborine"
-    },
-    "1362490": {
-        "nomes_cientificos": [
-            "Sedum_rupestre"
-        ],
-        "nomes_populares": [
-            "Arroz-Das-Paredes",
-            "Petrosedum rupestre"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/710296-Petrosedum-forsterianum"
-    },
-    "1362516": {
-        "nomes_cientificos": [
-            "Ophrys_insectifera"
-        ],
-        "nomes_populares": [
-            "Orquídea-Mosca",
-            "fly orchid"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/57468-Ophrys-insectifera"
-    },
-    "1363021": {
-        "nomes_cientificos": [
-            "Cenchrus_setaceus"
-        ],
-        "nomes_populares": [
-            "Pennisetum"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/430581-Cenchrus-setaceus"
-    },
-    "1363110": {
-        "nomes_cientificos": [
-            "Anemone_hortensis"
-        ],
-        "nomes_populares": [
-            "Anêmona-Dos-Jardins"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/59267-Anemone-hortensis"
-    },
-    "1363128": {
-        "nomes_cientificos": [
-            "Papaver_rhoeas"
-        ],
-        "nomes_populares": [
-            "Papoila",
-            "papoula",
-            "papoila-brava",
-            "papoila-das-searas",
-            "papoila-ordinária",
-            "papoila-rubra",
-            "papoila-vermelha",
-            "papoila-vulgar"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/54404-Papaver-rhoeas"
-    },
-    "1363130": {
-        "nomes_cientificos": [
-            "Papaver_somniferum"
-        ],
-        "nomes_populares": [
-            "Dormideira",
-            "papoila-dormideira"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/78346-Papaver-somniferum"
-    },
-    "1363227": {
-        "nomes_cientificos": [
-            "Daucus_carota"
-        ],
-        "nomes_populares": [
-            "cenoura-brava"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/76610-Daucus-carota"
-    },
-    "1363336": {
-        "nomes_cientificos": [
-            "Smilax_aspera"
-        ],
-        "nomes_populares": [
-            "Salsaparrilha-Brava",
-            "alagacão",
-            "alegra-campo",
-            "alegra-cão",
-            "legacão",
-            "recama",
-            "salsaparrilha",
-            "salsaparrilha-bastarda",
-            "salsaparrilha-brava",
-            "salsaparrilha-do-reino",
-            "salsaparrilha-indígena",
-            "salsaparrilha-rugosa",
-            "silvamar"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/82903-Smilax-aspera"
-    },
-    "1363451": {
-        "nomes_cientificos": [
-            "Secale_cereale"
-        ],
-        "nomes_populares": [
-            "Centeio"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/79021-Secale-cereale"
-    },
-    "1363490": {
-        "nomes_cientificos": [
-            "Phalaris_arundinacea"
-        ],
-        "nomes_populares": [
-            "Alpista-Caniço",
-            "capim-amarelo",
-            "alpiste-dos-prados",
-            "caniço-malhado"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/63337-Phalaris-arundinacea"
-    },
-    "1363737": {
-        "nomes_cientificos": [
-            "Trifolium_dubium"
-        ],
-        "nomes_populares": [
-            "Trevo-Amarelo-Menor",
-            "trevinho"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/53313-Trifolium-dubium"
-    },
-    "1363740": {
-        "nomes_cientificos": [
-            "Trifolium_repens"
-        ],
-        "nomes_populares": [
-            "Trevo-Branco",
-            "trevo-coroa-de-rei",
-            "trevo-da-holanda",
-            "trevo-ladino",
-            "trevo-rasteiro"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/55745-Trifolium-repens"
-    },
-    "1363764": {
-        "nomes_cientificos": [
-            "Acacia_dealbata"
+            "acacia_dealbata"
         ],
         "nomes_populares": [
             "Acacia dealbata"
         ],
         "link": "https://www.biodiversity4all.org/taxa/319165-Acacia-dealbata-dealbata"
     },
-    "1363991": {
+    "acacia_podalyriifolia": {
         "nomes_cientificos": [
-            "Fragaria_vesca"
+            "acacia_podalyriifolia"
         ],
         "nomes_populares": [
-            "morango-silvestre",
-            "morango-bravo"
+            "Mimosa",
+            "Acácia Mimosa"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/50298-Fragaria-vesca"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Acacia_podalyriifolia"
     },
-    "1364099": {
+    "acalypha_wilkesiana": {
         "nomes_cientificos": [
-            "Centranthus_ruber"
+            "acalypha_wilkesiana"
         ],
         "nomes_populares": [
-            "boliana",
-            "cuidado-dos-homens",
-            "rosa-da-rocha",
-            "valeriana-vermelha"
+            "Crista de Peru",
+            "Rabo de Macaco"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/57283-Centranthus-ruber"
+        "link": "https://www.biodiversity4all.org/taxa/281562-Acalypha-wilkesiana"
     },
-    "1364164": {
+    "acanthocereus_tetragonus": {
         "nomes_cientificos": [
-            "Lapsana_communis"
+            "acanthocereus_tetragonus"
         ],
         "nomes_populares": [
-            "Labresto"
+            "Cacto Castelo de Fadas",
+            "Cacto Castelo de Princesas",
+            "Cacto Castelo de Princesa",
+            "Cacto Catedral"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/55981-Lapsana-communis"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Acanthocereus_tetragonus"
     },
-    "1364165": {
+    "acer_palmatum": {
         "nomes_cientificos": [
-            "Carthamus_tinctorius"
+            "acer_palmatum"
         ],
         "nomes_populares": [
-            "açafrão-bastardo",
-            "açafroa",
-            "açafrol",
-            "cártamo",
-            "açafrão-agreste",
-            "açafrão-dos-tintureiros",
-            "açafrão-bravo"
+            "Bôrdo Japonês",
+            "Ácer",
+            "Ácer Palmato",
+            "Bordo Japonês Vermelho"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/76135-Carthamus-tinctorius"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Acer_palmatum"
     },
-    "1364172": {
+    "adenanthera_pavonina": {
         "nomes_cientificos": [
-            "Lactuca_sativa"
+            "adenanthera_pavonina"
         ],
         "nomes_populares": [
-            "Alface"
+            "Tento Carolina",
+            "olho-de-pavão",
+            "carolina",
+            "olho-de-dragão"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/122976-Lactuca-sativa"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Adenanthera_pavonina"
     },
-    "1364173": {
+    "adenium_obesum": {
         "nomes_cientificos": [
-            "Lactuca_serriola"
+            "adenium_obesum"
         ],
         "nomes_populares": [
-            "Alface-Brava-Áspera",
-            "Alface-brava",
-            "Alface-brava-menor",
-            "Alface-brava-pequena",
-            "Alface-silvestre"
+            "Adenium",
+            "Lírio Impala",
+            "rosa-do-deserto"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/53107-Lactuca-serriola"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Adenium_obesum"
     },
-    "1367432": {
+    "adiantum_raddianum": {
         "nomes_cientificos": [
-            "Lupinus_polyphyllus"
+            "adiantum_raddianum"
         ],
         "nomes_populares": [
-            "Tremoço-de-Jardim"
+            "Avencão",
+            "Avenca Delta",
+            "cabelo-de-vénus",
+            "avenca-comum"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/59549-Lupinus-polyphyllus"
+        "link": "https://www.biodiversity4all.org/taxa/158023-Adiantum-raddianum"
     },
-    "1369887": {
+    "aechmea_nudicaulis": {
         "nomes_cientificos": [
-            "Trachelospermum_jasminoides"
+            "aechmea_nudicaulis"
         ],
         "nomes_populares": [
-            "jasminóides",
-            "jasmínea"
+            "Gravatá-de-pedra",
+            "Bromélia"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/169856-Trachelospermum-jasminoides"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Aechmea_nudicaulis; https://museucerrado.com.br/biodiversidade-flora-bromelias-aechmea-nudicaulis-l-griseb/"
     },
-    "1369960": {
+    "aegopodium_podagraria": {
         "nomes_cientificos": [
-            "Tradescantia_spathacea"
+            "aegopodium_podagraria"
         ],
         "nomes_populares": [
-            "abacaxi-roxo",
-            "moisés-no-berço"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/169878-Tradescantia-spathacea"
-    },
-    "1372016": {
-        "nomes_cientificos": [
-            "Morinda_citrifolia"
-        ],
-        "nomes_populares": [
-            "noni",
-            "nono"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/121022-Morinda-citrifolia"
-    },
-    "1374048": {
-        "nomes_cientificos": [
-            "Tagetes_erecta"
-        ],
-        "nomes_populares": [
-            "rosa-de-oiro",
-            "rosa-da-índia",
-            "cravo-fétido-da-índia"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/79312-Tagetes-erecta"
-    },
-    "1384485": {
-        "nomes_cientificos": [
-            "Cucurbita_pepo"
-        ],
-        "nomes_populares": [
-            "Abobrinha",
-            "jerimum-mirim",
-            "courgette",
-            "curgete",
-            "abóbora-moganga",
-            "abóbora-porqueira",
-            "abobrinha italiana",
-            "jerimum",
-            "abóbora-carneira",
-            "abóbora-de-porco",
-            "abóbora-moranga"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/76541-Cucurbita-pepo"
-    },
-    "1385701": {
-        "nomes_cientificos": [
-            "Couroupita_guianensis"
-        ],
-        "nomes_populares": [
-            "abricó-de-macaco",
-            "castanha-de-macaco",
-            "cuia-de-macaco",
-            "macacarecuia",
-            "amêndoa-dos-andes",
-            "amendoeira-dos-andes",
-            "coco-da-índia"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/48163-Couroupita-guianensis"
-    },
-    "1385937": {
-        "nomes_cientificos": [
-            "Zamioculcas_zamiifolia"
-        ],
-        "nomes_populares": [
-            "Zamioculca"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/367277-Zamioculcas-zamiifolia"
-    },
-    "1389510": {
-        "nomes_cientificos": [
-            "Aegopodium_podagraria"
-        ],
-        "nomes_populares": [
-            "pequena-angélica",
-            "angélica menor"
+            "pequena-angélica; angélica menor"
         ],
         "link": "https://www.biodiversity4all.org/taxa/51741-Aegopodium-podagraria"
     },
-    "1391192": {
+    "agave_americana": {
         "nomes_cientificos": [
-            "Cirsium_eriophorum"
+            "agave_americana"
         ],
         "nomes_populares": [
-            "Lophiolepis eriophora"
+            "Pita",
+            "Pita Azul",
+            "Piteira Azul"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/1501832-Lophiolepis-eriophora"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Agave_americana"
     },
-    "1391226": {
+    "agave_angustifolia": {
         "nomes_cientificos": [
-            "Cirsium_oleraceum"
+            "agave_angustifolia"
         ],
         "nomes_populares": [
-            "cardo-repolho",
-            "cardo siberiano"
+            "Agave Piteira",
+            "piteira-do-caribe"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/133653-Cirsium-oleraceum"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Agave_angustifolia"
     },
-    "1391649": {
+    "agave_parryi": {
         "nomes_cientificos": [
-            "Daphne_cneorum"
+            "agave_parryi"
         ],
         "nomes_populares": [
-            "flor de guirlanda",
-            "rosa daphne",
-            "garland flower",
-            "rose daphne"
+            "Agave de Parry",
+            "Agave mescal"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/61310-Daphne-cneorum"
+        "link": "https://www.biodiversity4all.org/taxa/119302-Agave-parryi"
     },
-    "1391652": {
+    "ageratum_houstonianum": {
         "nomes_cientificos": [
-            "Daphne_mezereum"
+            "ageratum_houstonianum"
         ],
         "nomes_populares": [
-            "Daphne-de-fevereiro"
+            "Celestina",
+            "Erva de Santa Lúcia",
+            "Erva de São João",
+            "Mentraço",
+            "Mentrasto"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/133034-Daphne-mezereum"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ageratum_houstonianum"
     },
-    "1391797": {
+    "ajuga_reptans": {
         "nomes_cientificos": [
-            "Dryas_octopetala"
+            "ajuga_reptans"
         ],
         "nomes_populares": [
-            "dríade-branca",
-            "dríade-de-oito-pétalas",
-            "chá-dos-alpes"
+            "Ajugaíba",
+            "Búgula",
+            "Consolda Média",
+            "Erva de São Léo",
+            "Erva de São Lourenço",
+            "Erva Férrea",
+            "Jujuba",
+            "Língua de Boi"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/83541-Dryas-octopetala"
+        "link": "https://www.biodiversity4all.org/taxa/56099-Ajuga-reptans"
     },
-    "1391868": {
+    "alcea_rosea": {
         "nomes_cientificos": [
-            "Empetrum_nigrum"
+            "alcea_rosea"
         ],
         "nomes_populares": [
-            "crowberry",
-            "black crowberry"
+            "Alcea rósea"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/76812-Empetrum-nigrum"
+        "link": "https://www.biodiversity4all.org/taxa/62205-Alcea-rosea"
     },
-    "1391953": {
+    "aleurites_moluccanus": {
         "nomes_cientificos": [
-            "Epipactis_atrorubens"
+            "aleurites_moluccanus"
         ],
         "nomes_populares": [
-            "helleborina vermelha escura",
-            "helleborina real"
+            "Nogueira de Iguape",
+            "Noz das Molucas",
+            "Nogueira",
+            "Candlenut Tree",
+            "Noz",
+            "Candle Nut"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/82160-Epipactis-atrorubens"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Aleurites_moluccanus"
     },
-    "1391963": {
+    "allamanda_blanchetii": {
         "nomes_cientificos": [
-            "Epipactis_palustris"
+            "allamanda_blanchetii"
         ],
         "nomes_populares": [
-            "Heleborina-Dos-Brejos"
+            "Alamanda Cheirosa",
+            "Alamanda Rosa",
+            "Orelia",
+            "Rosa do Campo"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/56233-Epipactis-palustris"
+        "link": "https://www.biodiversity4all.org/taxa/338131-Allamanda-blanchetii"
     },
-    "1392475": {
+    "allamanda_cathartica": {
         "nomes_cientificos": [
-            "Alliaria_petiolata"
+            "allamanda_cathartica"
+        ],
+        "nomes_populares": [
+            "Alamanda",
+            "Carolina",
+            "Dedal de dama",
+            "Dedal de Princesa",
+            "Dedal de Rainha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Allamanda_cathartica"
+    },
+    "alliaria_petiolata": {
+        "nomes_cientificos": [
+            "alliaria_petiolata"
         ],
         "nomes_populares": [
             "erva-alheira"
         ],
         "link": "https://www.biodiversity4all.org/taxa/56061-Alliaria-petiolata"
     },
-    "1392654": {
+    "allium_ampeloprasum": {
         "nomes_cientificos": [
-            "Gomphocarpus_physocarpus"
+            "allium_ampeloprasum"
         ],
         "nomes_populares": [
-            "Paina-de-Seda"
+            "Alho Francês",
+            "Alho Macho",
+            "Allium Porrum",
+            "alho-porro-bravo"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/281273-Gomphocarpus-physocarpus"
+        "link": "https://www.biodiversity4all.org/taxa/122912-Allium-ampeloprasum"
     },
-    "1392695": {
+    "allium_cepa": {
         "nomes_cientificos": [
-            "Hebe_salicifolia"
+            "allium_cepa"
         ],
         "nomes_populares": [
-            "Veronica salicifolia",
-            "hebe de folhas de salgueiro",
-            "koromiko"
+            "Cebola"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/738760-Veronica-salicifolia"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Allium_cepa"
     },
-    "1392777": {
+    "allium_sativum": {
         "nomes_cientificos": [
-            "Hippophae_rhamnoides"
+            "allium_sativum"
         ],
         "nomes_populares": [
-            "Espinheiro-marítimo",
-            "espinheiro-cerval-marinho",
-            "falso-espinheiro",
-            "espinheiro-amarelo",
-            "espinho-cerval-marítimo"
+            "Alho",
+            "Alho-de-cabeça",
+            "Alho-comum"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/163812-Hippophae-rhamnoides"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Allium_sativum"
     },
-    "1393241": {
+    "allium_tuberosum": {
         "nomes_cientificos": [
-            "Hypericum_calycinum"
+            "allium_tuberosum"
         ],
         "nomes_populares": [
-            "hipericão-branco",
-            "hipericão-dos-jardins",
-            "raios-de-sol",
-            "véu-de-nossa-senhora"
+            "Alho Japonês",
+            "Cebolinha Chinesa",
+            "Cebolinha Japonesa",
+            "nirá"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/77481-Hypericum-calycinum"
+        "link": "https://www.biodiversity4all.org/taxa/122343-Allium-tuberosum"
     },
-    "1393393": {
+    "allophylus_edulis": {
         "nomes_cientificos": [
-            "Kniphofia_uvaria"
+            "allophylus_edulis"
         ],
         "nomes_populares": [
-            "tritomea",
-            "lírio-tocha",
-            "atiçador vermelho",
-            "torch lily",
-            "red hot poker"
+            "Baga de Morcego",
+            "Vacum",
+            "Murta Vermelha",
+            "Fruta de Paraó",
+            "Fruto de Pombo"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/56035-Kniphofia-uvaria"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Allophylus_edulis"
     },
-    "1393414": {
+    "alocasia_macrorrhizos": {
         "nomes_cientificos": [
-            "Lactuca_alpina"
+            "alocasia_macrorrhizos"
         ],
         "nomes_populares": [
-            "cardo-porco alpino",
-            "cardo-porco-azul-alpino",
-            "alpine sow-thistle",
-            "alpine blue-sow-thistle"
+            "Alocasia macrohiza"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/336295-Cicerbita-alpina"
+        "link": "https://www.biodiversity4all.org/taxa/126165-Alocasia-macrorrhizos"
     },
-    "1393423": {
+    "alocasia_odora": {
         "nomes_cientificos": [
-            "Lamium_album"
+            "alocasia_odora"
         ],
         "nomes_populares": [
-            "urtiga-branca"
+            "Orelhas de elefante"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/55876-Lamium-album"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Alocasia_odora; https://hort.extension.wisc.edu/articles/elephant-ears-colocasia-alocasia-and-xanthosoma/#:~:text=Orelhas%20de%20elefante%20(Colocasia%2C%20Alocasia,e%20Xanthosoma)%20%E2%80%93%20Horticultura%20de%20Wisconsin"
     },
-    "1393425": {
+    "alocasia_sanderiana": {
         "nomes_cientificos": [
-            "Lamium_maculatum"
+            "alocasia_sanderiana"
         ],
         "nomes_populares": [
-            "chuchas",
-            "chupa-pitos",
-            "coelhos",
-            "lâmio-maculado"
+            "Alocasia sanderiana; kris plant; Sander's alocasia; planta kris; alocasia de Sander"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/55828-Lamium-maculatum"
+        "link": "https://www.biodiversity4all.org/taxa/327368-Alocasia-sanderiana"
     },
-    "1393449": {
+    "aloe_arborescens": {
         "nomes_cientificos": [
-            "Lathraea_clandestina"
+            "aloe_arborescens"
         ],
         "nomes_populares": [
-            "erva-de-dente-roxa",
-            "clandestina"
+            "Aloé",
+            "Aloé Candelabro",
+            "Aloé do Natal",
+            "Babosa de Arbusto",
+            "Caraguatá",
+            "Caraguatá de Jardim",
+            "Erva Babosa",
+            "Erva de Azebra"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/60082-Lathraea-clandestina"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Aloe_arborescens"
     },
-    "1393450": {
+    "aloe_vera": {
         "nomes_cientificos": [
-            "Lathraea_squamaria"
+            "aloe_vera"
         ],
         "nomes_populares": [
-            "dentífrica comum",
-            "common toothwort"
+            "Babosa",
+            "Babosa-medicina",
+            "Erva-babosa",
+            "Babosa-comum"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/61769-Lathraea-squamaria"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Aloe_vera"
     },
-    "1393614": {
+    "alpinia_purpurata": {
         "nomes_cientificos": [
-            "Liriodendron_tulipifera"
+            "alpinia_purpurata"
         ],
         "nomes_populares": [
-            "Tulipeiro-da-Virgínia",
-            "tulipeiro",
-            "árvore-das-tulipas",
-            "árvore-do-ponto",
-            "tulipeira",
-            "tulipeiro"
+            "Gengibre vermelho"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/53582-Liriodendron-tulipifera"
+        "link": "https://www.biodiversity4all.org/taxa/154466-Alpinia-purpurata"
     },
-    "1393725": {
+    "alpinia_zerumbet": {
         "nomes_cientificos": [
-            "Maianthemum_bifolium"
+            "alpinia_zerumbet"
         ],
         "nomes_populares": [
-            "falso lírio do vale",
-            "lírio de maio"
+            "Alpínia Colônia Perfumada",
+            "Alpínia Colônia",
+            "Gengibre concha",
+            "Louro de baiano"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/50247-Maianthemum-bifolium"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Alpinia_zerumbet"
     },
-    "1393846": {
+    "alternanthera_brasiliana": {
         "nomes_cientificos": [
-            "Moehringia_ciliata"
+            "alternanthera_brasiliana"
         ],
         "nomes_populares": [
-            "Moehringia ciliata"
+            "Penicilina",
+            "Perpétua Brasileira",
+            "Caaponga",
+            "Anador",
+            "Periquito Gigante",
+            "Melhoral",
+            "Terramicina",
+            "Cabeça Branca",
+            "Carrapichinho do Mato"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/472351-Moehringia-ciliata"
+        "link": "Penicilina (Alternanthera brasiliana) · BioDiversity4All"
     },
-    "1393946": {
+    "alternanthera_ficoidea": {
         "nomes_cientificos": [
-            "Neotinea_ustulata"
+            "alternanthera_ficoidea"
         ],
         "nomes_populares": [
-            "Orquídea-Chamuscada",
-            "orquídea de ponta queimada",
-            "orquídea queimada",
-            "burnt-tip orchid",
-            "burnt orchid"
+            "Quebra-Panela"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/60837-Neotinea-ustulata"
+        "link": "Quebra-panela (Alternanthera ficoidea) · BioDiversity4All"
     },
-    "1394120": {
+    "althaea_officinalis": {
         "nomes_cientificos": [
-            "Ophrys_fuciflora"
+            "althaea_officinalis"
         ],
         "nomes_populares": [
-            "Flor-Dos-Passarinhos",
-            "abelha-galinhola",
-            "orquídea-galinhola",
-            "woodcock bee-orchid",
-            "woodcock orchid"
+            "malva-branca; alteia; malvavisco"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/82865-Ophrys-scolopax"
+        "link": "https://www.biodiversity4all.org/taxa/52565-Althaea-officinalis"
     },
-    "1394382": {
+    "anacardium_occidentale": {
         "nomes_cientificos": [
-            "Anemone_alpina"
+            "anacardium_occidentale"
         ],
         "nomes_populares": [
-            " pasqueflower alpina",
-            "anêmona alpina"
+            "Cajueiro",
+            "Caju Manso",
+            "Acajaíba",
+            "Acajuíba",
+            "Caju Banana",
+            "Caju Manteiga",
+            "Acaju",
+            "Caju Comum",
+            "Cajueiro Comum"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Anacardium_occidentale"
+    },
+    "ananas_comosus": {
+        "nomes_cientificos": [
+            "ananas_comosus"
+        ],
+        "nomes_populares": [
+            "Abacaxi Vermelho",
+            "Ananás Ornamental",
+            "Ananás Vermelho",
+            "Ananás de Cerca"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ananas_comosus"
+    },
+    "andropogon_bicornis": {
+        "nomes_cientificos": [
+            "andropogon_bicornis"
+        ],
+        "nomes_populares": [
+            "Capim Peba",
+            "Capim Rabo de Burro",
+            "Capim Rabo de Raposa",
+            "Capim Rabo de Zorro",
+            "Capim Vassoura",
+            "Cola de Sorro Grande",
+            "Cola de Zorro",
+            "Macega",
+            "Rabo de Burro",
+            "Rabo de Raposa"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/1617135-Anatherum-bicorne"
+    },
+    "anemone_alpina": {
+        "nomes_cientificos": [
+            "anemone_alpina"
+        ],
+        "nomes_populares": [
+            "pasqueflower alpina; anêmona alpina"
         ],
         "link": "https://www.biodiversity4all.org/taxa/85428-Pulsatilla-alpina"
     },
-    "1394399": {
+    "anemone_blanda": {
         "nomes_cientificos": [
-            "Papaver_alpinum"
+            "anemone_blanda"
         ],
         "nomes_populares": [
-            "Oreomecon alpina",
-            "papoula alpina",
-            "papoula anã"
+            "Anemone blanda; Balkan anemone; Grecian windflower; winter windflower; anêmona-do-vento-grega; anêmona-do-vento-de-inverno"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/136572-Papaver-alpinum"
+        "link": "https://www.biodiversity4all.org/taxa/950617-Anemonoides-blanda"
     },
-    "1394404": {
+    "anemone_coronaria": {
         "nomes_cientificos": [
-            "Papaver_orientale"
+            "anemone_coronaria"
         ],
         "nomes_populares": [
-            "Papoula-oriental",
-            "Papoula-de-jardim"
+            "Anêmona-de-jardim; Anêmona ornamental"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/166114-Papaver-orientale"
+        "link": "https://www.biodiversity4all.org/taxa/244745-Anemone-coronaria"
     },
-    "1394420": {
+    "anemone_hepatica": {
         "nomes_cientificos": [
-            "Anemone_hepatica"
+            "anemone_hepatica"
         ],
         "nomes_populares": [
-            "hepática comum",
-            "hepática",
-            "hepática",
-            "renalwort",
-            "pennywort"
+            "hepática comum; hepática; hepática; renalwort; pennywort"
         ],
         "link": "https://www.biodiversity4all.org/taxa/639660-Hepatica-nobilis"
     },
-    "1394460": {
+    "anemone_hortensis": {
         "nomes_cientificos": [
-            "Anemone_nemorosa"
+            "anemone_hortensis"
         ],
         "nomes_populares": [
-            "anémona-dos-bosques"
+            "Anêmona-Dos-Jardins"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/950603-Anemonoides-nemorosa"
+        "link": "https://www.biodiversity4all.org/taxa/59267-Anemone-hortensis"
     },
-    "1394489": {
+    "anemone_hupehensis": {
         "nomes_cientificos": [
-            "Anemone_pulsatilla"
-        ],
-        "nomes_populares": [
-            "pasqueflower",
-            "Pulsatilla vulgaris"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/60786-Pulsatilla-vulgaris"
-    },
-    "1394513": {
-        "nomes_cientificos": [
-            "Anemone_vernalis"
-        ],
-        "nomes_populares": [
-            "spring pasqueflower",
-            "arctic violet",
-            "lady of the snows",
-            "flor-de-pasque-da-primavera",
-            "violeta-ártica",
-            "dama das neves"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/60905-Pulsatilla-vernalis"
-    },
-    "1394591": {
-        "nomes_cientificos": [
-            "Angelica_sylvestris"
-        ],
-        "nomes_populares": [
-            "angélica-silvestre",
-            "angélica-dos-montes",
-            "erva-piolheira",
-            "erva-sarneira"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/158380-Angelica-sylvestris"
-    },
-    "1394994": {
-        "nomes_cientificos": [
-            "Pyracantha_coccinea"
-        ],
-        "nomes_populares": [
-            "piracanta",
-            "Sarça-Ardente"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/57254-Pyracantha-coccinea"
-    },
-    "1396708": {
-        "nomes_cientificos": [
-            "Metasequoia_glyptostroboides"
-        ],
-        "nomes_populares": [
-            "Metasequóia",
-            "Metasequoia glyptostroboides"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/69150-Metasequoia-glyptostroboides"
-    },
-    "1396713": {
-        "nomes_cientificos": [
-            "Telekia_speciosa"
-        ],
-        "nomes_populares": [
-            "oxeye de folhas em coração",
-            "oxeye amarelo",
-            "heart-leaved oxeye",
-            "yellow oxeye"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/358060-Telekia-speciosa"
-    },
-    "1396824": {
-        "nomes_cientificos": [
-            "Tradescantia_virginiana"
-        ],
-        "nomes_populares": [
-            "Complex Tradescantia virginiana",
-            "Tradescantia virginiana"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/1556345-Tradescantia-virginiana"
-    },
-    "1396843": {
-        "nomes_cientificos": [
-            "Trifolium_alpinum"
-        ],
-        "nomes_populares": [
-            "trevo alpino",
-            "alpine clover"
-        ],
-        "link": "https://www.biodiversity4all.org/taxa/85423-Trifolium-alpinum"
-    },
-    "1397268": {
-        "nomes_cientificos": [
-            "Anemone_hupehensis"
+            "anemone_hupehensis"
         ],
         "nomes_populares": [
             "Eriocapitella hupehensis"
         ],
         "link": "https://www.biodiversity4all.org/taxa/950312-Eriocapitella-hupehensis"
     },
-    "1397311": {
+    "anemone_narcissiflora": {
         "nomes_cientificos": [
-            "Anemone_narcissiflora"
+            "anemone_narcissiflora"
         ],
         "nomes_populares": [
-            "narcissus anemone",
-            "narcissus-flowered anemone",
-            "anêmona narciso",
-            "anêmona com flor de narciso"
+            "narcissus anemone; narcissus-flowered anemone; anêmona narciso; anêmona com flor de narciso"
         ],
         "link": "https://www.biodiversity4all.org/taxa/881556-Anemonastrum-narcissiflorum"
     },
-    "1397312": {
+    "anemone_nemorosa": {
         "nomes_cientificos": [
-            "Anemone_ranunculoides"
+            "anemone_nemorosa"
         ],
         "nomes_populares": [
-            "anêmona amarela",
-            "anêmona amarela da madeira",
-            "anêmona botão de ouro",
-            "yellow anemone",
-            "yellow wood anemone",
-            "buttercup anemone"
+            "anémona-dos-bosques"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/950603-Anemonoides-nemorosa"
+    },
+    "anemone_pulsatilla": {
+        "nomes_cientificos": [
+            "anemone_pulsatilla"
+        ],
+        "nomes_populares": [
+            "pasqueflower; Pulsatilla vulgaris"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/60786-Pulsatilla-vulgaris"
+    },
+    "anemone_ranunculoides": {
+        "nomes_cientificos": [
+            "anemone_ranunculoides"
+        ],
+        "nomes_populares": [
+            "anêmona amarela; anêmona amarela da madeira; anêmona botão de ouro; yellow anemone; yellow wood anemone; buttercup anemone"
         ],
         "link": "https://www.biodiversity4all.org/taxa/950596-Anemonoides-ranunculoides"
     },
-    "1397351": {
+    "anemone_vernalis": {
         "nomes_cientificos": [
-            "Cirsium_acaulon"
+            "anemone_vernalis"
         ],
         "nomes_populares": [
-            "dwarf thistle",
-            "stemless thistle",
-            "cardo anão",
-            "cardo sem caule"
+            "spring pasqueflower; arctic violet; lady of the snows; flor-de-pasque-da-primavera; violeta-ártica; dama das neves"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/60905-Pulsatilla-vernalis"
+    },
+    "anethum_graveolens": {
+        "nomes_cientificos": [
+            "anethum_graveolens"
+        ],
+        "nomes_populares": [
+            "endro"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Anethum_graveolens"
+    },
+    "angelica_sylvestris": {
+        "nomes_cientificos": [
+            "angelica_sylvestris"
+        ],
+        "nomes_populares": [
+            "angélica-silvestre; angélica-dos-montes; erva-piolheira; erva-sarneira"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/158380-Angelica-sylvestris"
+    },
+    "angiopteris_evecta": {
+        "nomes_cientificos": [
+            "angiopteris_evecta"
+        ],
+        "nomes_populares": [
+            "Samambaia Gigante",
+            "Samambaia Elefante"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/122319-Angiopteris-evecta"
+    },
+    "annona_muricata": {
+        "nomes_cientificos": [
+            "annona_muricata"
+        ],
+        "nomes_populares": [
+            "graveóla",
+            "graviola",
+            "jaca-de-pobre",
+            "graviola-do-norte",
+            "araticum-de-comer",
+            "araticum-manso",
+            "areticum",
+            "jaca-do-pará"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Annona_muricata"
+    },
+    "annona_squamosa": {
+        "nomes_cientificos": [
+            "annona_squamosa"
+        ],
+        "nomes_populares": [
+            "pinha",
+            "ata",
+            "fruta-do-conde",
+            "ateira",
+            "fruta-de-condessa",
+            "fruteira-de-conde",
+            "pinha-da-bahia",
+            "anon",
+            "fruto-de-condessa"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Annona_squamosa"
+    },
+    "anthericum_liliago": {
+        "nomes_cientificos": [
+            "anthericum_liliago"
+        ],
+        "nomes_populares": [
+            "lírio de São Bernardo; St Bernard's lily; Açucena-Fina"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/202500-Anthericum-liliago"
+    },
+    "anthurium_andraeanum": {
+        "nomes_cientificos": [
+            "anthurium_andraeanum"
+        ],
+        "nomes_populares": [
+            "Antúrio de flor"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/69235-Anthurium-andraeanum"
+    },
+    "antirrhinum_majus": {
+        "nomes_cientificos": [
+            "antirrhinum_majus"
+        ],
+        "nomes_populares": [
+            "boca-de-leão",
+            "boca-de-lobo",
+            "boca-de-peixe"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/48969-Antirrhinum-majus"
+    },
+    "aphelandra_squarrosa": {
+        "nomes_cientificos": [
+            "aphelandra_squarrosa"
+        ],
+        "nomes_populares": [
+            "Afelandra Zebra",
+            "Espiga Dourada",
+            "Planta Zebra"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/322316-Aphelandra-squarrosa"
+    },
+    "apium_graveolens": {
+        "nomes_cientificos": [
+            "apium_graveolens"
+        ],
+        "nomes_populares": [
+            "Aipo",
+            "Salsão Selvagem"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Apium_graveolens"
+    },
+    "araucaria_angustifolia": {
+        "nomes_cientificos": [
+            "araucaria_angustifolia"
+        ],
+        "nomes_populares": [
+            "Araucária",
+            "Curi",
+            "Pinheiro Brasileiro",
+            "Pinheiro Caiová",
+            "Pinheiro Das Missões",
+            "Pinheiro São José"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Araucaria_angustifolia"
+    },
+    "ardisia_crenata": {
+        "nomes_cientificos": [
+            "ardisia_crenata"
+        ],
+        "nomes_populares": [
+            "Ardísia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ardisia_crenata"
+    },
+    "artocarpus_altilis": {
+        "nomes_cientificos": [
+            "artocarpus_altilis"
+        ],
+        "nomes_populares": [
+            "Árvore do Pão",
+            "Castanheira",
+            "Fruta de Pão",
+            "Fruteira Pão",
+            "Pão de Massa",
+            "Rima"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Artocarpus_altilis"
+    },
+    "artocarpus_heterophyllus": {
+        "nomes_cientificos": [
+            "artocarpus_heterophyllus"
+        ],
+        "nomes_populares": [
+            "Jaca"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Artocarpus_heterophyllus"
+    },
+    "arundina_graminifolia": {
+        "nomes_cientificos": [
+            "arundina_graminifolia"
+        ],
+        "nomes_populares": [
+            "Arundina",
+            "orquídea-bambu"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Arundina_graminifolia"
+    },
+    "asparagus_setaceus": {
+        "nomes_cientificos": [
+            "asparagus_setaceus"
+        ],
+        "nomes_populares": [
+            "Aspargo Samambaia",
+            "Asparagus",
+            "Aspargo",
+            "Aspargo Plumoso",
+            "Asparguinho de Jadim",
+            "Melindre"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Asparagus_setaceus"
+    },
+    "asystasia_gangetica": {
+        "nomes_cientificos": [
+            "asystasia_gangetica"
+        ],
+        "nomes_populares": [
+            "Asistásia",
+            "Asistásia Branca"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/159049-Asystasia-gangetica"
+    },
+    "aucuba_japonica": {
+        "nomes_cientificos": [
+            "aucuba_japonica"
+        ],
+        "nomes_populares": [
+            "Cróton da Serra",
+            "Aucuba",
+            "louro-japonês"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Aucuba_japonica"
+    },
+    "averrhoa_carambola": {
+        "nomes_cientificos": [
+            "averrhoa_carambola"
+        ],
+        "nomes_populares": [
+            "Caramboleira",
+            "Camerunga",
+            "Caramboleira",
+            "Caramboleiro"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Averrhoa_carambola"
+    },
+    "axonopus_compressus": {
+        "nomes_cientificos": [
+            "axonopus_compressus"
+        ],
+        "nomes_populares": [
+            "Grama curitibana",
+            "Grama missioneira",
+            "Grama sempre verde",
+            "Grama tapete",
+            "Grama-São-Carlos"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/159110-Axonopus-compressus"
+    },
+    "baccharis_dracunculifolia": {
+        "nomes_cientificos": [
+            "baccharis_dracunculifolia"
+        ],
+        "nomes_populares": [
+            "Alecrim Doura",
+            "Vassourinha",
+            "Alecrim-do-campo"
+        ],
+        "link": "alecrim-do-campo (Baccharis dracunculifolia) · BioDiversity4All"
+    },
+    "banksia_marginata": {
+        "nomes_cientificos": [
+            "banksia_marginata"
+        ],
+        "nomes_populares": [
+            "Banksia de Prata"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/133274-Banksia-marginata"
+    },
+    "barbarea_vulgaris": {
+        "nomes_cientificos": [
+            "barbarea_vulgaris"
+        ],
+        "nomes_populares": [
+            "Erva-de-Santa-Bárbara; agrião-da-terra; erva-de-são-julião; erva-dos-carpinteiros"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/56126-Barbarea-vulgaris"
+    },
+    "barleria_cristata": {
+        "nomes_cientificos": [
+            "barleria_cristata"
+        ],
+        "nomes_populares": [
+            "Violeta Filipina",
+            "barléria"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Barleria_cristata"
+    },
+    "barleria_repens": {
+        "nomes_cientificos": [
+            "barleria_repens"
+        ],
+        "nomes_populares": [
+            "barléria-vermelha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Barleria_repens"
+    },
+    "bauhinia_forficata": {
+        "nomes_cientificos": [
+            "bauhinia_forficata"
+        ],
+        "nomes_populares": [
+            "Mororó",
+            "Unha de Vaca",
+            "pata-de-vaca",
+            "casco-de-vaca",
+            "pata-de-boi",
+            "pata-de-vaca-branca",
+            "unha-de-boi"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/139568-Bauhinia-forficata"
+    },
+    "bauhinia_monandra": {
+        "nomes_cientificos": [
+            "bauhinia_monandra"
+        ],
+        "nomes_populares": [
+            "Asas de Anjo",
+            "Flor Borboleta",
+            "Pluma de Napoleão",
+            "Orquídea Dos Pobres",
+            "Árvore-orquídea"
+        ],
+        "link": "Árvore-orquídea (Bauhinia monandra) · BioDiversity4All"
+    },
+    "bauhinia_variegata": {
+        "nomes_cientificos": [
+            "bauhinia_variegata"
+        ],
+        "nomes_populares": [
+            "Pata de Vaca de Flor Roxa",
+            "Pata de Vaca Rosa Unha de Vaca"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/68225-Bauhinia-variegata"
+    },
+    "begonia_cucullata": {
+        "nomes_cientificos": [
+            "begonia_cucullata"
+        ],
+        "nomes_populares": [
+            "Begônia Cerosa",
+            "begônia baqueada"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/159204-Begonia-cucullata"
+    },
+    "beta_vulgaris": {
+        "nomes_cientificos": [
+            "beta_vulgaris"
+        ],
+        "nomes_populares": [
+            "acelga",
+            "beterraba"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Beta_vulgaris"
+    },
+    "bixa_orellana": {
+        "nomes_cientificos": [
+            "bixa_orellana"
+        ],
+        "nomes_populares": [
+            "Achicote",
+            "Achiote",
+            "Achote",
+            "Bija",
+            "Bixa",
+            "Colorau",
+            "Orucú",
+            "Tintória",
+            "Urucuzeiro"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Bixa_orellana"
+    },
+    "blechnum_penna_marina": {
+        "nomes_cientificos": [
+            "blechnum_penna_marina"
+        ],
+        "nomes_populares": [
+            "Blechnum penna-marina"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/218501-Blechnum-penna-marina"
+    },
+    "bombax_ceiba": {
+        "nomes_cientificos": [
+            "bombax_ceiba"
+        ],
+        "nomes_populares": [
+            "paineira-vermelha-da-índia",
+            "Paineira-Vermelha"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/68313-Bombax-ceiba"
+    },
+    "brachychiton_acerifolius": {
+        "nomes_cientificos": [
+            "brachychiton_acerifolius"
+        ],
+        "nomes_populares": [
+            "Árvore de Fogo de Illawarra",
+            "Braquiquiro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/122300-Brachychiton-acerifolius"
+    },
+    "brachychiton_populneus": {
+        "nomes_cientificos": [
+            "brachychiton_populneus"
+        ],
+        "nomes_populares": [
+            "Branquiquito",
+            "Kurrajong",
+            "Perna-de-Moça"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/349248-Brachychiton-populneus"
+    },
+    "brugmansia_suaveolens": {
+        "nomes_cientificos": [
+            "brugmansia_suaveolens"
+        ],
+        "nomes_populares": [
+            "trombeta",
+            "trombeta-de-anjo",
+            "zabumba",
+            "cartucho",
+            "hálito-do-diabo",
+            "mata-zombando",
+            "erva-dos-mágicos",
+            "erva-dos-feitiçeiros",
+            "borrachero",
+            "cacao-sabanero"
+        ],
+        "link": "Trombeta (Brugmansia suaveolens) · BioDiversity4All"
+    },
+    "butomus_umbellatus": {
+        "nomes_cientificos": [
+            "butomus_umbellatus"
+        ],
+        "nomes_populares": [
+            "Junco-Florido"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/60462-Butomus-umbellatus"
+    },
+    "buxus_sempervirens": {
+        "nomes_cientificos": [
+            "buxus_sempervirens"
+        ],
+        "nomes_populares": [
+            "Árvore da caixa",
+            "Buxo",
+            "buxinho-bola"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Buxus_sempervirens"
+    },
+    "byrsonima_crassifolia": {
+        "nomes_cientificos": [
+            "byrsonima_crassifolia"
+        ],
+        "nomes_populares": [
+            "Muruci da Praia",
+            "Murici",
+            "Canjicão",
+            "murici-do-brejo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/154528-Byrsonima-crassifolia"
+    },
+    "caesalpinia_pulcherrima": {
+        "nomes_cientificos": [
+            "caesalpinia_pulcherrima"
+        ],
+        "nomes_populares": [
+            "flamboyanzinho",
+            "flamboyant-mirim",
+            "barba-de-barata",
+            "flor-de-pavão",
+            "flamboyant-de-jardim"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Caesalpinia_pulcherrima"
+    },
+    "calendula_officinalis": {
+        "nomes_cientificos": [
+            "calendula_officinalis"
+        ],
+        "nomes_populares": [
+            "Malmequer",
+            "Maravilha do Jardim"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/75931-Calendula-officinalis"
+    },
+    "calliandra_haematocephala": {
+        "nomes_cientificos": [
+            "calliandra_haematocephala"
+        ],
+        "nomes_populares": [
+            "esponja",
+            "esponjinha-de-sangue",
+            "esponjinha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Calliandra_haematocephala"
+    },
+    "callisia_repens": {
+        "nomes_cientificos": [
+            "callisia_repens"
+        ],
+        "nomes_populares": [
+            "Dinheiro em penca",
+            "Dinheirinho",
+            "Mosquitinho"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/159681-Callisia-repens"
+    },
+    "calycanthus_floridus": {
+        "nomes_cientificos": [
+            "calycanthus_floridus"
+        ],
+        "nomes_populares": [
+            "eastern sweetshrub; Carolina all spice; spicebush; arbusto doce oriental"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/126485-Calycanthus-floridus"
+    },
+    "camellia_japonica": {
+        "nomes_cientificos": [
+            "camellia_japonica"
+        ],
+        "nomes_populares": [
+            "rosa-do-japão",
+            "camélia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Camellia_japonica"
+    },
+    "campanula_medium": {
+        "nomes_cientificos": [
+            "campanula_medium"
+        ],
+        "nomes_populares": [
+            "Flor de Sino",
+            "flor de vidro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/159761-Campanula-medium"
+    },
+    "canavalia_rosea": {
+        "nomes_cientificos": [
+            "canavalia_rosea"
+        ],
+        "nomes_populares": [
+            "beach-bean",
+            "feijão-da-praia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Canavalia_rosea"
+    },
+    "canna_indica": {
+        "nomes_cientificos": [
+            "canna_indica"
+        ],
+        "nomes_populares": [
+            "Beri Silvestre",
+            "Bananeirinha",
+            "Birí Silvestre",
+            "achira",
+            "cana-índica",
+            "cana-do-brejo",
+            "biri",
+            "bananeirinha-de-jardim"
+        ],
+        "link": "Cana-da-índia (Canna indica) · BioDiversity4All"
+    },
+    "capsicum_annuum": {
+        "nomes_cientificos": [
+            "capsicum_annuum"
+        ],
+        "nomes_populares": [
+            "Pimentão Comum"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Capsicum_annuum"
+    },
+    "carissa_macrocarpa": {
+        "nomes_cientificos": [
+            "carissa_macrocarpa"
+        ],
+        "nomes_populares": [
+            "Ameixa Africana",
+            "ameixa-de-natal",
+            "carissa",
+            "laranjinha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Carissa_macrocarpa"
+    },
+    "carpobrotus_edulis": {
+        "nomes_cientificos": [
+            "carpobrotus_edulis"
+        ],
+        "nomes_populares": [
+            "chorão-da-praia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Carpobrotus_edulis"
+    },
+    "carthamus_lanatus": {
+        "nomes_cientificos": [
+            "carthamus_lanatus"
+        ],
+        "nomes_populares": [
+            "cardo-beija-mão; cardo-cristo; cardo-sanguinho"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/234914-Carthamus-lanatus-lanatus"
+    },
+    "carthamus_tinctorius": {
+        "nomes_cientificos": [
+            "carthamus_tinctorius"
+        ],
+        "nomes_populares": [
+            "açafrão-bastardo; açafroa; açafrol; cártamo; açafrão-agreste; açafrão-dos-tintureiros; açafrão-bravo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/76135-Carthamus-tinctorius"
+    },
+    "caryota_mitis": {
+        "nomes_cientificos": [
+            "caryota_mitis"
+        ],
+        "nomes_populares": [
+            "Cariota de Touceira",
+            "Palmeira Rabo de Peixe de Touceira"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Caryota_mitis"
+    },
+    "cascabela_thevetia": {
+        "nomes_cientificos": [
+            "cascabela_thevetia"
+        ],
+        "nomes_populares": [
+            "Acaimirim",
+            "Auaí Guaçu",
+            "Cerbera",
+            "Noz de Cobra",
+            "Chapéu-de-Napoleão"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/277115-Cascabela-thevetia"
+    },
+    "casearia_sylvestris": {
+        "nomes_cientificos": [
+            "casearia_sylvestris"
+        ],
+        "nomes_populares": [
+            "Pau de Lagarto",
+            "guaçatonga"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Casearia_sylvestris"
+    },
+    "cassia_fistula": {
+        "nomes_cientificos": [
+            "cassia_fistula"
+        ],
+        "nomes_populares": [
+            "Chuva de Ouro",
+            "Canafístula",
+            "cássia-imperial"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cassia_fistula"
+    },
+    "cecropia_pachystachya": {
+        "nomes_cientificos": [
+            "cecropia_pachystachya"
+        ],
+        "nomes_populares": [
+            "embaúba",
+            "embaúba-branca"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cecropia_pachystachya"
+    },
+    "celosia_argentea": {
+        "nomes_cientificos": [
+            "celosia_argentea"
+        ],
+        "nomes_populares": [
+            "amaranto-roxo",
+            "rabo-de-galo",
+            "celósia",
+            "espinafre-africano"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/160259-Celosia-argentea"
+    },
+    "cenchrus_setaceus": {
+        "nomes_cientificos": [
+            "cenchrus_setaceus"
+        ],
+        "nomes_populares": [
+            "Capim chorão",
+            "Pennisetum setaceum"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/430581-Cenchrus-setaceus"
+    },
+    "centranthus_ruber": {
+        "nomes_cientificos": [
+            "centranthus_ruber"
+        ],
+        "nomes_populares": [
+            "boliana; cuidado-dos-homens; rosa-da-rocha; valeriana-vermelha"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/57283-Centranthus-ruber"
+    },
+    "cereus_jamacaru": {
+        "nomes_cientificos": [
+            "cereus_jamacaru"
+        ],
+        "nomes_populares": [
+            "Cardeiro",
+            "Jamacaru"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cereus_jamacaru"
+    },
+    "cestrum_nocturnum": {
+        "nomes_cientificos": [
+            "cestrum_nocturnum"
+        ],
+        "nomes_populares": [
+            "Coerana",
+            "Coirana",
+            "Flor da Noite",
+            "Jasmim da Noite",
+            "Jasmim Verde",
+            "Rainha da Noite"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cestrum_nocturnum"
+    },
+    "chaenomeles_speciosa": {
+        "nomes_cientificos": [
+            "chaenomeles_speciosa"
+        ],
+        "nomes_populares": [
+            "Cidônia",
+            "Marmelo de Jardim",
+            "Marmelo Japonês"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Chaenomeles_speciosa"
+    },
+    "chaerophyllum_temulum": {
+        "nomes_cientificos": [
+            "chaerophyllum_temulum"
+        ],
+        "nomes_populares": [
+            "cerefolho; cerefolho-bravo; cerefólio-bravo; salsa-de-burro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/55733-Chaerophyllum-temulum"
+    },
+    "chamaerops_humilis": {
+        "nomes_cientificos": [
+            "chamaerops_humilis"
+        ],
+        "nomes_populares": [
+            "Palmeira de Leque Europa",
+            "palmito-espanhol",
+            "palmeira-do-mediterrâneo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Chamaerops_humilis"
+    },
+    "chlorophytum_comosum": {
+        "nomes_cientificos": [
+            "chlorophytum_comosum"
+        ],
+        "nomes_populares": [
+            "Gravatinha",
+            "clorofito"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Chlorophytum_comosum"
+    },
+    "chrysophyllum_cainito": {
+        "nomes_cientificos": [
+            "chrysophyllum_cainito"
+        ],
+        "nomes_populares": [
+            "Caimito",
+            "Caimitillo",
+            "Star Appple Fruit",
+            "Caimito Roxo",
+            "Caimiteiro",
+            "Camiquiê",
+            "Star Apple",
+            "Maçã Estrelada",
+            "Caimitier"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Chrysophyllum_cainito"
+    },
+    "cirsium_acaulon": {
+        "nomes_cientificos": [
+            "cirsium_acaulon"
+        ],
+        "nomes_populares": [
+            "dwarf thistle; stemless thistle; cardo anão; cardo sem caule"
         ],
         "link": "https://www.biodiversity4all.org/taxa/797770-Cirsium-acaulon"
     },
-    "1397352": {
+    "cirsium_arvense": {
         "nomes_cientificos": [
-            "Cirsium_spinosissimum"
+            "cirsium_arvense"
         ],
         "nomes_populares": [
-            "spiniest thistle",
-            "cardo espinhoso",
-            "A cereja mais espinhosa"
+            "cardo-das-vinhas; cardo-rasteiro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/60132-Cirsium-arvense"
+    },
+    "cirsium_eriophorum": {
+        "nomes_cientificos": [
+            "cirsium_eriophorum"
+        ],
+        "nomes_populares": [
+            "Lophiolepis eriophora"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/1501832-Lophiolepis-eriophora"
+    },
+    "cirsium_oleraceum": {
+        "nomes_cientificos": [
+            "cirsium_oleraceum"
+        ],
+        "nomes_populares": [
+            "cardo-repolho; cardo siberiano"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/133653-Cirsium-oleraceum"
+    },
+    "cirsium_palustre": {
+        "nomes_cientificos": [
+            "cirsium_palustre"
+        ],
+        "nomes_populares": [
+            "Cardo-Palustre"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/160623-Cirsium-palustre"
+    },
+    "cirsium_spinosissimum": {
+        "nomes_cientificos": [
+            "cirsium_spinosissimum"
+        ],
+        "nomes_populares": [
+            "spiniest thistle; cardo espinhoso; A cereja mais espinhosa"
         ],
         "link": "https://www.biodiversity4all.org/taxa/131143-Cirsium-spinosissimum"
     },
-    "1397364": {
+    "cirsium_vulgare": {
         "nomes_cientificos": [
-            "Cymbalaria_muralis"
+            "cirsium_vulgare"
+        ],
+        "nomes_populares": [
+            "cardo-roxo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/52989-Cirsium-vulgare"
+    },
+    "clerodendrum_chinense": {
+        "nomes_cientificos": [
+            "clerodendrum_chinense"
+        ],
+        "nomes_populares": [
+            "clerodendron-branco-perfumado"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Clerodendrum_chinense"
+    },
+    "clerodendrum_infortunatum": {
+        "nomes_cientificos": [
+            "clerodendrum_infortunatum"
+        ],
+        "nomes_populares": [
+            "Clerodendro do Morro",
+            "Clerodendro",
+            "Flor do Montouro",
+            "Clerodendro Odorífico",
+            "caramanchão de glória da colina"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/119290-Clerodendrum-infortunatum"
+    },
+    "clitoria_ternatea": {
+        "nomes_cientificos": [
+            "clitoria_ternatea"
+        ],
+        "nomes_populares": [
+            "Bluebellvine",
+            "Ervilha Azul",
+            "Ervilha Borboleta",
+            "Feijão Borboleta",
+            "cunhã"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Clitoria_ternatea"
+    },
+    "clusia_rosea": {
+        "nomes_cientificos": [
+            "clusia_rosea"
+        ],
+        "nomes_populares": [
+            "maçã bálsamo",
+            "maçã-de-breu",
+            "advogado escocês"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/160760-Clusia-rosea"
+    },
+    "cocos_nucifera": {
+        "nomes_cientificos": [
+            "cocos_nucifera"
+        ],
+        "nomes_populares": [
+            "Coco",
+            "Coco da Baía",
+            "Coco da Praia",
+            "Coqueiro Anão",
+            "Coqueiro da Índia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cocos_nucifera"
+    },
+    "codiaeum_variegatum": {
+        "nomes_cientificos": [
+            "codiaeum_variegatum"
+        ],
+        "nomes_populares": [
+            "Cróton"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/127387-Codiaeum-variegatum"
+    },
+    "coffea_arabica": {
+        "nomes_cientificos": [
+            "coffea_arabica"
+        ],
+        "nomes_populares": [
+            "Café Arábica",
+            "Café"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Coffea_arabica"
+    },
+    "coleus_scutellarioides": {
+        "nomes_cientificos": [
+            "coleus_scutellarioides"
+        ],
+        "nomes_populares": [
+            "Coleo",
+            "Coração Magoado"
+        ],
+        "link": "Coleus (Coleus scutellarioides) · BioDiversity4All"
+    },
+    "combretum_indicum": {
+        "nomes_cientificos": [
+            "combretum_indicum"
+        ],
+        "nomes_populares": [
+            "trepadeira de Rangum",
+            "trepadeira da Birmânia"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/284831-Combretum-indicum"
+    },
+    "cordyline_fruticosa": {
+        "nomes_cientificos": [
+            "cordyline_fruticosa"
+        ],
+        "nomes_populares": [
+            "Coqueiro de Vênus",
+            "Cordiline"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cordyline_fruticosa"
+    },
+    "coriandrum_sativum": {
+        "nomes_cientificos": [
+            "coriandrum_sativum"
+        ],
+        "nomes_populares": [
+            "Cilantro",
+            "Coentro Português",
+            "Coriandro"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Coriandrum_sativum"
+    },
+    "cortaderia_selloana": {
+        "nomes_cientificos": [
+            "cortaderia_selloana"
+        ],
+        "nomes_populares": [
+            "Cana dos pampas",
+            "Cortadeira",
+            "Penacho branco",
+            "Pluma"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/64240-Cortaderia-selloana"
+    },
+    "costus_spiralis": {
+        "nomes_cientificos": [
+            "costus_spiralis"
+        ],
+        "nomes_populares": [
+            "Caatinga",
+            "Cana Branca",
+            "Cana de Macaco",
+            "Cana do Brejo",
+            "Cana do Mato",
+            "Canarana do Brejo",
+            "Jacuacanga",
+            "Jacuanga",
+            "Paco Caatinga",
+            "Pacová",
+            "Periná",
+            "Ubacaia",
+            "Ubacayá"
+        ],
+        "link": "Cana-do-brejo (Costus spiralis) · iNaturalist"
+    },
+    "couroupita_guianensis": {
+        "nomes_cientificos": [
+            "couroupita_guianensis"
+        ],
+        "nomes_populares": [
+            "Castanha de Macaco",
+            "Cuia de Macaco",
+            "Macacarecuia"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/48163-Couroupita-guianensis"
+    },
+    "crassula_ovata": {
+        "nomes_cientificos": [
+            "crassula_ovata"
+        ],
+        "nomes_populares": [
+            "Planta jade",
+            "Árvore da amizade",
+            "Bálsamo de jardim"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Crassula_ovata"
+    },
+    "crataegus_germanica": {
+        "nomes_cientificos": [
+            "crataegus_germanica"
+        ],
+        "nomes_populares": [
+            "Nêspera da Pérsia"
+        ],
+        "link": "https://www.inaturalist.org/taxa/1367002-Crataegus-germanica"
+    },
+    "crescentia_cujete": {
+        "nomes_cientificos": [
+            "crescentia_cujete"
+        ],
+        "nomes_populares": [
+            "árvore-de-cuia",
+            "cabaceira",
+            "coitê",
+            "cueira"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Crescentia_cujete"
+    },
+    "croton_urucurana": {
+        "nomes_cientificos": [
+            "croton_urucurana"
+        ],
+        "nomes_populares": [
+            "Urucurana",
+            "Sangue de Drago",
+            "pau-de-sangue"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Croton_urucurana"
+    },
+    "cucumis_sativus": {
+        "nomes_cientificos": [
+            "cucumis_sativus"
+        ],
+        "nomes_populares": [
+            "pepino"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cucumis_sativus"
+    },
+    "cucurbita_pepo": {
+        "nomes_cientificos": [
+            "cucurbita_pepo"
+        ],
+        "nomes_populares": [
+            "Abobrinha; jerimum-mirim; courgette; curgete; abóbora-moganga; abóbora-porqueira; abobrinha italiana; jerimum; abóbora-carneira; abóbora-de-porco; abóbora-moranga"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/76541-Cucurbita-pepo"
+    },
+    "cuphea_hyssopifolia": {
+        "nomes_cientificos": [
+            "cuphea_hyssopifolia"
+        ],
+        "nomes_populares": [
+            "Mini Érica",
+            "Cufeia",
+            "Cuphea gracilis"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cuphea_hyssopifolia"
+    },
+    "cupressus_sempervirens": {
+        "nomes_cientificos": [
+            "cupressus_sempervirens"
+        ],
+        "nomes_populares": [
+            "Cipreste Comum",
+            "Cipreste de Itália",
+            "Cipreste Mediterrânico",
+            "Cipreste Piramidal"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cupressus_sempervirens"
+    },
+    "cyclamen_persicum": {
+        "nomes_cientificos": [
+            "cyclamen_persicum"
+        ],
+        "nomes_populares": [
+            "Ciclame da Pérsia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cyclamen_persicum"
+    },
+    "cymbalaria_muralis": {
+        "nomes_cientificos": [
+            "cymbalaria_muralis"
         ],
         "nomes_populares": [
             "Cimbalária-Das-Ruínas"
         ],
         "link": "https://www.biodiversity4all.org/taxa/55727-Cymbalaria-muralis"
     },
-    "1397403": {
+    "cynodon_dactylon": {
         "nomes_cientificos": [
-            "Honckenya_peploides"
+            "cynodon_dactylon"
+        ],
+        "nomes_populares": [
+            "capim-seda",
+            "capim-da-cidade",
+            "capim-de-burro",
+            "Pé de Galinha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cynodon_dactylon"
+    },
+    "cyperus_alternifolius": {
+        "nomes_cientificos": [
+            "cyperus_alternifolius"
+        ],
+        "nomes_populares": [
+            "Palmeira Umbela",
+            "Planta Umbela",
+            "Sombrinha",
+            "papiro"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Cyperus_alternifolius"
+    },
+    "cyperus_papyrus": {
+        "nomes_cientificos": [
+            "cyperus_papyrus"
+        ],
+        "nomes_populares": [
+            "Papiro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/161469-Cyperus-papyrus"
+    },
+    "dahlia_pinnata": {
+        "nomes_cientificos": [
+            "dahlia_pinnata"
+        ],
+        "nomes_populares": [
+            "Dália de Jardim"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dahlia_pinnata"
+    },
+    "dalbergia_ecastaphyllum": {
+        "nomes_cientificos": [
+            "dalbergia_ecastaphyllum"
+        ],
+        "nomes_populares": [
+            "Rabo-de-Bugio"
+        ],
+        "link": "https://www.inaturalist.org/taxa/131244-Dalbergia-ecastaphyllum"
+    },
+    "daphne_cneorum": {
+        "nomes_cientificos": [
+            "daphne_cneorum"
+        ],
+        "nomes_populares": [
+            "flor de guirlanda; rosa daphne; garland flower; rose daphne"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/61310-Daphne-cneorum"
+    },
+    "daphne_gnidium": {
+        "nomes_cientificos": [
+            "daphne_gnidium"
+        ],
+        "nomes_populares": [
+            "Trovisco; erva-de-joão-pires; gorreiro; lauréola-macha; mezereão-menor; trovisco-fêmea; trovisqueira"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/82836-Daphne-gnidium"
+    },
+    "daphne_laureola": {
+        "nomes_cientificos": [
+            "daphne_laureola"
+        ],
+        "nomes_populares": [
+            "Trovisco-Louro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/127391-Daphne-laureola"
+    },
+    "daphne_mezereum": {
+        "nomes_cientificos": [
+            "daphne_mezereum"
+        ],
+        "nomes_populares": [
+            "Daphne-de-fevereiro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/133034-Daphne-mezereum"
+    },
+    "daucus_carota": {
+        "nomes_cientificos": [
+            "daucus_carota"
+        ],
+        "nomes_populares": [
+            "Cenoira",
+            "Cenoura Selvagem"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/76610-Daucus-carota"
+    },
+    "delairea_odorata": {
+        "nomes_cientificos": [
+            "delairea_odorata"
+        ],
+        "nomes_populares": [
+            "Hera Alemã",
+            "Trepadeira Senécio"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Delairea_odorata"
+    },
+    "delonix_regia": {
+        "nomes_cientificos": [
+            "delonix_regia"
+        ],
+        "nomes_populares": [
+            "Flamboyant",
+            "Flamboiant"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Delonix_regia"
+    },
+    "dendrobium_nobile": {
+        "nomes_cientificos": [
+            "dendrobium_nobile"
+        ],
+        "nomes_populares": [
+            "Olho de Boneca"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/67756-Dendrobium-nobile"
+    },
+    "dianella_tasmanica": {
+        "nomes_cientificos": [
+            "dianella_tasmanica"
+        ],
+        "nomes_populares": [
+            "dianela"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dianella_tasmanica"
+    },
+    "dichondra_argentea": {
+        "nomes_cientificos": [
+            "dichondra_argentea"
+        ],
+        "nomes_populares": [
+            "trepadeira de prata",
+            "trepadeira de níquel prateado"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/161821-Dichondra-argentea"
+    },
+    "dichondra_repens": {
+        "nomes_cientificos": [
+            "dichondra_repens"
+        ],
+        "nomes_populares": [
+            "erva daninha",
+            "Erva daninha de Mercury Bay"
+        ],
+        "link": "https://www.inaturalist.org/taxa/161824-Dichondra-repens"
+    },
+    "dichorisandra_thyrsiflora": {
+        "nomes_cientificos": [
+            "dichorisandra_thyrsiflora"
+        ],
+        "nomes_populares": [
+            "Gengibre azul"
+        ],
+        "link": "https://www.inaturalist.org/taxa/272905-Dichorisandra"
+    },
+    "dieffenbachia_seguine": {
+        "nomes_cientificos": [
+            "dieffenbachia_seguine"
+        ],
+        "nomes_populares": [
+            "Difembáquia",
+            "comigo-ninguém-pode"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dieffenbachia_seguine"
+    },
+    "dietes_bicolor": {
+        "nomes_cientificos": [
+            "dietes_bicolor"
+        ],
+        "nomes_populares": [
+            "Dietes",
+            "Moreia",
+            "moreia-bicolor"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dietes_bicolor"
+    },
+    "dimocarpus_longan": {
+        "nomes_cientificos": [
+            "dimocarpus_longan"
+        ],
+        "nomes_populares": [
+            "Olho de Boi",
+            "Olho de Dragão",
+            "Dragon's Eye",
+            "Longan"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dimocarpus_longan"
+    },
+    "dionaea_muscipula": {
+        "nomes_cientificos": [
+            "dionaea_muscipula"
+        ],
+        "nomes_populares": [
+            "Dionea",
+            "Vênus Caça Moscas",
+            "Vênus Papa Moscas",
+            "planta-carnívora"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dionaea_muscipula"
+    },
+    "dodonaea_viscosa": {
+        "nomes_cientificos": [
+            "dodonaea_viscosa"
+        ],
+        "nomes_populares": [
+            "Mangue-Ratinho",
+            "vassoura-vermelha"
+        ],
+        "link": "https://www.inaturalist.org/taxa/122711-Dodonaea-viscosa"
+    },
+    "dolichandra_unguis_cati": {
+        "nomes_cientificos": [
+            "dolichandra_unguis_cati"
+        ],
+        "nomes_populares": [
+            "cipó-de-gato",
+            "cipó-de-morcego",
+            "unha-de-gato"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dolichandra_unguis-cati"
+    },
+    "dracaena_fragrans": {
+        "nomes_cientificos": [
+            "dracaena_fragrans"
+        ],
+        "nomes_populares": [
+            "Dracena",
+            "Coqueiro de vênus"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dracaena_fragrans"
+    },
+    "dracaena_hyacinthoides": {
+        "nomes_cientificos": [
+            "dracaena_hyacinthoides"
+        ],
+        "nomes_populares": [
+            "língua-de-sogra"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dracaena_hyacinthoides"
+    },
+    "dracaena_trifasciata": {
+        "nomes_cientificos": [
+            "dracaena_trifasciata"
+        ],
+        "nomes_populares": [
+            "Língua de sogra",
+            "Rabo de lagarto",
+            "Sansevéria"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Dracaena_trifasciata"
+    },
+    "dryas_octopetala": {
+        "nomes_cientificos": [
+            "dryas_octopetala"
+        ],
+        "nomes_populares": [
+            "dríade-branca; dríade-de-oito-pétalas; chá-dos-alpes"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/83541-Dryas-octopetala"
+    },
+    "dryopteris_filix_mas": {
+        "nomes_cientificos": [
+            "dryopteris_filix_mas"
+        ],
+        "nomes_populares": [
+            "samambaia macho"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/76721-Dryopteris-filix-mas"
+    },
+    "duranta_erecta": {
+        "nomes_cientificos": [
+            "duranta_erecta"
+        ],
+        "nomes_populares": [
+            "Violeteira",
+            "Pingo-de-ouro"
+        ],
+        "link": "https://www.inaturalist.org/taxa/162153-Duranta-erecta"
+    },
+    "empetrum_nigrum": {
+        "nomes_cientificos": [
+            "empetrum_nigrum"
+        ],
+        "nomes_populares": [
+            "crowberry; black crowberry"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/76812-Empetrum-nigrum"
+    },
+    "epipactis_atrorubens": {
+        "nomes_cientificos": [
+            "epipactis_atrorubens"
+        ],
+        "nomes_populares": [
+            "helleborina vermelha escura; helleborina real"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/82160-Epipactis-atrorubens"
+    },
+    "epipactis_helleborine": {
+        "nomes_cientificos": [
+            "epipactis_helleborine"
+        ],
+        "nomes_populares": [
+            "Heleborina-de-Folha-Larga; heleborinha"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/50717-Epipactis-helleborine"
+    },
+    "epipactis_palustris": {
+        "nomes_cientificos": [
+            "epipactis_palustris"
+        ],
+        "nomes_populares": [
+            "Heleborina-Dos-Brejos"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/56233-Epipactis-palustris"
+    },
+    "epipremnum_aureum": {
+        "nomes_cientificos": [
+            "epipremnum_aureum"
+        ],
+        "nomes_populares": [
+            "Jiboia verde"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Epipremnum_aureum"
+    },
+    "eriobotrya_japonica": {
+        "nomes_cientificos": [
+            "eriobotrya_japonica"
+        ],
+        "nomes_populares": [
+            "ameixa-japonesa",
+            "nêspera"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Eriobotrya_japonica"
+    },
+    "eruca_vesicaria": {
+        "nomes_cientificos": [
+            "eruca_vesicaria"
+        ],
+        "nomes_populares": [
+            "Pinchão",
+            "rúcula"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Eruca_vesicaria"
+    },
+    "erythrina_crista_galli": {
+        "nomes_cientificos": [
+            "erythrina_crista_galli"
+        ],
+        "nomes_populares": [
+            "corticeira",
+            "ceibo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Erythrina_crista-galli"
+    },
+    "etlingera_elatior": {
+        "nomes_cientificos": [
+            "etlingera_elatior"
+        ],
+        "nomes_populares": [
+            "bastão-do-imperador"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Etlingera_elatior"
+    },
+    "eugenia_uniflora": {
+        "nomes_cientificos": [
+            "eugenia_uniflora"
+        ],
+        "nomes_populares": [
+            "Pitanga",
+            "Cerejeira brasileira",
+            "Pitangueira comum"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Eugenia_uniflora"
+    },
+    "euphorbia_cotinifolia": {
+        "nomes_cientificos": [
+            "euphorbia_cotinifolia"
+        ],
+        "nomes_populares": [
+            "Açacuí",
+            "Aiapana",
+            "Barrabás",
+            "Caracasana",
+            "Figueirinha Roxa",
+            "Maleiteira"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Euphorbia_cotinifolia"
+    },
+    "euphorbia_ingens": {
+        "nomes_cientificos": [
+            "euphorbia_ingens"
+        ],
+        "nomes_populares": [
+            "cacto-candelabro",
+            "árvore-candelabro",
+            "mandacaru-africano"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Euphorbia_ingens"
+    },
+    "euphorbia_pulcherrima": {
+        "nomes_cientificos": [
+            "euphorbia_pulcherrima"
+        ],
+        "nomes_populares": [
+            "Bico de Papagaio",
+            "Flor de Natal",
+            "Flor de Páscoa",
+            "Flor de São João",
+            "Folha de Sangue"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Euphorbia_pulcherrima"
+    },
+    "euphorbia_tirucalli": {
+        "nomes_cientificos": [
+            "euphorbia_tirucalli"
+        ],
+        "nomes_populares": [
+            "avelós",
+            "aveloz",
+            "avelóz-dourado",
+            "avelóz",
+            "palito-de-fogo",
+            "espinho-de-cristo",
+            "pau-sobre-pau",
+            "gaiolinha",
+            "cega-olho"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Euphorbia_tirucalli"
+    },
+    "farfugium_japonicum": {
+        "nomes_cientificos": [
+            "farfugium_japonicum"
+        ],
+        "nomes_populares": [
+            "Planta Leopardo Gigante",
+            "Pata de Cavalo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/322755-Farfugium-japonicum"
+    },
+    "ficus_benghalensis": {
+        "nomes_cientificos": [
+            "ficus_benghalensis"
+        ],
+        "nomes_populares": [
+            "figueira-de-bengala",
+            "baniano"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/54880-Ficus-benghalensis"
+    },
+    "ficus_carica": {
+        "nomes_cientificos": [
+            "ficus_carica"
+        ],
+        "nomes_populares": [
+            "Figo",
+            "Figueira Comum",
+            "Figueira da Europa",
+            "Figueira de Baco",
+            "Figueira de Portugal",
+            "Figueira do Reino"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ficus_carica"
+    },
+    "ficus_elastica": {
+        "nomes_cientificos": [
+            "ficus_elastica"
+        ],
+        "nomes_populares": [
+            "Falsa seringueira",
+            "Árvore da borracha",
+            "Goma elástica",
+            "Borracheira",
+            "Ficus italiano",
+            "Figueira branca"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/126507-Ficus-elastica"
+    },
+    "ficus_insipida": {
+        "nomes_cientificos": [
+            "ficus_insipida"
+        ],
+        "nomes_populares": [
+            "Quaxinguba",
+            "Gameleira",
+            "Apuí",
+            "Apuizeiro",
+            "Figueira Brava",
+            "Figueira Branca"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/273850-Ficus-insipida"
+    },
+    "ficus_microcarpa": {
+        "nomes_cientificos": [
+            "ficus_microcarpa"
+        ],
+        "nomes_populares": [
+            "figueira-de-bengala",
+            "figueira-de-coleira",
+            "figueira-de-fruto-pequeno",
+            "figueira-de-bengala",
+            "louro indiano"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/54982-Ficus-microcarpa"
+    },
+    "ficus_pumila": {
+        "nomes_cientificos": [
+            "ficus_pumila"
+        ],
+        "nomes_populares": [
+            "Herinha Variegata",
+            "Unha-de-Gato"
+        ],
+        "link": "Unha-de-Gato (Ficus pumila) · BioDiversity4All"
+    },
+    "fittonia_albivenis": {
+        "nomes_cientificos": [
+            "fittonia_albivenis"
+        ],
+        "nomes_populares": [
+            "Planta Mosaico"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/327855-Fittonia-albivenis"
+    },
+    "fragaria_vesca": {
+        "nomes_cientificos": [
+            "fragaria_vesca"
+        ],
+        "nomes_populares": [
+            "Morangueiro",
+            "Morangueiro Bravo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/50298-Fragaria-vesca"
+    },
+    "furcraea_foetida": {
+        "nomes_cientificos": [
+            "furcraea_foetida"
+        ],
+        "nomes_populares": [
+            "Agave Furcreia",
+            "Furcrea",
+            "Piteira",
+            "Uroatá Açú",
+            "Gravatá Açú",
+            "Caraguatá Açú",
+            "Pitera",
+            "Pita",
+            "Cocuiza",
+            "Taretra",
+            "Croata Açú",
+            "Piteira Estriada"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Furcraea_foetida"
+    },
+    "galega_officinalis": {
+        "nomes_cientificos": [
+            "galega_officinalis"
+        ],
+        "nomes_populares": [
+            "arruda-caprária; galega"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/157393-Galega-officinalis"
+    },
+    "gardenia_jasminoides": {
+        "nomes_cientificos": [
+            "gardenia_jasminoides"
+        ],
+        "nomes_populares": [
+            "Jasmim do cabo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Gardenia_jasminoides"
+    },
+    "gazania_rigens": {
+        "nomes_cientificos": [
+            "gazania_rigens"
+        ],
+        "nomes_populares": [
+            "gazánia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Gazania_rigens"
+    },
+    "ginkgo_biloba": {
+        "nomes_cientificos": [
+            "ginkgo_biloba"
+        ],
+        "nomes_populares": [
+            "Árvore Avenca",
+            "Ginkgo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ginkgo_biloba"
+    },
+    "gliricidia_sepium": {
+        "nomes_cientificos": [
+            "gliricidia_sepium"
+        ],
+        "nomes_populares": [
+            "coiote",
+            "madre de cacau",
+            "mata raton"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/163327-Gliricidia-sepium"
+    },
+    "gloriosa_superba": {
+        "nomes_cientificos": [
+            "gloriosa_superba"
+        ],
+        "nomes_populares": [
+            "Garras de Tigre",
+            "Lírio Trepadeira"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Gloriosa_superba"
+    },
+    "gomphocarpus_physocarpus": {
+        "nomes_cientificos": [
+            "gomphocarpus_physocarpus"
+        ],
+        "nomes_populares": [
+            "Paina de Santa Bárbara",
+            "Paina de Seda",
+            "Flor Borboleta"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/281273-Gomphocarpus-physocarpus"
+    },
+    "gomphrena_globosa": {
+        "nomes_cientificos": [
+            "gomphrena_globosa"
+        ],
+        "nomes_populares": [
+            "Amaranto Globoso",
+            "Gonfrena",
+            "Perpétua Roxa"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Gomphrena_globosa"
+    },
+    "grevillea_robusta": {
+        "nomes_cientificos": [
+            "grevillea_robusta"
+        ],
+        "nomes_populares": [
+            "Grevílea",
+            "Carvalho Sodoso",
+            "Grevilha de Jardim",
+            "Grevílea Escarlate",
+            "Grevílea Vermelha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Grevillea_robusta"
+    },
+    "guazuma_ulmifolia": {
+        "nomes_cientificos": [
+            "guazuma_ulmifolia"
+        ],
+        "nomes_populares": [
+            "Mutamba",
+            "Mucungo",
+            "Fruta de Macaco",
+            "Embireira",
+            "Pau de Pomba",
+            "Guamaca"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Guazuma_ulmifolia"
+    },
+    "guzmania_lingulata": {
+        "nomes_cientificos": [
+            "guzmania_lingulata"
+        ],
+        "nomes_populares": [
+            "planta aérea tufada de cabeça caída",
+            "estrela escarlate"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/276734-Guzmania-lingulata"
+    },
+    "gypsophila_paniculata": {
+        "nomes_cientificos": [
+            "gypsophila_paniculata"
+        ],
+        "nomes_populares": [
+            "Branquinha",
+            "Cravo de Amor",
+            "Gipsofila",
+            "Véu de Noiva"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Gypsophila_paniculata"
+    },
+    "hebe_salicifolia": {
+        "nomes_cientificos": [
+            "hebe_salicifolia"
+        ],
+        "nomes_populares": [
+            "Veronica salicifolia; hebe de folhas de salgueiro; koromiko"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/738760-Veronica-salicifolia"
+    },
+    "hedera_helix": {
+        "nomes_cientificos": [
+            "hedera_helix"
+        ],
+        "nomes_populares": [
+            "Aradeira",
+            "Hedra",
+            "Hera dos muros",
+            "Hera inglesa",
+            "Hera trepadeira",
+            "Hera verdadeira",
+            "Heradeira",
+            "Hereira",
+            "Hera mini"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Hedera_helix"
+    },
+    "hedychium_coronarium": {
+        "nomes_cientificos": [
+            "hedychium_coronarium"
+        ],
+        "nomes_populares": [
+            "Gengibre Branco",
+            "Jasmim Borboleta",
+            "Lágrima de Moça",
+            "Lágrima de Vênus",
+            "Lírio Branco"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Hedychium_coronarium"
+    },
+    "helianthus_annuus": {
+        "nomes_cientificos": [
+            "helianthus_annuus"
+        ],
+        "nomes_populares": [
+            "girassol"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Helianthus_annuus"
+    },
+    "helichrysum_italicum": {
+        "nomes_cientificos": [
+            "helichrysum_italicum"
+        ],
+        "nomes_populares": [
+            "erva-do-caril"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/1504192-Helichrysum-italicum"
+    },
+    "heliconia_bihai": {
+        "nomes_cientificos": [
+            "heliconia_bihai"
+        ],
+        "nomes_populares": [
+            "palulu-vermelho",
+            "Pássaro-de-Fogo"
+        ],
+        "link": "Pássaro-de-fogo (Heliconia bihai) · BioDiversidade4Todos"
+    },
+    "heliconia_latispatha": {
+        "nomes_cientificos": [
+            "heliconia_latispatha"
+        ],
+        "nomes_populares": [
+            "helicônia",
+            "helicônia-asa-de-arara"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Heliconia_latispatha"
+    },
+    "heliconia_psittacorum": {
+        "nomes_cientificos": [
+            "heliconia_psittacorum"
+        ],
+        "nomes_populares": [
+            "Caetezinho",
+            "Planta papagaio",
+            "Tracoá"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/260753-Heliconia-psittacorum"
+    },
+    "heliconia_rostrata": {
+        "nomes_cientificos": [
+            "heliconia_rostrata"
+        ],
+        "nomes_populares": [
+            "Bananeira do brejo",
+            "Bananeira ornamental",
+            "Caetê",
+            "Papagaio"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/123960-Heliconia-rostrata"
+    },
+    "hellenia_speciosa": {
+        "nomes_cientificos": [
+            "hellenia_speciosa"
+        ],
+        "nomes_populares": [
+            "cóstus",
+            "cana-do-brejo",
+            "cana-de-macaco",
+            "gengibre-espiral"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Hellenia_speciosa"
+    },
+    "helminthotheca_echioides": {
+        "nomes_cientificos": [
+            "helminthotheca_echioides"
+        ],
+        "nomes_populares": [
+            "Raspa-Saias; Repassage"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/61906-Helminthotheca-echioides"
+    },
+    "heptapleurum_actinophyllum": {
+        "nomes_cientificos": [
+            "heptapleurum_actinophyllum"
+        ],
+        "nomes_populares": [
+            "Árvore Polvo",
+            "Brassaia",
+            "Cheflera",
+            "Cheflera da Folha Grande"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Heptapleurum_actinophyllum"
+    },
+    "hibiscus_mutabilis": {
+        "nomes_cientificos": [
+            "hibiscus_mutabilis"
+        ],
+        "nomes_populares": [
+            "Rosa Louca",
+            "Rosa Maluca",
+            "Rosa Confederada",
+            "Mimo de Vênus",
+            "Rosa Chinesa",
+            "Rosa de Sharon"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Hibiscus_mutabilis"
+    },
+    "hibiscus_sabdariffa": {
+        "nomes_cientificos": [
+            "hibiscus_sabdariffa"
+        ],
+        "nomes_populares": [
+            "Hibisco",
+            "Caruru Azedo",
+            "Vinagreira"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Hibiscus_sabdariffa"
+    },
+    "hippophae_rhamnoides": {
+        "nomes_cientificos": [
+            "hippophae_rhamnoides"
+        ],
+        "nomes_populares": [
+            "Espinheiro-marítimo; espinheiro-cerval-marinho; falso-espinheiro; espinheiro-amarelo; espinho-cerval-marítimo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/163812-Hippophae-rhamnoides"
+    },
+    "holmskioldia_sanguinea": {
+        "nomes_cientificos": [
+            "holmskioldia_sanguinea"
+        ],
+        "nomes_populares": [
+            "Chapéu Chinês Amarelo",
+            "Chapéu Chinês Vernelho",
+            "Chapéu de Mandarim",
+            "Holmskioldia Vermelha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Holmskioldia_sanguinea"
+    },
+    "honckenya_peploides": {
+        "nomes_cientificos": [
+            "honckenya_peploides"
         ],
         "nomes_populares": [
             "Honckenya peploides"
         ],
         "link": "https://www.biodiversity4all.org/taxa/129446-Honckenya-peploides"
     },
-    "1397420": {
+    "hoya_carnosa": {
         "nomes_cientificos": [
-            "Lactuca_perennis"
+            "hoya_carnosa"
         ],
         "nomes_populares": [
-            "alface da montanha",
-            "alface azul",
-            "alface perene",
-            "mountain lettuce",
-            "blue lettuce",
-            "perennial lettuce"
+            "Cerinha",
+            "Flor de Porcelana",
+            "flor-de-cera"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Hoya_carnosa"
+    },
+    "humulus_lupulus": {
+        "nomes_cientificos": [
+            "humulus_lupulus"
+        ],
+        "nomes_populares": [
+            "Lúpulo; pé-de-galo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/53779-Humulus-lupulus"
+    },
+    "hydrangea_macrophylla": {
+        "nomes_cientificos": [
+            "hydrangea_macrophylla"
+        ],
+        "nomes_populares": [
+            "Hidrângea",
+            "Hortência",
+            "Rosa do Japão"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Hydrangea_macrophylla"
+    },
+    "hyoscyamus_albus": {
+        "nomes_cientificos": [
+            "hyoscyamus_albus"
+        ],
+        "nomes_populares": [
+            "meimendro-branco"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/163950-Hyoscyamus-albus"
+    },
+    "hyoscyamus_niger": {
+        "nomes_cientificos": [
+            "hyoscyamus_niger"
+        ],
+        "nomes_populares": [
+            "Meimendro-Negro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/163951-Hyoscyamus-nigerconsole.log"
+    },
+    "hypericum_androsaemum": {
+        "nomes_cientificos": [
+            "hypericum_androsaemum"
+        ],
+        "nomes_populares": [
+            "Hipericão-Do-Gerês; erva-da-pedra; erva-mijadeira; mijadeira"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/77480-Hypericum-androsaemum"
+    },
+    "hypericum_calycinum": {
+        "nomes_cientificos": [
+            "hypericum_calycinum"
+        ],
+        "nomes_populares": [
+            "hipericão-branco; hipericão-dos-jardins; raios-de-sol; véu-de-nossa-senhora"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/77481-Hypericum-calycinum"
+    },
+    "hypericum_perforatum": {
+        "nomes_cientificos": [
+            "hypericum_perforatum"
+        ],
+        "nomes_populares": [
+            "Erva-de-São-João"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/56077-Hypericum-perforatum"
+    },
+    "hypoestes_phyllostachya": {
+        "nomes_cientificos": [
+            "hypoestes_phyllostachya"
+        ],
+        "nomes_populares": [
+            "Face Sardenta",
+            "Hipoeste"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Hypoestes_phyllostachya"
+    },
+    "impatiens_parviflora": {
+        "nomes_cientificos": [
+            "impatiens_parviflora"
+        ],
+        "nomes_populares": [
+            "Impatiens parviflora"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/51736-Impatiens-parviflora"
+    },
+    "impatiens_walleriana": {
+        "nomes_cientificos": [
+            "impatiens_walleriana"
+        ],
+        "nomes_populares": [
+            "Beijo turco",
+            "Balsamina",
+            "Beijinho",
+            "Ciúmes",
+            "Impatiens",
+            "Maravilha",
+            "Maria sem vergonha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Impatiens_walleriana"
+    },
+    "iochroma_arborescens": {
+        "nomes_cientificos": [
+            "iochroma_arborescens"
+        ],
+        "nomes_populares": [
+            "Marianeira",
+            "Espora de Galo",
+            "Marinera",
+            "Fumo Indígena",
+            "Tabaco do Diabo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Iochroma_arborescens"
+    },
+    "ipomoea_batatas": {
+        "nomes_cientificos": [
+            "ipomoea_batatas"
+        ],
+        "nomes_populares": [
+            "Batata Doce"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ipomoea_batatas"
+    },
+    "ipomoea_purpurea": {
+        "nomes_cientificos": [
+            "ipomoea_purpurea"
+        ],
+        "nomes_populares": [
+            "Bom Dia",
+            "Bons Dias",
+            "Campainha",
+            "Corda de Viola",
+            "Corriola",
+            "Jetirana"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ipomoea_purpurea"
+    },
+    "iresine_diffusa": {
+        "nomes_cientificos": [
+            "iresine_diffusa"
+        ],
+        "nomes_populares": [
+            "Coração Magoado",
+            "Coração de Maria",
+            "Orelha de Moleque"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Iresine_diffusa"
+    },
+    "iris_germanica": {
+        "nomes_cientificos": [
+            "iris_germanica"
+        ],
+        "nomes_populares": [
+            "íris",
+            "flor-de-lis"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Iris_germanica"
+    },
+    "iris_pseudacorus": {
+        "nomes_cientificos": [
+            "iris_pseudacorus"
+        ],
+        "nomes_populares": [
+            "Lírio Amarelo Dos Pântanos",
+            "Íris Amarelo",
+            "Iris Pseudacorus"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Iris_pseudacorus"
+    },
+    "ixora_coccinea": {
+        "nomes_cientificos": [
+            "ixora_coccinea"
+        ],
+        "nomes_populares": [
+            "Ixora Coccinea",
+            "Ixora Coral",
+            "Flor de Coral",
+            "Santa Rita",
+            "Chama da Floresta"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ixora_coccinea"
+    },
+    "jacaranda_mimosifolia": {
+        "nomes_cientificos": [
+            "jacaranda_mimosifolia"
+        ],
+        "nomes_populares": [
+            "Carobaguaçu",
+            "Jacarandá"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Jacaranda_mimosifolia"
+    },
+    "jacobaea_maritima": {
+        "nomes_cientificos": [
+            "jacobaea_maritima"
+        ],
+        "nomes_populares": [
+            "Moinho Empoeirado",
+            "moleiro empoeirado"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/357682-Jacobaea-maritima"
+    },
+    "jasminum_fluminense": {
+        "nomes_cientificos": [
+            "jasminum_fluminense"
+        ],
+        "nomes_populares": [
+            "Jasmim do Rio"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/164228-Jasminum-fluminense"
+    },
+    "jatropha_multifida": {
+        "nomes_cientificos": [
+            "jatropha_multifida"
+        ],
+        "nomes_populares": [
+            "Bálsamo",
+            "Flor Coral",
+            "Planta Coral"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/164242-Jatropha-multifida"
+    },
+    "juncus_effusus": {
+        "nomes_cientificos": [
+            "juncus_effusus"
+        ],
+        "nomes_populares": [
+            "Junco Solto"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/1536756-Juncus-effusus"
+    },
+    "juniperus_horizontalis": {
+        "nomes_cientificos": [
+            "juniperus_horizontalis"
+        ],
+        "nomes_populares": [
+            "Pinheiro Rasteiro",
+            "Cedro Rasteiro",
+            "Cedro Jacaré",
+            "Jacaré",
+            "Junípero Rastejante"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Juniperus_horizontalis"
+    },
+    "justicia_brandegeeana": {
+        "nomes_cientificos": [
+            "justicia_brandegeeana"
+        ],
+        "nomes_populares": [
+            "Flor Camarão",
+            "Camarão Vegetal",
+            "Planta Camarão",
+            "Beloperone Guttata"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/84531-Justicia-brandegeeana"
+    },
+    "justicia_carnea": {
+        "nomes_cientificos": [
+            "justicia_carnea"
+        ],
+        "nomes_populares": [
+            "Jacobina",
+            "Justícia",
+            "Jacobínia",
+            "pluma-flor-brasileira",
+            "pluma-Brasil",
+            "flor-flamingo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/327856-Justicia-carnea"
+    },
+    "kniphofia_uvaria": {
+        "nomes_cientificos": [
+            "kniphofia_uvaria"
+        ],
+        "nomes_populares": [
+            "Lírio Tocha"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/56035-Kniphofia-uvaria"
+    },
+    "lactuca_alpina": {
+        "nomes_cientificos": [
+            "lactuca_alpina"
+        ],
+        "nomes_populares": [
+            "cardo-porco alpino; cardo-porco-azul-alpino; alpine sow-thistle; alpine blue-sow-thistle"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/336295-Cicerbita-alpina"
+    },
+    "lactuca_muralis": {
+        "nomes_cientificos": [
+            "lactuca_muralis"
+        ],
+        "nomes_populares": [
+            "alface-de-parede; wall lettuce"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/48543-Mycelis-muralis"
+    },
+    "lactuca_perennis": {
+        "nomes_cientificos": [
+            "lactuca_perennis"
+        ],
+        "nomes_populares": [
+            "alface da montanha; alface azul; alface perene; mountain lettuce; blue lettuce; perennial lettuce"
         ],
         "link": "https://www.biodiversity4all.org/taxa/61297-Lactuca-perennis"
     },
-    "1398178": {
+    "lactuca_sativa": {
         "nomes_cientificos": [
-            "Tradescantia_zebrina"
+            "lactuca_sativa"
         ],
         "nomes_populares": [
-            "Trapoeraba-Zebra",
-            "Zebrina pendula"
+            "Alface"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/169883-Tradescantia-zebrina"
+        "link": "https://www.biodiversity4all.org/taxa/122976-Lactuca-sativa"
     },
-    "1398326": {
+    "lactuca_serriola": {
         "nomes_cientificos": [
-            "Calycanthus_floridus"
+            "lactuca_serriola"
         ],
         "nomes_populares": [
-            "eastern sweetshrub",
-            "Carolina all spice",
-            "spicebush",
-            "arbusto doce oriental"
+            "Alface-Brava-Áspera; Alface-brava; Alface-brava-menor; Alface-brava-pequena; Alface-silvestre"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/126485-Calycanthus-floridus"
+        "link": "https://www.biodiversity4all.org/taxa/53107-Lactuca-serriola"
     },
-    "1398444": {
+    "lagerstroemia_indica": {
         "nomes_cientificos": [
-            "Anemone_blanda"
+            "lagerstroemia_indica"
         ],
         "nomes_populares": [
-            "Anemone blanda",
-            "Balkan anemone",
-            "Grecian windflower",
-            "winter windflower",
-            "anêmona-do-vento-grega",
-            "anêmona-do-vento-de-inverno"
+            "Árvore de Júpiter",
+            "Extremosa",
+            "Flor de Merenda",
+            "Suspiros"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/950617-Anemonoides-blanda"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Lagerstroemia_indica"
     },
-    "1398592": {
+    "lagerstroemia_speciosa": {
         "nomes_cientificos": [
-            "Perovskia_atriplicifolia"
+            "lagerstroemia_speciosa"
         ],
         "nomes_populares": [
-            "Perovskia atriplicifolia",
-            "Sálvia da Rússia",
-            "Salvia yangii"
+            "Banaba",
+            "resedá-gigante"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/941713-Salvia-yangii"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Lagerstroemia_speciosa"
     },
-    "1400100": {
+    "lamium_album": {
         "nomes_cientificos": [
-            "Barbarea_vulgaris"
+            "lamium_album"
         ],
         "nomes_populares": [
-            "Erva-de-Santa-Bárbara",
-            "agrião-da-terra",
-            "erva-de-são-julião",
-            "erva-dos-carpinteiros"
+            "urtiga-branca"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/56126-Barbarea-vulgaris"
+        "link": "https://www.biodiversity4all.org/taxa/55876-Lamium-album"
     },
-    "1405641": {
+    "lamium_amplexicaule": {
         "nomes_cientificos": [
-            "Asystasia_gangetica"
+            "lamium_amplexicaule"
         ],
         "nomes_populares": [
-            "Coromandel",
-            "violeta-chinês",
-            "coromandel"
+            "urtiga-branca; lâmio-violeta; chupapitos"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/159049-Asystasia-gangetica"
+        "link": "https://www.biodiversity4all.org/taxa/55459-Lamium-amplexicaule"
     },
-    "1405685": {
+    "lamium_galeobdolon": {
         "nomes_cientificos": [
-            "Acalypha_wilkesiana"
+            "lamium_galeobdolon"
         ],
         "nomes_populares": [
-            "Flamengueira",
-            "acalifa"
+            "Lamium galeobdolon"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/281562-Acalypha-wilkesiana"
+        "link": "https://www.biodiversity4all.org/taxa/204339-Lamium-galeobdolon"
     },
-    "1408045": {
+    "lamium_maculatum": {
         "nomes_cientificos": [
-            "Alocasia_macrorrhizos"
+            "lamium_maculatum"
         ],
         "nomes_populares": [
-            "giant taro",
-            "giant alocasia",
-            "ape",
-            "biga",
-            "pia",
-            "taro gigante",
-            "alocasia gigante",
-            "cunjevoi"
+            "chuchas; chupa-pitos; coelhos; lâmio-maculado"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/126165-Alocasia-macrorrhizos"
+        "link": "https://www.biodiversity4all.org/taxa/55828-Lamium-maculatum"
     },
-    "1408774": {
+    "lamium_purpureum": {
         "nomes_cientificos": [
-            "Tradescantia_pallida"
+            "lamium_purpureum"
         ],
         "nomes_populares": [
-            "Trapoeraba-Roxa"
+            "Urtiga-roxa; Urtiga-violeta"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/169872-Tradescantia-pallida"
+        "link": "https://www.biodiversity4all.org/taxa/55851-Lamium-purpureum"
     },
-    "1408961": {
+    "lantana_camara": {
         "nomes_cientificos": [
-            "Schefflera_arboricola"
+            "lantana_camara"
         ],
         "nomes_populares": [
-            "Cheflera Pequena",
-            "árvore-guarda-chuva anã",
-            "trepadeira-sola-de-ganso",
-            "dwarf umbrella tree"
+            "Cambará",
+            "Camará",
+            "Camaradinha",
+            "Cambará miúdo",
+            "Verbena arbustiva"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/1239449-Heptapleurum-arboricola"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Lantana_camara"
     },
-    "1409185": {
+    "lantana_montevidensis": {
         "nomes_cientificos": [
-            "Aphelandra_squarrosa"
+            "lantana_montevidensis"
         ],
         "nomes_populares": [
-            "planta zebra",
-            "Aphelandra squarrosa"
+            "Mini Lantana",
+            "Lantana à direita",
+            "Lantana sellowiana",
+            "Lantana chorosa",
+            "Lantana rastejante",
+            "Pequena lantana",
+            "Lantana roxa"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/322316-Aphelandra-squarrosa"
+        "link": "https://www.biodiversity4all.org/taxa/77624-Lantana-montevidensis"
     },
-    "1409215": {
+    "lapsana_communis": {
         "nomes_cientificos": [
-            "Peperomia_caperata"
+            "lapsana_communis"
         ],
         "nomes_populares": [
-            "Peperomia caperata",
-            "emerald ripple peperomia",
-            "peperomia esmeralda ondulada"
+            "Labresto"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/427352-Peperomia-caperata"
+        "link": "https://www.biodiversity4all.org/taxa/55981-Lapsana-communis"
     },
-    "1409238": {
+    "lathraea_clandestina": {
         "nomes_cientificos": [
-            "Anthurium_andraeanum"
+            "lathraea_clandestina"
         ],
         "nomes_populares": [
-            "Antúrio",
-            "flamingo flower",
-            "tailflower",
-            "painter's palette",
-            "oilcloth flower",
-            "laceleaf",
-            "flor de flamingo",
-            "flor-cauda",
-            "paleta de pintor",
-            "flor de oleado",
-            "folha-de-renda"
+            "erva-de-dente-roxa; clandestina"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/69235-Anthurium-andraeanum"
+        "link": "https://www.biodiversity4all.org/taxa/60082-Lathraea-clandestina"
     },
-    "1409292": {
+    "lathraea_squamaria": {
         "nomes_cientificos": [
-            "Dendrobium_nobile"
+            "lathraea_squamaria"
         ],
         "nomes_populares": [
-            "Olho-de-Boneca",
-            "Dendrobium nobile"
+            "dentífrica comum; common toothwort"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/67756-Dendrobium-nobile"
+        "link": "https://www.biodiversity4all.org/taxa/61769-Lathraea-squamaria"
     },
-    "1409295": {
+    "lavandula_angustifolia": {
         "nomes_cientificos": [
-            "Nandina_domestica"
+            "lavandula_angustifolia"
         ],
         "nomes_populares": [
-            "nandina",
-            "heavenly bamboo",
-            "sacred bamboo",
-            "nandina",
-            "bambu celestial",
-            "bambu sagrado"
+            "Alfazema; lavanda"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/127010-Nandina-domestica"
+        "link": "https://www.biodiversity4all.org/taxa/133395-Lavandula-angustifolia"
     },
-    "1412661": {
+    "lavandula_dentata": {
         "nomes_cientificos": [
-            "Maianthemum_racemosum"
+            "lavandula_dentata"
         ],
         "nomes_populares": [
-            "Pluma-de-Salomão",
-            "treacleberry",
-            "feathery false lily of the valley",
-            "false Solomon's seal",
-            "Solomon's plume",
-            "melaço",
-            "falso lírio do vale emplumado",
-            "falso selo de Salomão",
-            "pluma de Salomão",
-            "falso nardo"
+            "Alfazema"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/51062-Maianthemum-racemosum"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Lavandula_dentata"
     },
-    "1418146": {
+    "lavandula_latifolia": {
         "nomes_cientificos": [
-            "Fittonia_albivenis"
+            "lavandula_latifolia"
         ],
         "nomes_populares": [
-            "planta nervosa",
-            "planta mosaico"
+            "lavanda portuguesa",
+            "alfazema-brava"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/327855-Fittonia-albivenis"
+        "link": "https://www.biodiversity4all.org/taxa/371559-Lavandula-latifolia"
     },
-    "1418547": {
+    "lavandula_stoechas": {
         "nomes_cientificos": [
-            "Sedum_morganianum"
+            "lavandula_stoechas"
         ],
         "nomes_populares": [
-            "Arroz-de-Rato",
-            "donkey tail",
-            "burro's tail",
-            "cauda de burro",
-            "rabo de burro"
+            "Rosmaninho; alfazema"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/276072-Sedum-morganianum"
+        "link": "https://www.biodiversity4all.org/taxa/61904-Lavandula-stoechas"
     },
-    "1419173": {
+    "leptospermum_scoparium": {
         "nomes_cientificos": [
-            "Loropetalum_chinense"
+            "leptospermum_scoparium"
         ],
         "nomes_populares": [
-            "loropetalum",
-            "Chinese fringe flower",
-            "Flor franja chinesa",
-            "flor de tira"
+            "Árvore Chá",
+            "Érica",
+            "Falsa Érica",
+            "Leptospermo",
+            "Manuka"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/186066-Loropetalum-chinense-rubrum"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Leptospermum_scoparium"
     },
-    "1419334": {
+    "leucophyllum_frutescens": {
         "nomes_cientificos": [
-            "Liriope_muscari"
+            "leucophyllum_frutescens"
         ],
         "nomes_populares": [
-            "liríope",
-            "capim-lírio"
+            "Chuva de Prata",
+            "Sálvia do Texas",
+            "Leucofilo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Leucophyllum_frutescens"
+    },
+    "lilium_bulbiferum": {
+        "nomes_cientificos": [
+            "lilium_bulbiferum"
+        ],
+        "nomes_populares": [
+            "Lírio-laranja"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/223665-Lilium-bulbiferum"
+    },
+    "limbarda_crithmoides": {
+        "nomes_cientificos": [
+            "limbarda_crithmoides"
+        ],
+        "nomes_populares": [
+            "Campana-da-Praia; madorneira-bastarda"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/326880-Limbarda-crithmoides"
+    },
+    "limonium_sinuatum": {
+        "nomes_cientificos": [
+            "limonium_sinuatum"
+        ],
+        "nomes_populares": [
+            "Estátice",
+            "Sempre Viva Azul",
+            "Lavanda do Mar"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Limonium_sinuatum"
+    },
+    "lippia_alba": {
+        "nomes_cientificos": [
+            "lippia_alba"
+        ],
+        "nomes_populares": [
+            "Erva Cidreira",
+            "Erva Cidreira de Arbusto",
+            "Cidreira Brasileira",
+            "Chá de Tabuleiro",
+            "Salva Limão",
+            "Alecrim do Campo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Lippia_alba"
+    },
+    "liriodendron_tulipifera": {
+        "nomes_cientificos": [
+            "liriodendron_tulipifera"
+        ],
+        "nomes_populares": [
+            "Tulipeiro-da-Virgínia; tulipeiro; árvore-das-tulipas; árvore-do-ponto; tulipeira; tulipeiro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/53582-Liriodendron-tulipifera"
+    },
+    "liriope_muscari": {
+        "nomes_cientificos": [
+            "liriope_muscari"
+        ],
+        "nomes_populares": [
+            "Liriope Floração Azul",
+            "Barba de Serpente"
         ],
         "link": "https://www.biodiversity4all.org/taxa/223938-Liriope-muscari"
     },
-    "1419923": {
+    "lithodora_fruticosa": {
         "nomes_cientificos": [
-            "Peperomia_argyreia"
+            "lithodora_fruticosa"
         ],
         "nomes_populares": [
-            "Peperômia-Melancia",
-            "watermelon peperomia"
+            "shrubby gromwell"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/427356-Peperomia-argyreia"
+        "link": "https://www.biodiversity4all.org/taxa/186128-Lithodora-fruticosa"
     },
-    "1420795": {
+    "lobelia_erinus": {
         "nomes_cientificos": [
-            "Alocasia_sanderiana"
+            "lobelia_erinus"
         ],
         "nomes_populares": [
-            "Alocasia sanderiana",
-            "kris plant",
-            "Sander's alocasia",
-            "planta kris",
-            "alocasia de Sander"
+            "Lobélia",
+            "lobélia-azul"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/327368-Alocasia-sanderiana"
+        "link": "http://servicos.jbrj.gov.br/flora/search/Lobelia_erinus"
     },
-    "1488171": {
+    "loropetalum_chinense": {
         "nomes_cientificos": [
-            "Selenicereus_anthonyanus"
+            "loropetalum_chinense"
         ],
         "nomes_populares": [
-            "Cacto-Sianinha"
+            "Hamamelis",
+            "Amamélis"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/186066-Loropetalum-chinense-rubrum"
+    },
+    "lupinus_polyphyllus": {
+        "nomes_cientificos": [
+            "lupinus_polyphyllus"
+        ],
+        "nomes_populares": [
+            "Tremoço-de-Jardim"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/59549-Lupinus-polyphyllus"
+    },
+    "lycianthes_rantonnetii": {
+        "nomes_cientificos": [
+            "lycianthes_rantonnetii"
+        ],
+        "nomes_populares": [
+            "Solano de Flor Azul",
+            "Botão Azul",
+            "Árvore Batata Azul",
+            "Arbusto Azul da Batata"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Lycianthes_rantonnetii"
+    },
+    "maianthemum_bifolium": {
+        "nomes_cientificos": [
+            "maianthemum_bifolium"
+        ],
+        "nomes_populares": [
+            "falso lírio do vale; lírio de maio"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/50247-Maianthemum-bifolium"
+    },
+    "maianthemum_racemosum": {
+        "nomes_cientificos": [
+            "maianthemum_racemosum"
+        ],
+        "nomes_populares": [
+            "Pluma-de-Salomão; treacleberry; feathery false lily of the valley; false Solomon's seal; Solomon's plume; melaço; falso lírio do vale emplumado; falso selo de Salomão; pluma de Salomão; falso nardo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/51062-Maianthemum-racemosum"
+    },
+    "mangifera_indica": {
+        "nomes_cientificos": [
+            "mangifera_indica"
+        ],
+        "nomes_populares": [
+            "Manga"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Mangifera_indica"
+    },
+    "matricaria_chamomilla": {
+        "nomes_cientificos": [
+            "matricaria_chamomilla"
+        ],
+        "nomes_populares": [
+            "Camomila Comum",
+            "Margaça",
+            "Matricaria"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Matricaria_chamomilla"
+    },
+    "megaskepasma_erythrochlamys": {
+        "nomes_cientificos": [
+            "megaskepasma_erythrochlamys"
+        ],
+        "nomes_populares": [
+            "Justicia",
+            "Capota vermelha",
+            "Camarão vermelho"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Megaskepasma_erythrochlamys"
+    },
+    "melaleuca_viminalis": {
+        "nomes_cientificos": [
+            "melaleuca_viminalis"
+        ],
+        "nomes_populares": [
+            "Escova de Garrafa",
+            "Calistemo Vermelho",
+            "Escova de Garrafa Pendente"
+        ],
+        "link": "Escova-de-garrafa (Melaleuca viminalis) · BioDiversity4All"
+    },
+    "melilotus_albus": {
+        "nomes_cientificos": [
+            "melilotus_albus"
+        ],
+        "nomes_populares": [
+            "meliloto-branco"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/58907-Melilotus-albus"
+    },
+    "melinis_nerviglumis": {
+        "nomes_cientificos": [
+            "melinis_nerviglumis"
+        ],
+        "nomes_populares": [
+            "topo vermelho da montanha",
+            "topo vermelho com folhas de cerdas"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/427161-Melinis-nerviglumis"
+    },
+    "mentha_spicata": {
+        "nomes_cientificos": [
+            "mentha_spicata"
+        ],
+        "nomes_populares": [
+            "Hortelã comum",
+            "Hortelã de cheiro",
+            "Hortelã pimenta",
+            "Hortelã rasteira",
+            "Menta"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/62652-Mentha-spicata"
+    },
+    "mercurialis_annua": {
+        "nomes_cientificos": [
+            "mercurialis_annua"
+        ],
+        "nomes_populares": [
+            "urtiga-bastarda; barredoiro; basalho; erva-mercúrio"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/68838-Mercurialis-annua"
+    },
+    "mercurialis_perennis": {
+        "nomes_cientificos": [
+            "mercurialis_perennis"
+        ],
+        "nomes_populares": [
+            "Mercurialis_perennis"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/126757-Mercurialis-perennis"
+    },
+    "mesembryanthemum_cordifolium": {
+        "nomes_cientificos": [
+            "mesembryanthemum_cordifolium"
+        ],
+        "nomes_populares": [
+            "rosinha-de-sol",
+            "rosinha-do-sol",
+            "barrilha-variegata"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Mesembryanthemum_cordifolium"
+    },
+    "metasequoia_glyptostroboides": {
+        "nomes_cientificos": [
+            "metasequoia_glyptostroboides"
+        ],
+        "nomes_populares": [
+            "Metasequóia; Metasequoia glyptostroboides"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/69150-Metasequoia-glyptostroboides"
+    },
+    "microsorum_punctatum": {
+        "nomes_cientificos": [
+            "microsorum_punctatum"
+        ],
+        "nomes_populares": [
+            "Samambaia Crissie",
+            "Samambaia Avenca Alface",
+            "Polypodium Punctatum"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/153890-Microsorum-punctatum"
+    },
+    "mimosa_pudica": {
+        "nomes_cientificos": [
+            "mimosa_pudica"
+        ],
+        "nomes_populares": [
+            "Sensitiva",
+            "Dorme Dorme",
+            "Maria Fecha a Porta",
+            "Não me Toques"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/51921-Mimosa-pudica"
+    },
+    "moehringia_ciliata": {
+        "nomes_cientificos": [
+            "moehringia_ciliata"
+        ],
+        "nomes_populares": [
+            "Moehringia ciliata"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/472351-Moehringia-ciliata"
+    },
+    "monstera_adansonii": {
+        "nomes_cientificos": [
+            "monstera_adansonii"
+        ],
+        "nomes_populares": [
+            "Imbé-Furado"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/206267-Monstera-adansonii"
+    },
+    "monstera_deliciosa": {
+        "nomes_cientificos": [
+            "monstera_deliciosa"
+        ],
+        "nomes_populares": [
+            "costela-de-adão"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/122521-Monstera-deliciosa"
+    },
+    "morinda_citrifolia": {
+        "nomes_cientificos": [
+            "morinda_citrifolia"
+        ],
+        "nomes_populares": [
+            "noni; nono"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/121022-Morinda-citrifolia"
+    },
+    "morus_nigra": {
+        "nomes_cientificos": [
+            "morus_nigra"
+        ],
+        "nomes_populares": [
+            "Amoreira negra",
+            "Amora",
+            "Amora negra",
+            "Amora preta",
+            "Amoreira",
+            "Amoreira do bicho da seda",
+            "Amoreira preta"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Morus_nigra"
+    },
+    "muhlenbergia_capillaris": {
+        "nomes_cientificos": [
+            "muhlenbergia_capillaris"
+        ],
+        "nomes_populares": [
+            "hairawn muhly"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/165543-Muhlenbergia-capillaris"
+    },
+    "murraya_koenigii": {
+        "nomes_cientificos": [
+            "murraya_koenigii"
+        ],
+        "nomes_populares": [
+            "Curry patta",
+            "Árvore do Curry",
+            "Caripata"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Murraya"
+    },
+    "murraya_paniculata": {
+        "nomes_cientificos": [
+            "murraya_paniculata"
+        ],
+        "nomes_populares": [
+            "Murta de cheiro",
+            "Dama da noite",
+            "Jasmim laranja",
+            "Murta da índia",
+            "Murta dos jardins"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Murraya_paniculata"
+    },
+    "musa_acuminata": {
+        "nomes_cientificos": [
+            "musa_acuminata"
+        ],
+        "nomes_populares": [
+            "Bananeira"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/140907-Musa-acuminata"
+    },
+    "musa_velutina": {
+        "nomes_cientificos": [
+            "musa_velutina"
+        ],
+        "nomes_populares": [
+            "banana rosa",
+            "banana ornamental",
+            "banana peluda"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/327294-Musa-velutina"
+    },
+    "mussaenda_erythrophylla": {
+        "nomes_cientificos": [
+            "mussaenda_erythrophylla"
+        ],
+        "nomes_populares": [
+            "Mussaenda Arbustiva",
+            "Mussaenda Rosa Arbustiva",
+            "Mussaenda Alicia",
+            "mussaenda-vermelha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Mussaenda_erythrophylla"
+    },
+    "mussaenda_philippica": {
+        "nomes_cientificos": [
+            "mussaenda_philippica"
+        ],
+        "nomes_populares": [
+            "mussaenda-branca"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Mussaenda_philippica"
+    },
+    "myrsine_coriacea": {
+        "nomes_cientificos": [
+            "myrsine_coriacea"
+        ],
+        "nomes_populares": [
+            "capororoquinha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Myrsine_coriacea"
+    },
+    "nandina_domestica": {
+        "nomes_cientificos": [
+            "nandina_domestica"
+        ],
+        "nomes_populares": [
+            "Avenca Japonesa",
+            "Bambú Celeste",
+            "Bambú do Céu"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/127010-Nandina-domestica"
+    },
+    "nassella_tenuissima": {
+        "nomes_cientificos": [
+            "nassella_tenuissima"
+        ],
+        "nomes_populares": [
+            "capim mexicano",
+            "nassella de folhas finas",
+            "capim-agulha argentino"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/165660-Nassella-tenuissima"
+    },
+    "neotinea_ustulata": {
+        "nomes_cientificos": [
+            "neotinea_ustulata"
+        ],
+        "nomes_populares": [
+            "Orquídea-Chamuscada; orquídea de ponta queimada; orquídea queimada; burnt-tip orchid; burnt orchid"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/60837-Neotinea-ustulata"
+    },
+    "nephrolepis_biserrata": {
+        "nomes_cientificos": [
+            "nephrolepis_biserrata"
+        ],
+        "nomes_populares": [
+            "Rabo de Peixe",
+            "Samambaia-rabo-de Peixe"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/165682-Nephrolepis-biserrata"
+    },
+    "nephrolepis_exaltata": {
+        "nomes_cientificos": [
+            "nephrolepis_exaltata"
+        ],
+        "nomes_populares": [
+            "Lâmina de espada",
+            "Samambaia de boston",
+            "Samambaia espada"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/130866-Nephrolepis-exaltata"
+    },
+    "nerium_oleander": {
+        "nomes_cientificos": [
+            "nerium_oleander"
+        ],
+        "nomes_populares": [
+            "loendro",
+            "loandro",
+            "aloendro",
+            "loandro-da-índia",
+            "alandro",
+            "loureiro-rosa",
+            "adelfa",
+            "espirradeira",
+            "cevadilha",
+            "flor-de-são-josé"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/47563-Nerium-oleander"
+    },
+    "nymphaea_alba": {
+        "nomes_cientificos": [
+            "nymphaea_alba"
+        ],
+        "nomes_populares": [
+            "Lírio Branco",
+            "Lírio d'Água",
+            "Nenúfar Branco"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/62009-Nymphaea-alba"
+    },
+    "ocimum_basilicum": {
+        "nomes_cientificos": [
+            "ocimum_basilicum"
+        ],
+        "nomes_populares": [
+            "Alfavaca cheirosa",
+            "Erva real",
+            "Manjericão de molho",
+            "Manjericão doce",
+            "Manjericão grande"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/61398-Ocimum-basilicum"
+    },
+    "odontonema_tubaeforme": {
+        "nomes_cientificos": [
+            "odontonema_tubaeforme"
+        ],
+        "nomes_populares": [
+            "odontonema"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Odontonema_tubaeforme"
+    },
+    "ophrys_apifera": {
+        "nomes_cientificos": [
+            "ophrys_apifera"
+        ],
+        "nomes_populares": [
+            "Abelheira; erva-abelha; erva-aranha"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/83816-Ophrys-apifera"
+    },
+    "ophrys_insectifera": {
+        "nomes_cientificos": [
+            "ophrys_insectifera"
+        ],
+        "nomes_populares": [
+            "Orquídea-Mosca; fly orchid"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/57468-Ophrys-insectifera"
+    },
+    "ophrys_lutea": {
+        "nomes_cientificos": [
+            "ophrys_lutea"
+        ],
+        "nomes_populares": [
+            "Erva Vespa"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/59339-Ophrys-lutea"
+    },
+    "opuntia_ficus_indica": {
+        "nomes_cientificos": [
+            "opuntia_ficus_indica"
+        ],
+        "nomes_populares": [
+            "figueira-da-índia",
+            "palmatória",
+            "palma",
+            "palma-gigante",
+            "figo-da-índia",
+            "figo-da-espanha",
+            "jamaracá",
+            "jurumbeba"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Opuntia_ficus-indica"
+    },
+    "opuntia_littoralis": {
+        "nomes_cientificos": [
+            "opuntia_littoralis"
+        ],
+        "nomes_populares": [
+            "palma-brava"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Opuntia_littoralis"
+    },
+    "opuntia_microdasys": {
+        "nomes_cientificos": [
+            "opuntia_microdasys"
+        ],
+        "nomes_populares": [
+            "Orelha de Coelho",
+            "Opuntia",
+            "Palma Brava"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Opuntia_microdasys"
+    },
+    "osmunda_regalis": {
+        "nomes_cientificos": [
+            "osmunda_regalis"
+        ],
+        "nomes_populares": [
+            "Feto-Real"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/82303-Osmunda-regalis"
+    },
+    "oxalis_triangularis": {
+        "nomes_cientificos": [
+            "oxalis_triangularis"
+        ],
+        "nomes_populares": [
+            "Falso Trevo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/327754-Oxalis-triangularis"
+    },
+    "pachira_aquatica": {
+        "nomes_cientificos": [
+            "pachira_aquatica"
+        ],
+        "nomes_populares": [
+            "Cacau Selvagem",
+            "Castanheira da Água",
+            "Castanheiro de Guiana",
+            "Castanheiro do Maranhão",
+            "Falso Cacau",
+            "Mamorana",
+            "Monguba",
+            "Mungaba"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Pachira_aquatica"
+    },
+    "pachystachys_lutea": {
+        "nomes_cientificos": [
+            "pachystachys_lutea"
+        ],
+        "nomes_populares": [
+            "Camarão",
+            "Planta Camarão"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Pachystachys_lutea"
+    },
+    "pancratium_maritimum": {
+        "nomes_cientificos": [
+            "pancratium_maritimum"
+        ],
+        "nomes_populares": [
+            "narciso-das-areias; lírio-das-praias; pancrácio"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/78334-Pancratium-maritimum"
+    },
+    "papaver_alpinum": {
+        "nomes_cientificos": [
+            "papaver_alpinum"
+        ],
+        "nomes_populares": [
+            "Oreomecon alpina; papoula alpina; papoula anã"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/136572-Papaver-alpinum"
+    },
+    "papaver_orientale": {
+        "nomes_cientificos": [
+            "papaver_orientale"
+        ],
+        "nomes_populares": [
+            "Papoula-oriental; Papoula-de-jardim"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/166114-Papaver-orientale"
+    },
+    "papaver_rhoeas": {
+        "nomes_cientificos": [
+            "papaver_rhoeas"
+        ],
+        "nomes_populares": [
+            "Papoila; papoula; papoila-brava; papoila-das-searas; papoila-ordinária; papoila-rubra; papoila-vermelha; papoila-vulgar"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/54404-Papaver-rhoeas"
+    },
+    "papaver_somniferum": {
+        "nomes_cientificos": [
+            "papaver_somniferum"
+        ],
+        "nomes_populares": [
+            "Dormideira; papoila-dormideira"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/78346-Papaver-somniferum"
+    },
+    "parthenocissus_tricuspidata": {
+        "nomes_cientificos": [
+            "parthenocissus_tricuspidata"
+        ],
+        "nomes_populares": [
+            "Hera japonesa",
+            "Falsa vinha",
+            "Hera de boston",
+            "Vinha virgem"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/166162-Parthenocissus-tricuspidata"
+    },
+    "paspalum_notatum": {
+        "nomes_cientificos": [
+            "paspalum_notatum"
+        ],
+        "nomes_populares": [
+            "Grama da Bahia",
+            "Grama de Pasto",
+            "Grama Forquilha",
+            "Grama Mato Grosso",
+            "Gramão"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Paspalum_notatum"
+    },
+    "passiflora_edulis": {
+        "nomes_cientificos": [
+            "passiflora_edulis"
+        ],
+        "nomes_populares": [
+            "Flor da Paixão",
+            "Maracujazeiro",
+            "Maracujá"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/51446-Passiflora-edulis"
+    },
+    "paulownia_tomentosa": {
+        "nomes_cientificos": [
+            "paulownia_tomentosa"
+        ],
+        "nomes_populares": [
+            "Árvore da Imperatriz",
+            "Árvore do Futuro",
+            "Árvore da Princesa",
+            "Imperatriz Real",
+            "Paulónia"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/119792-Paulownia-tomentosa"
+    },
+    "pelargonium_graveolens": {
+        "nomes_cientificos": [
+            "pelargonium_graveolens"
+        ],
+        "nomes_populares": [
+            "Malva Cheirosa"
+        ],
+        "link": "https://hortodidatico.ufsc.br/malva-cheirosa/"
+    },
+    "pelargonium_peltatum": {
+        "nomes_cientificos": [
+            "pelargonium_peltatum"
+        ],
+        "nomes_populares": [
+            "Gerânio Hera",
+            "Pelargônio Pendente"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/78379-Pelargonium-peltatum"
+    },
+    "pentas_lanceolata": {
+        "nomes_cientificos": [
+            "pentas_lanceolata"
+        ],
+        "nomes_populares": [
+            "Cacho de Estrelas",
+            "Pentas",
+            "Show de Estrelas",
+            "Silena",
+            "Penta",
+            "estrela-do-egito"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Pentas_lanceolata"
+    },
+    "peperomia_caperata": {
+        "nomes_cientificos": [
+            "peperomia_caperata"
+        ],
+        "nomes_populares": [
+            "Peperômia Marrom",
+            "Rabo de Rato"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/427352-Peperomia-caperata"
+    },
+    "pereskia_aculeata": {
+        "nomes_cientificos": [
+            "pereskia_aculeata"
+        ],
+        "nomes_populares": [
+            "Trepadeira Limão",
+            "Carne de Pobre",
+            "Orabrobó",
+            "Rosa Madeira",
+            "Jumbeba",
+            "Azedinha",
+            "Surucucú",
+            "Lobolôbô",
+            "Espinho de Santo Antônio"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Pereskia_aculeata"
+    },
+    "perovskia_atriplicifolia": {
+        "nomes_cientificos": [
+            "perovskia_atriplicifolia"
+        ],
+        "nomes_populares": [
+            "Perovskia atriplicifolia; Sálvia da Rússia; Salvia yangii"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/941713-Salvia-yangii"
+    },
+    "persicaria_capitata": {
+        "nomes_cientificos": [
+            "persicaria_capitata"
+        ],
+        "nomes_populares": [
+            "Polígono-de-Jardim"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/78451-Persicaria-capitata"
+    },
+    "petiveria_alliacea": {
+        "nomes_cientificos": [
+            "petiveria_alliacea"
+        ],
+        "nomes_populares": [
+            "mucuracá",
+            "tipí",
+            "guiné",
+            "erva-guiné"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Petiveria_alliacea"
+    },
+    "petrea_volubilis": {
+        "nomes_cientificos": [
+            "petrea_volubilis"
+        ],
+        "nomes_populares": [
+            "Capela de Viúva",
+            "Petreia",
+            "Touca de Viúva",
+            "Viuvinha"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/166546-Petrea-volubilis"
+    },
+    "petroselinum_crispum": {
+        "nomes_cientificos": [
+            "petroselinum_crispum"
+        ],
+        "nomes_populares": [
+            "Salsa",
+            "Cheiro verde",
+            "Perrexil",
+            "Cheiro",
+            "Salsa cultivada",
+            "Salsa das hortas",
+            "Salsa de cheiro",
+            "Salsa comum",
+            "Salsa hortense",
+            "Salsa vulgar",
+            "Petroselinum sativum"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Petroselinum_crispum"
+    },
+    "petunia_atkinsiana": {
+        "nomes_cientificos": [
+            "petunia_atkinsiana"
+        ],
+        "nomes_populares": [
+            "petúnia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Petunia_×atkinsiana"
+    },
+    "peumus_boldus": {
+        "nomes_cientificos": [
+            "peumus_boldus"
+        ],
+        "nomes_populares": [
+            "Boldo-Do-Chile"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/326673-Peumus-boldus"
+    },
+    "phalaris_arundinacea": {
+        "nomes_cientificos": [
+            "phalaris_arundinacea"
+        ],
+        "nomes_populares": [
+            "Alpista-Caniço; capim-amarelo; alpiste-dos-prados; caniço-malhado"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/63337-Phalaris-arundinacea"
+    },
+    "philodendron_hederaceum": {
+        "nomes_cientificos": [
+            "philodendron_hederaceum"
+        ],
+        "nomes_populares": [
+            "Filodendro brasil",
+            "Filodendro branco",
+            "Filodendro cordato",
+            "maria-mole"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Philodendron_hederaceum"
+    },
+    "phoenix_canariensis": {
+        "nomes_cientificos": [
+            "phoenix_canariensis"
+        ],
+        "nomes_populares": [
+            "Tamareira Das Canárias",
+            "Palmeira Tamareira"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Phoenix_canariensis"
+    },
+    "phormium_tenax": {
+        "nomes_cientificos": [
+            "phormium_tenax"
+        ],
+        "nomes_populares": [
+            "Cânhamo da nova zelândia",
+            "Fibra da nova zelândia",
+            "Linho da nova zelândia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Phormium_tenax"
+    },
+    "phyllostachys_aurea": {
+        "nomes_cientificos": [
+            "phyllostachys_aurea"
+        ],
+        "nomes_populares": [
+            "Bambu Cana da Índia",
+            "bambuzinho-amarelo",
+            "bambu-de-jardim"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Phyllostachys_aurea"
+    },
+    "physalis_peruviana": {
+        "nomes_cientificos": [
+            "physalis_peruviana"
+        ],
+        "nomes_populares": [
+            "aguaymanto",
+            "uvilla",
+            "uchuva",
+            "Tomate-de-Capucho"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/51988-Physalis-peruviana"
+    },
+    "pilea_microphylla": {
+        "nomes_cientificos": [
+            "pilea_microphylla"
+        ],
+        "nomes_populares": [
+            "Beldroega",
+            "Folha Gorda",
+            "Planta Artilheira",
+            "brilhantina"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Pilea_microphylla"
+    },
+    "pinus_elliottii": {
+        "nomes_cientificos": [
+            "pinus_elliottii"
+        ],
+        "nomes_populares": [
+            "Pinus Elioti",
+            "Pinheiro",
+            "Pinheiro Americano"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/69985-Pinus-elliottii"
+    },
+    "piper_umbellatum": {
+        "nomes_cientificos": [
+            "piper_umbellatum"
+        ],
+        "nomes_populares": [
+            "Pariparoba",
+            "Capeba"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Piper_umbellatum"
+    },
+    "pittosporum_tobira": {
+        "nomes_cientificos": [
+            "pittosporum_tobira"
+        ],
+        "nomes_populares": [
+            "Pitósporo Japonês",
+            "Lágrima Sabeia",
+            "Pau de Incenso",
+            "Pitosporo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Pittosporum_tobira"
+    },
+    "platycerium_bifurcatum": {
+        "nomes_cientificos": [
+            "platycerium_bifurcatum"
+        ],
+        "nomes_populares": [
+            "Samambaia Chifre de Veado"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Platycerium_bifurcatum"
+    },
+    "platycladus_orientalis": {
+        "nomes_cientificos": [
+            "platycladus_orientalis"
+        ],
+        "nomes_populares": [
+            "tuia-compacta",
+            "árvore-da-vida-chinesa",
+            "tuia-da-china",
+            "tuia",
+            "árvore-da-vida",
+            "cedro",
+            "árvore-chinesa-da-vida"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Platycladus_orientalis"
+    },
+    "platycodon_grandiflorus": {
+        "nomes_cientificos": [
+            "platycodon_grandiflorus"
+        ],
+        "nomes_populares": [
+            "Campainha Chinesa",
+            "Flor Balão",
+            "Platicodon"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/141623-Platycodon-grandiflorus"
+    },
+    "pleroma_heteromallum": {
+        "nomes_cientificos": [
+            "pleroma_heteromallum"
+        ],
+        "nomes_populares": [
+            "Orelha-de-Onça"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/1117609-Pleroma-heteromallum"
+    },
+    "plumbago_auriculata": {
+        "nomes_cientificos": [
+            "plumbago_auriculata"
+        ],
+        "nomes_populares": [
+            "Dentilária",
+            "Jasmin azul",
+            "Plumbago"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Plumbago_auriculata"
+    },
+    "plumeria_rubra": {
+        "nomes_cientificos": [
+            "plumeria_rubra"
+        ],
+        "nomes_populares": [
+            "Árvore pagode",
+            "Frangipane",
+            "Jasmim de caiena",
+            "Jasmim de são josé",
+            "Jasmim do pará",
+            "Plumélia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Plumeria_rubra"
+    },
+    "podranea_ricasoliana": {
+        "nomes_cientificos": [
+            "podranea_ricasoliana"
+        ],
+        "nomes_populares": [
+            "sete-léguas"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Podranea_ricasoliana"
+    },
+    "pontederia_cordata": {
+        "nomes_cientificos": [
+            "pontederia_cordata"
+        ],
+        "nomes_populares": [
+            "Pontedeira",
+            "Mureré",
+            "Orelha de Veado",
+            "Aguapé Rainha Dos Lagos"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/52599-Pontederia-cordata"
+    },
+    "portulacaria_afra": {
+        "nomes_cientificos": [
+            "portulacaria_afra"
+        ],
+        "nomes_populares": [
+            "Arbusto Elefante",
+            "Grama do Elefante",
+            "Beldroega"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Portulacaria_afra"
+    },
+    "portulaca_grandiflora": {
+        "nomes_cientificos": [
+            "portulaca_grandiflora"
+        ],
+        "nomes_populares": [
+            "Beldroega",
+            "Portulaca",
+            "Onze-Horas"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/167309-Portulaca-grandiflora"
+    },
+    "prunus_serrulata": {
+        "nomes_cientificos": [
+            "prunus_serrulata"
+        ],
+        "nomes_populares": [
+            "Sakura",
+            "Cerejeira",
+            "Cerejeira Branca",
+            "Cerejeira do Japão",
+            "Cerejeira Japonesa",
+            "Cerejeira Ornamental do Japão"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Prunus_serrulata"
+    },
+    "pseudosasa_japonica": {
+        "nomes_cientificos": [
+            "pseudosasa_japonica"
+        ],
+        "nomes_populares": [
+            "Bambu Metake",
+            "Metake"
+        ],
+        "link": "Pseudosasa japonica · BioDiversity4All"
+    },
+    "psidium_guineense": {
+        "nomes_cientificos": [
+            "psidium_guineense"
+        ],
+        "nomes_populares": [
+            "Araçá do Cerrado",
+            "Araçá Mirim",
+            "Goiabinha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Psidium_guineense"
+    },
+    "psychotria_carthagenensis": {
+        "nomes_cientificos": [
+            "psychotria_carthagenensis"
+        ],
+        "nomes_populares": [
+            "Sanhaçaiba",
+            "Carne de Vaca",
+            "Cafeeiro do Mato",
+            "Chacrona",
+            "Rainha",
+            "Erva de Rato Branca"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Psychotria_carthagenensis"
+    },
+    "punica_granatum": {
+        "nomes_cientificos": [
+            "punica_granatum"
+        ],
+        "nomes_populares": [
+            "Romãzeira",
+            "Romeira"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/58300-Punica-granatum"
+    },
+    "pyracantha_coccinea": {
+        "nomes_cientificos": [
+            "pyracantha_coccinea"
+        ],
+        "nomes_populares": [
+            "Espinho de Fogo",
+            "Espinho Perpétuo",
+            "Piricanto"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/57254-Pyracantha-coccinea"
+    },
+    "pyrostegia_venusta": {
+        "nomes_cientificos": [
+            "pyrostegia_venusta"
+        ],
+        "nomes_populares": [
+            "Cipó Vermelho",
+            "Flor de São João"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Pyrostegia_venusta"
+    },
+    "pyrus_communis": {
+        "nomes_cientificos": [
+            "pyrus_communis"
+        ],
+        "nomes_populares": [
+            "Pera Europeia",
+            "Pera Comum"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Pyrus_communis"
+    },
+    "rhipsalis_baccifera": {
+        "nomes_cientificos": [
+            "rhipsalis_baccifera"
+        ],
+        "nomes_populares": [
+            "conambaia",
+            "tripa-de-galinha"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Rhipsalis_baccifera"
+    },
+    "rhododendron_catawbiense": {
+        "nomes_cientificos": [
+            "rhododendron_catawbiense"
+        ],
+        "nomes_populares": [
+            "azaléia",
+            "mini-azaléia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Rhododendron_catawbiense"
+    },
+    "rosmarinus_officinalis": {
+        "nomes_cientificos": [
+            "rosmarinus_officinalis"
+        ],
+        "nomes_populares": [
+            "Alecrim da horta",
+            "Rosmarino"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Rosmarinus_officinalis"
+    },
+    "rotheca_myricoides": {
+        "nomes_cientificos": [
+            "rotheca_myricoides"
+        ],
+        "nomes_populares": [
+            "Borboleta Azul",
+            "Clerodendro Africano",
+            "Clerodendro Azul"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Rotheca_myricoides"
+    },
+    "rubus_idaeus": {
+        "nomes_cientificos": [
+            "rubus_idaeus"
+        ],
+        "nomes_populares": [
+            "framboesa"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Rubus_idaeus"
+    },
+    "rudbeckia_hirta": {
+        "nomes_cientificos": [
+            "rudbeckia_hirta"
+        ],
+        "nomes_populares": [
+            "margarida-amarela"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Rudbeckia_hirta"
+    },
+    "ruellia_simplex": {
+        "nomes_cientificos": [
+            "ruellia_simplex"
+        ],
+        "nomes_populares": [
+            "Ruélia Azul",
+            "petúnia-mexicana"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ruellia_simplex"
+    },
+    "rumohra_adiantiformis": {
+        "nomes_cientificos": [
+            "rumohra_adiantiformis"
+        ],
+        "nomes_populares": [
+            "Samambaia Francesa",
+            "samambaia-preta"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Rumohra_adiantiformis"
+    },
+    "russelia_equisetiformis": {
+        "nomes_cientificos": [
+            "russelia_equisetiformis"
+        ],
+        "nomes_populares": [
+            "Flor de coral"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/122519-Russelia-equisetiformis"
+    },
+    "ruta_graveolens": {
+        "nomes_cientificos": [
+            "ruta_graveolens"
+        ],
+        "nomes_populares": [
+            "Arruda Doméstica",
+            "Arruda Dos Jardins",
+            "Arruda Fedorenta",
+            "Ruda",
+            "Ruta de Cheiro Forte"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Ruta_graveolens"
+    },
+    "sabal_minor": {
+        "nomes_cientificos": [
+            "sabal_minor"
+        ],
+        "nomes_populares": [
+            "Sabal Menor",
+            "Palmito Anão",
+            "Sabal Acaule"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Sabal_minor"
+    },
+    "sabal_palmetto": {
+        "nomes_cientificos": [
+            "sabal_palmetto"
+        ],
+        "nomes_populares": [
+            "Palmeira Serra"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Sabal_palmetto"
+    },
+    "saccharum_officinarum": {
+        "nomes_cientificos": [
+            "saccharum_officinarum"
+        ],
+        "nomes_populares": [
+            "caña-de-azúcar",
+            "cana-de-açúcar",
+            "sugarcane"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Saccharum_officinarum"
+    },
+    "salix_pendulina": {
+        "nomes_cientificos": [
+            "salix_pendulina"
+        ],
+        "nomes_populares": [
+            "chorão"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Salix_×pendulina"
+    },
+    "samanea_saman": {
+        "nomes_cientificos": [
+            "samanea_saman"
+        ],
+        "nomes_populares": [
+            "Burdão de Velho"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Samanea_saman"
+    },
+    "sanchezia_oblonga": {
+        "nomes_cientificos": [
+            "sanchezia_oblonga"
+        ],
+        "nomes_populares": [
+            "Sanchezia nobilis"
+        ],
+        "link": "Sanchezia oblonga · BioDiversity4All"
+    },
+    "santolina_chamaecyparissus": {
+        "nomes_cientificos": [
+            "santolina_chamaecyparissus"
+        ],
+        "nomes_populares": [
+            "abrótano-fêmea",
+            "pequeno-limonete",
+            "roquete-dos-jardins",
+            "guarda-roupa",
+            "santolina",
+            "lavanda-algodão"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Santolina_chamaecyparissus"
+    },
+    "scaevola_taccada": {
+        "nomes_cientificos": [
+            "scaevola_taccada"
+        ],
+        "nomes_populares": [
+            "Repolho de Praia",
+            "alface do mar",
+            "naupaka de praia",
+            "naupaka kahakai"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/363481-Scaevola-taccada"
+    },
+    "schefflera_arboricola": {
+        "nomes_cientificos": [
+            "schefflera_arboricola"
+        ],
+        "nomes_populares": [
+            "Cheflera Pequena"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/1239449-Heptapleurum-arboricola"
+    },
+    "secale_cereale": {
+        "nomes_cientificos": [
+            "secale_cereale"
+        ],
+        "nomes_populares": [
+            "Centeio"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/79021-Secale-cereale"
+    },
+    "sedum_acre": {
+        "nomes_cientificos": [
+            "sedum_acre"
+        ],
+        "nomes_populares": [
+            "Sedum_acre"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/55734-Sedum-acre"
+    },
+    "sedum_adolphii": {
+        "nomes_cientificos": [
+            "sedum_adolphii"
+        ],
+        "nomes_populares": [
+            "Sedum-Dourado; pedra de cobre"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/276002-Sedum-adolphi"
+    },
+    "sedum_album": {
+        "nomes_cientificos": [
+            "sedum_album"
+        ],
+        "nomes_populares": [
+            "arroz-dos-telhados"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/1435254-Sedum-album"
+    },
+    "sedum_morganianum": {
+        "nomes_cientificos": [
+            "sedum_morganianum"
+        ],
+        "nomes_populares": [
+            "Dedos de Moça",
+            "Arroz de Rato"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/276072-Sedum-morganianum"
+    },
+    "sedum_rupestre": {
+        "nomes_cientificos": [
+            "sedum_rupestre"
+        ],
+        "nomes_populares": [
+            "Arroz-Das-Paredes; Petrosedum rupestre"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/710296-Petrosedum-forsterianum"
+    },
+    "sedum_sediforme": {
+        "nomes_cientificos": [
+            "sedum_sediforme"
+        ],
+        "nomes_populares": [
+            "Erva-Pinheira-Enxuta"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/734833-Petrosedum-sediforme"
+    },
+    "selaginella_kraussiana": {
+        "nomes_cientificos": [
+            "selaginella_kraussiana"
+        ],
+        "nomes_populares": [
+            "Selaginela"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/168763-Selaginella-kraussiana"
+    },
+    "selenicereus_anthonyanus": {
+        "nomes_cientificos": [
+            "selenicereus_anthonyanus"
+        ],
+        "nomes_populares": [
+            "Dama da Noite",
+            "Cacto Sianinha"
         ],
         "link": "https://www.biodiversity4all.org/taxa/206500-Selenicereus-anthonyanus"
     },
-    "1497667": {
+    "selenicereus_undatus": {
         "nomes_cientificos": [
-            "Tradescantia_sillamontana"
+            "selenicereus_undatus"
         ],
         "nomes_populares": [
-            "Trapoeraba-de-feltro",
-            "Trapoeraba-lanosa"
+            "Pitaia Vermelha",
+            "Rainha da Noite",
+            "Cardo Ananaz",
+            "Cato Barse",
+            "Dama da Noite",
+            "Flor da Lua",
+            "Pitaia Vermelha de Polpa Branca"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Selenicereus_undatus"
+    },
+    "senecio_flaccidus": {
+        "nomes_cientificos": [
+            "senecio_flaccidus"
+        ],
+        "nomes_populares": [
+            "Cinerária Marítima"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/58036-Senecio-flaccidus"
+    },
+    "senna_alata": {
+        "nomes_cientificos": [
+            "senna_alata"
+        ],
+        "nomes_populares": [
+            "Fedegoso Gigante"
+        ],
+        "link": "Fedegoso-gigante (Senna alata) · BioDiversity4All"
+    },
+    "senna_pendula": {
+        "nomes_cientificos": [
+            "senna_pendula"
+        ],
+        "nomes_populares": [
+            "Canudo-de-Pito"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/138577-Senna-pendula"
+    },
+    "senna_siamea": {
+        "nomes_cientificos": [
+            "senna_siamea"
+        ],
+        "nomes_populares": [
+            "Cássia-Siâmica",
+            "Cássia-de-sião",
+            "Cássia-amarela"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/208839-Senna-siamea"
+    },
+    "setaria_palmifolia": {
+        "nomes_cientificos": [
+            "setaria_palmifolia"
+        ],
+        "nomes_populares": [
+            "Setaria Palmifolia"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/168884-Setaria-palmifolia"
+    },
+    "smilax_aspera": {
+        "nomes_cientificos": [
+            "smilax_aspera"
+        ],
+        "nomes_populares": [
+            "Alagacão",
+            "Alegra Campo",
+            "Alegra Cão",
+            "Legacão",
+            "Recama",
+            "Salsaparrilha Bastarda",
+            "Salsaparrilha Brava",
+            "Salsaparrilha do Reino",
+            "Salsaparrilha Indígena",
+            "Silvamar"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/82903-Smilax-aspera"
+    },
+    "solanum_betaceum": {
+        "nomes_cientificos": [
+            "solanum_betaceum"
+        ],
+        "nomes_populares": [
+            "Tamarilho",
+            "Sangue de Boi",
+            "Tomatão",
+            "Tomate Francês",
+            "Tomate Brasileiro",
+            "Tomate Inglês",
+            "Tomarilho",
+            "Tomate Japonês",
+            "Tomate Maracujá"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/280909-Solanum-betaceum"
+    },
+    "solanum_granulosoleprosum": {
+        "nomes_cientificos": [
+            "solanum_granulosoleprosum"
+        ],
+        "nomes_populares": [
+            "Fumo-Bravo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/846973-Solanum-granulosoleprosum"
+    },
+    "solanum_lycopersicum": {
+        "nomes_cientificos": [
+            "solanum_lycopersicum"
+        ],
+        "nomes_populares": [
+            "tomateiro",
+            "tomate",
+            "tomato",
+            "lyciet",
+            "frutilla"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Solanum_lycopersicum"
+    },
+    "solanum_mauritianum": {
+        "nomes_cientificos": [
+            "solanum_mauritianum"
+        ],
+        "nomes_populares": [
+            "Tabaqueira"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/133287-Solanum-mauritianum"
+    },
+    "solanum_melongena": {
+        "nomes_cientificos": [
+            "solanum_melongena"
+        ],
+        "nomes_populares": [
+            "Beringela",
+            "Brinjela"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Solanum_melongena"
+    },
+    "soleirolia_soleirolii": {
+        "nomes_cientificos": [
+            "soleirolia_soleirolii"
+        ],
+        "nomes_populares": [
+            "Lágrimas de Bebê",
+            "Planta da Sorte",
+            "Lágrima de Bebê",
+            "Cabelinho de Anjo",
+            "Lágrima de Anjo"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/79147-Soleirolia-soleirolii"
+    },
+    "sophora_tomentosa": {
+        "nomes_cientificos": [
+            "sophora_tomentosa"
+        ],
+        "nomes_populares": [
+            "Colares",
+            "Colares Amarelos",
+            "Soja da Praia"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Sophora_tomentosa"
+    },
+    "spathodea_campanulata": {
+        "nomes_cientificos": [
+            "spathodea_campanulata"
+        ],
+        "nomes_populares": [
+            "Árvore de Bisnagas",
+            "Árvore de Tulipas",
+            "Bisnagueira",
+            "Espatódea",
+            "Tulipeira Africana",
+            "Tulipeiro Africano"
+        ],
+        "link": "Tulipeira-africana (Spathodea campanulata) · BioDiversity4All"
+    },
+    "sphagneticola_trilobata": {
+        "nomes_cientificos": [
+            "sphagneticola_trilobata"
+        ],
+        "nomes_populares": [
+            "Mal me quer",
+            "Picão da praia",
+            "vedélia",
+            "insulina"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Sphagneticola_trilobata"
+    },
+    "spinacia_oleracea": {
+        "nomes_cientificos": [
+            "spinacia_oleracea"
+        ],
+        "nomes_populares": [
+            "Espinafre Japonês",
+            "Espinafre Verdadeiro"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Spinacia_oleracea"
+    },
+    "stachys_byzantina": {
+        "nomes_cientificos": [
+            "stachys_byzantina"
+        ],
+        "nomes_populares": [
+            "Peixinho",
+            "Lambarizinho",
+            "Lambari de Folha",
+            "Orelha de Coelho",
+            "Orelha de Lebre"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Stachys_byzantina"
+    },
+    "stachytarpheta_cayennensis": {
+        "nomes_cientificos": [
+            "stachytarpheta_cayennensis"
+        ],
+        "nomes_populares": [
+            "Gervão roxo",
+            "Gervão azul",
+            "Chá do Brasil",
+            "Verônica"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/126569-Stachytarpheta-cayennensis"
+    },
+    "swietenia_macrophylla": {
+        "nomes_cientificos": [
+            "swietenia_macrophylla"
+        ],
+        "nomes_populares": [
+            "Aguano",
+            "mogno-brasileiro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/169442-Swietenia-macrophylla"
+    },
+    "syagrus_romanzoffiana": {
+        "nomes_cientificos": [
+            "syagrus_romanzoffiana"
+        ],
+        "nomes_populares": [
+            "Jerivá",
+            "Baba de boi",
+            "Coco de babão",
+            "Coco de cachorro",
+            "Coco de catarro",
+            "Coqueiro",
+            "Coqueiro gerivá",
+            "Coquinho",
+            "Coquinho de cachorro",
+            "Gerivá",
+            "Jeribá"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Syagrus_romanzoffiana"
+    },
+    "syzygium_cumini": {
+        "nomes_cientificos": [
+            "syzygium_cumini"
+        ],
+        "nomes_populares": [
+            "Azeitona",
+            "Azeitona da Terra",
+            "Baga de Freira",
+            "Guape",
+            "Jalão",
+            "Jambuí",
+            "Jamelão"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Syzygium_cumini"
+    },
+    "syzygium_jambos": {
+        "nomes_cientificos": [
+            "syzygium_jambos"
+        ],
+        "nomes_populares": [
+            "jambo",
+            "jambo-amarelo",
+            "jambo-cheiroso",
+            "jambo-moreno",
+            "jambo-de-malabar"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Syzygium_jambos"
+    },
+    "syzygium_malaccense": {
+        "nomes_cientificos": [
+            "syzygium_malaccense"
+        ],
+        "nomes_populares": [
+            "Jambo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Syzygium_malaccense"
+    },
+    "tabebuia_heterophylla": {
+        "nomes_cientificos": [
+            "tabebuia_heterophylla"
+        ],
+        "nomes_populares": [
+            "Ipê-Rosa"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/53722-Tabebuia-heterophylla"
+    },
+    "tabebuia_rosea": {
+        "nomes_cientificos": [
+            "tabebuia_rosea"
+        ],
+        "nomes_populares": [
+            "ipê-rosa"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Tabebuia_rosea"
+    },
+    "tabernaemontana_catharinensis": {
+        "nomes_cientificos": [
+            "tabernaemontana_catharinensis"
+        ],
+        "nomes_populares": [
+            "Cobrina",
+            "Jasmim",
+            "Jasmim Pipoca",
+            "Jasmim Catavento",
+            "Sapirangui",
+            "Leiteira",
+            "Leiteira Dois Irmãos"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/479950-Tabernaemontana-catharinensis"
+    },
+    "tabernaemontana_divaricata": {
+        "nomes_cientificos": [
+            "tabernaemontana_divaricata"
+        ],
+        "nomes_populares": [
+            "jasmim-café",
+            "jasmim-de-porcelana",
+            "jasmim-crepe",
+            "cravo-da-índia",
+            "jasmim-de-estudante",
+            "jasmim-porcelana"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Tabernaemontana_divaricata"
+    },
+    "tagetes_erecta": {
+        "nomes_cientificos": [
+            "tagetes_erecta"
+        ],
+        "nomes_populares": [
+            "Cravo Africano",
+            "Cravo Amarelo",
+            "Cravo da Índia",
+            "Cravo de Defunto",
+            "Rosa da Índia"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/79312-Tagetes-erecta"
+    },
+    "tectona_grandis": {
+        "nomes_cientificos": [
+            "tectona_grandis"
+        ],
+        "nomes_populares": [
+            "Teak",
+            "Djati"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/62887-Tectona-grandis"
+    },
+    "telekia_speciosa": {
+        "nomes_cientificos": [
+            "telekia_speciosa"
+        ],
+        "nomes_populares": [
+            "oxeye de folhas em coração; oxeye amarelo; heart-leaved oxeye; yellow oxeye"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/358060-Telekia-speciosa"
+    },
+    "teucrium_fruticans": {
+        "nomes_cientificos": [
+            "teucrium_fruticans"
+        ],
+        "nomes_populares": [
+            "Sargaço Branco"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/181666-Teucrium-fruticans"
+    },
+    "thapsia_villosa": {
+        "nomes_cientificos": [
+            "thapsia_villosa"
+        ],
+        "nomes_populares": [
+            "Tápsia"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/450557-Thapsia-villosa"
+    },
+    "thaumatophyllum_bipinnatifidum": {
+        "nomes_cientificos": [
+            "thaumatophyllum_bipinnatifidum"
+        ],
+        "nomes_populares": [
+            "Banana de imbê",
+            "Banana de morcego",
+            "Banana do mato",
+            "Imbê"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Thaumatophyllum_bipinnatifidum"
+    },
+    "theobroma_cacao": {
+        "nomes_cientificos": [
+            "theobroma_cacao"
+        ],
+        "nomes_populares": [
+            "Cacao",
+            "Chocolate",
+            "Massaroca",
+            "Cacao Forasteiro",
+            "Cacau da Bahia",
+            "Cacau do Brasil",
+            "Cacau Verdadeiro"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Theobroma_cacao"
+    },
+    "thunbergia_erecta": {
+        "nomes_cientificos": [
+            "thunbergia_erecta"
+        ],
+        "nomes_populares": [
+            "Manto de rei"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Thunbergia_erecta"
+    },
+    "thunbergia_grandiflora": {
+        "nomes_cientificos": [
+            "thunbergia_grandiflora"
+        ],
+        "nomes_populares": [
+            "Azulzinha",
+            "tumbérgia-azul"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Thunbergia_grandiflora"
+    },
+    "thymus_vulgaris": {
+        "nomes_cientificos": [
+            "thymus_vulgaris"
+        ],
+        "nomes_populares": [
+            "Arçã",
+            "Arçanha",
+            "Erva urso",
+            "Poejo",
+            "Segurelha",
+            "Timo",
+            "Tomilho de inverno",
+            "Tomilho de jardim",
+            "Tomilho ordinário",
+            "Tomilho vulgar"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Thymus_vulgaris"
+    },
+    "trachelospermum_jasminoides": {
+        "nomes_cientificos": [
+            "trachelospermum_jasminoides"
+        ],
+        "nomes_populares": [
+            "Jasmim Estrela",
+            "Jasmim de Leite",
+            "Jasmim Brilhante"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/169856-Trachelospermum-jasminoides"
+    },
+    "trachycarpus_fortunei": {
+        "nomes_cientificos": [
+            "trachycarpus_fortunei"
+        ],
+        "nomes_populares": [
+            "Palmeira da Fortunida",
+            "Palmeira da China",
+            "palmeira-moinho-de-vento"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Trachycarpus_fortunei"
+    },
+    "tradescantia_fluminensis": {
+        "nomes_cientificos": [
+            "tradescantia_fluminensis"
+        ],
+        "nomes_populares": [
+            "Tradescantia Rosa"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/79382-Tradescantia-fluminensis"
+    },
+    "tradescantia_pallida": {
+        "nomes_cientificos": [
+            "tradescantia_pallida"
+        ],
+        "nomes_populares": [
+            "Coração roxo",
+            "Trapoeraba",
+            "Trapoerabão",
+            "Setecresia",
+            "Tradescantia pallida purpurea"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/169872-Tradescantia-pallida"
+    },
+    "tradescantia_sillamontana": {
+        "nomes_cientificos": [
+            "tradescantia_sillamontana"
+        ],
+        "nomes_populares": [
+            "Trapoeraba-de-feltro; Trapoeraba-lanosa"
         ],
         "link": "https://www.biodiversity4all.org/taxa/277314-Tradescantia-sillamontana"
     },
-    "1529081": {
+    "tradescantia_spathacea": {
         "nomes_cientificos": [
-            "Sedum_adolphii"
+            "tradescantia_spathacea"
         ],
         "nomes_populares": [
-            "Sedum-Dourado",
-            "pedra de cobre"
+            "Moisés no berço",
+            "Espada de iansã"
         ],
-        "link": "https://www.biodiversity4all.org/taxa/276002-Sedum-adolphi"
+        "link": "https://www.biodiversity4all.org/taxa/169878-Tradescantia-spathacea"
+    },
+    "tradescantia_virginiana": {
+        "nomes_cientificos": [
+            "tradescantia_virginiana"
+        ],
+        "nomes_populares": [
+            "Complex Tradescantia virginiana; Tradescantia virginiana"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/1556345-Tradescantia-virginiana"
+    },
+    "tradescantia_zebrina": {
+        "nomes_cientificos": [
+            "tradescantia_zebrina"
+        ],
+        "nomes_populares": [
+            "Judeu Errante",
+            "Trapoeraba Roxa",
+            "Trapoeraba Zebra",
+            "Lambari Zebrina",
+            "Tradescantia Zebrina"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/169883-Tradescantia-zebrina"
+    },
+    "trifolium_alpinum": {
+        "nomes_cientificos": [
+            "trifolium_alpinum"
+        ],
+        "nomes_populares": [
+            "trevo alpino; alpine clover"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/85423-Trifolium-alpinum"
+    },
+    "trifolium_angustifolium": {
+        "nomes_cientificos": [
+            "trifolium_angustifolium"
+        ],
+        "nomes_populares": [
+            "Trevo-de-Folhas-Estreitas; rabo-de-gato; trevo-massaroco"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/69939-Trifolium-angustifolium"
+    },
+    "trifolium_arvense": {
+        "nomes_cientificos": [
+            "trifolium_arvense"
+        ],
+        "nomes_populares": [
+            "Pé-de-Lebre; trevo-branco"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/79408-Trifolium-arvense"
+    },
+    "trifolium_campestre": {
+        "nomes_cientificos": [
+            "trifolium_campestre"
+        ],
+        "nomes_populares": [
+            "Trevo-Amarelo; trevão"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/57076-Trifolium-campestre"
+    },
+    "trifolium_dubium": {
+        "nomes_cientificos": [
+            "trifolium_dubium"
+        ],
+        "nomes_populares": [
+            "Trevo-Amarelo-Menor; trevinho"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/53313-Trifolium-dubium"
+    },
+    "trifolium_incarnatum": {
+        "nomes_cientificos": [
+            "trifolium_incarnatum"
+        ],
+        "nomes_populares": [
+            "Trevo-Vermelho; erva-do-amor; trevo-encarnado"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/64268-Trifolium-incarnatum"
+    },
+    "trifolium_montanum": {
+        "nomes_cientificos": [
+            "trifolium_montanum"
+        ],
+        "nomes_populares": [
+            "trevo da montanha; Trifolium montanum"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/334750-Trifolium-montanum"
+    },
+    "trifolium_pratense": {
+        "nomes_cientificos": [
+            "trifolium_pratense"
+        ],
+        "nomes_populares": [
+            "trevo-dos-prados; trevo-ribeiro; trevo-de-vaca"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/51875-Trifolium-pratense"
+    },
+    "trifolium_repens": {
+        "nomes_cientificos": [
+            "trifolium_repens"
+        ],
+        "nomes_populares": [
+            "Trevo-Branco; trevo-coroa-de-rei; trevo-da-holanda; trevo-ladino; trevo-rasteiro"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/55745-Trifolium-repens"
+    },
+    "trifolium_resupinatum": {
+        "nomes_cientificos": [
+            "trifolium_resupinatum"
+        ],
+        "nomes_populares": [
+            "Trevo-de-Flores-Reviradas; trevo-da-pérsia; trevo-resupinado"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/79429-Trifolium-resupinatum"
+    },
+    "trifolium_rubens": {
+        "nomes_cientificos": [
+            "trifolium_rubens"
+        ],
+        "nomes_populares": [
+            "Trevo-Ornamental"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/244538-Trifolium-rubens"
+    },
+    "trifolium_stellatum": {
+        "nomes_cientificos": [
+            "trifolium_stellatum"
+        ],
+        "nomes_populares": [
+            "Trevo-Estrelado"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/59417-Trifolium-stellatum"
+    },
+    "tropaeolum_majus": {
+        "nomes_cientificos": [
+            "tropaeolum_majus"
+        ],
+        "nomes_populares": [
+            "Agrião do México",
+            "Chagas",
+            "Coleária Dos Jardins",
+            "Flor de Chagas",
+            "Flor de Sangue",
+            "Mastruço",
+            "Nastúrcio"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/54329-Tropaeolum-majus"
+    },
+    "turnera_subulata": {
+        "nomes_cientificos": [
+            "turnera_subulata"
+        ],
+        "nomes_populares": [
+            "Turnera",
+            "Chanana",
+            "Albina"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Turnera_subulata"
+    },
+    "vaccaria_hispanica": {
+        "nomes_cientificos": [
+            "vaccaria_hispanica"
+        ],
+        "nomes_populares": [
+            "Saponária-Das-Vacas; cow basil"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/836721-Gypsophila-vaccaria"
+    },
+    "veronica_spicata": {
+        "nomes_cientificos": [
+            "veronica_spicata"
+        ],
+        "nomes_populares": [
+            "Verônica spicata"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/132118-Veronica-spicata"
+    },
+    "viburnum_tinus": {
+        "nomes_cientificos": [
+            "viburnum_tinus"
+        ],
+        "nomes_populares": [
+            "Folhado",
+            "Folhado Comum",
+            "Milfolhado"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Viburnum_tinus"
+    },
+    "vitis_labrusca": {
+        "nomes_cientificos": [
+            "vitis_labrusca"
+        ],
+        "nomes_populares": [
+            "Uva Americana"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Vitis_labrusca"
+    },
+    "westringia_fruticosa": {
+        "nomes_cientificos": [
+            "westringia_fruticosa"
+        ],
+        "nomes_populares": [
+            "Alecrim Costeiro"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Westringia_fruticosa"
+    },
+    "yucca_filamentosa": {
+        "nomes_cientificos": [
+            "yucca_filamentosa"
+        ],
+        "nomes_populares": [
+            "Iuca Mansa",
+            "Agulha de Adão",
+            "Iuca"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Yucca_filamentosa"
+    },
+    "zamioculcas_zamiifolia": {
+        "nomes_cientificos": [
+            "zamioculcas_zamiifolia"
+        ],
+        "nomes_populares": [
+            "Zamioculca"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/367277-Zamioculcas-zamiifolia"
+    },
+    "zantedeschia_aethiopica": {
+        "nomes_cientificos": [
+            "zantedeschia_aethiopica"
+        ],
+        "nomes_populares": [
+            "Cala Branca",
+            "Jarra",
+            "Jarro",
+            "Lírio do Nilo"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Zantedeschia_aethiopica"
+    },
+    "zea_mays": {
+        "nomes_cientificos": [
+            "zea_mays"
+        ],
+        "nomes_populares": [
+            "corn",
+            "milho",
+            "maize",
+            "maíz",
+            "maïs"
+        ],
+        "link": "http://servicos.jbrj.gov.br/flora/search/Zea_mays"
+    },
+    "zephyranthes_candida": {
+        "nomes_cientificos": [
+            "zephyranthes_candida"
+        ],
+        "nomes_populares": [
+            "Lírio de Zéfiro",
+            "Lírio da Praia",
+            "açucena-do-rio",
+            "flor-do-vento",
+            "lírio-do-vento"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/170415-Zephyranthes-candida"
+    },
+    "zingiber_spectabile": {
+        "nomes_cientificos": [
+            "zingiber_spectabile"
+        ],
+        "nomes_populares": [
+            "Gengibre Ornamental",
+            "Gengibre-Magnífico"
+        ],
+        "link": "https://www.biodiversity4all.org/taxa/372652-Zingiber-spectabile"
     }
 }
