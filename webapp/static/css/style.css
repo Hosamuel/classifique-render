@@ -7,37 +7,77 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: start;
+    min-height: 100vh; /* Garante que o body ocupa a altura total da viewport */
 }
 
 /* Cabeçalho */
 .header {
     width: 100%;
-    height: 80px;
+    height: 80px; /* Altura fixa do cabeçalho */
     background-color: #2d5a27;
     color: white;
     font-size: 1.5em;
     font-weight: 600;
     display: flex;
     align-items: center;
-    padding-left: 40px;
+    padding: 0 20px;
     font-family: 'Croissant One', cursive;
+    position: relative; /* Necessário para posicionamento absoluto de elementos internos */
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header img {
+    width: 90px;
+    margin-right: 18px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    margin: 0;
+    /* Estilo padrão para desktop, será ajustado em mobile */
+}
+
+/* Estilos específicos para o cabeçalho do home.html (desktop) */
+.home-header {
+    justify-content: center; /* Centraliza logo e título no home.html em desktop */
+}
+
+/* Estilos para os cabeçalhos de index.html e result.html (desktop) */
+.index-result-header {
+    justify-content: space-between; /* Separa logo/título da seta */
+}
+
+.back-arrow {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    display: block; /* Garante que a seta ocupe seu espaço e margin-left: auto funcione */
 }
 
 /* Container principal */
 .container {
     max-width: 1060px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     padding: 50px 20px;
+    flex-grow: 1; /* Permite que o container ocupe o espaço restante */
 }
 
 /* Área de texto */
 .text-container {
     flex: 1;
     text-align: left;
-    min-width: 280px; 
+    min-width: 280px;
 }
 
 .text-container h1, .info-section h2 {
@@ -64,8 +104,8 @@ body {
     background-color: #e6f2e6;
     position: relative;
     cursor: pointer;
-    transition: background 0.3s ease; 
-    min-width: 280px; 
+    transition: background 0.3s ease;
+    min-width: 280px;
 }
 
 /* Label do upload */
@@ -89,14 +129,14 @@ body {
 /* Seção de informações */
 .info-section {
     max-width: 900px;
-    text-align: left;
+    text-align: center; /* Alterado de left para center */
     padding: 30px;
     background: white;
     border-radius: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
@@ -207,71 +247,145 @@ body {
 
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 0;
+        height: 60px; /* Altura menor para mobile */
+        padding: 0 15px; /* Ajusta padding para mobile */
+        justify-content: space-between; /* Para logo à esquerda, seta à direita */
     }
 
     .header img {
-        width: 60px; 
-        margin-bottom: 5px;
+        width: 50px;
+        margin-right: 10px;
     }
 
-    .header h2 {
-        font-size: 1.3em;
-    }
-
-    .container {
-        padding: 30px 10px;
-    }
-
-    .text-container h1, .info-section h2 {
-        font-size: 1.5em;
-    }
-
-    .upload-area {
-        padding: 15px;
-    }
-
-    .footer {
-        font-size: 1em;
-    }
-}
-
-@media (max-width: 785px) {
-    .header h2 {
-        position: relative;
-        font-size: 0.6em;
-    }
-
-    .header img {
+    .header-title {
         position: absolute;
-        left: 0; 
-        top: 6px; 
-    }
-    
-    .container {
-        padding: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.6em; /* Tamanho do título centralizado em mobile */
+        white-space: nowrap; /* Evita quebras de linha no título */
     }
 
-    .text-container h1, .info-section h2 {
-        font-size: 1.3em;
+    /* Home.html cabeçalho em mobile: logo à esquerda, título centralizado, sem seta */
+    .home-header {
+        justify-content: flex-start; /* Logo no canto esquerdo */
     }
 
-    .text-container p, .info-section p {
-        font-size: 1em;
+    .home-header .header-title {
+        left: 50%; /* Centraliza o título */
+        transform: translateX(-50%);
     }
 
-    .upload-area label {
-        font-size: 1em;
-        padding: 8px 15px;
+    .home-header .back-arrow {
+        display: none; /* Esconde a seta em home.html */
     }
 
-    .footer {
-        font-size: 0.9em;
+    /* Index.html e Result.html cabeçalho em mobile: logo à esquerda, título centralizado, seta à direita */
+    .index-result-header .header-title {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .index-result-header .back-arrow {
+        font-size: 0.8em; /* Tamanho da seta em mobile, proporcional ao título */
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block; /* Garante que a seta apareça */
     }
 }
+
 * {
     box-sizing: border-box;
+}
+
+.dev-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    gap: 40px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.dev-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease;
+}
+
+.dev-card:hover {
+    transform: translateY(-8px);
+}
+
+.dev-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #6c7e41; /* Cor da planta */
+}
+
+.dev-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+.dev-card p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.dev-card .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #6c7e41; /* Cor da planta */
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.dev-card .social-links a:hover {
+    color: #a4b48d; /* Tom mais claro */
+}
+
+.button-deepflora {
+    display: block;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 15px 30px;
+    background-color: #6b9080; /* Cor padrão do botão de envio */
+    color: white;
+    text-decoration: none;
+    border-radius: 20px; /* Borda mais arredondada para consistência */
+    font-size: 1.1em; /* Ajuste para consistência com o label do upload */
+    font-weight: 600;
+    font-family: 'Croissant One', cursive; /* Fonte do cabeçalho para botões de destaque */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-deepflora:hover {
+    background-color: #557c6a; /* Tom mais escuro no hover */
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .dev-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dev-card {
+        width: 90%;
+    }
 }
 

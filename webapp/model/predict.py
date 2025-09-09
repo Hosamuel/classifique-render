@@ -85,5 +85,5 @@ def classify_image(image):
             "probability": f"{top_probs[i].item() * 100:.2f}%"
         })
 
-    return results
+    return results, top_probs[0].item() * 100
 

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='img/terra.png') }}" type="image/png">
+    <title>DeepFlora - Início</title>
+    
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Croissant+One&family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+</head>
+<body>
+    <div class="header">
+        <img src="{{ url_for('static', filename='img/DeepFlora.png') }}" alt="Logo Planta">
+        <h2 class="header-title">DeepFlora</h2>
+    </div>
+    
+    <div class="info-section">
+        <div class="info-text">
+            <h2>Bem-vindo ao DeepFlora</h2>
+            <b><p>Já encontrou uma planta e ficou em dúvida sobre seu nome?</p></b>
+            <p>O DeepFlora une inteligência artificial e biodiversidade para identificar espécies de plantas de forma automática a partir de imagens.</p>
+            <p><b>Nosso objetivo é aproximar ciência, tecnologia e sociedade, tornando o reconhecimento de plantas mais rápido, acessível e confiável.</b></p>
+        </div>
+    </div>
+
+    <div class="info-section">
+        <div class="info-text">
+            <h2>Sobre o Projeto</h2>
+            <b><p>O DeepFlora é um Projeto de Iniciação Tecnológica (PIVITI), realizado na Faculdade de Computação e Informática da Universidade Presbiteriana Mackenzie,
+            sob orientação do Prof. Dr. Ivan Carlos Alcântara de Oliveira.</p></b>
+            <p>Nosso propósito é tornar a classificação de plantas mais acessível para botânicos, estudantes e amantes da natureza. 
+            Usando técnicas avançadas de visão computacional, o sistema reconhece 487 espécies diferentes e fornece informações úteis sobre cada uma delas.</p>
+        </div>
+        <img src="{{ url_for('static', filename='img/sapling-154734_1280.png') }}" 
+             alt="Decoração Planta" class="right-decoration">
+    </div>
+
+    <h2 style="text-align: center; color: #2d5a27; font-size: 2em; font-weight: 600; font-family: 'Croissant One', cursive; margin-top: 50px;">Conheça Nossos Idealizadores</h2>
+    <div class="dev-section">
+        <div class="dev-card">
+            <img src="{{ url_for('static', filename='img/aluno.jpeg') }}" alt="Foto do Desenvolvedor Samuel">
+            <h3>Samuel Bonfim</h3>
+            <p>Discente</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/samuelbonfim" target="_blank">LinkedIn</a><br>
+                <a href="https://github.com/samuelbonfim" target="_blank">GitHub</a><br>
+                <a href="http://lattes.cnpq.br/seu_id_cnpq_samuel" target="_blank">CNPq</a>
+            </div>
+        </div>
+        <div class="dev-card">
+            <img src="{{ url_for('static', filename='img/professor.jpeg') }}" alt="Foto do Professor Ivan">
+            <h3>Prof. Dr. Ivan Carlos Alcântara de Oliveira</h3>
+            <p>Orientador</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ivancarlos" target="_blank">LinkedIn</a><br>
+                <a href="https://github.com/ivancarlos" target="_blank">GitHub</a><br>
+                <a href="http://lattes.cnpq.br/seu_id_cnpq_ivan" target="_blank">CNPq</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="{{ url_for('main.index_page') }}" class="button-deepflora">Conhecer o DeepFlora</a>
+    
+    <div class="footer">
+        <strong>Contato e Mais Informações</strong><br>
+        Para saber mais sobre o projeto ou contribuir, entre em contato conosco:<br>
+        E-mail: <a href="mailto:samuelbonfim.silva@mackenzista.com.br">samuelbonfim.silva@mackenzista.com.br</a>
+        <br>
+    </div>
+</body>
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</html>

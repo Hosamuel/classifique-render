@@ -19,15 +19,17 @@ body {
 /* Cabeçalho */
 .header {
     width: 100%;
-    height: 80px;
+    height: 80px; /* Altura fixa do cabeçalho */
     background-color: #2d5a27;
     color: white;
     font-size: 1.5em;
     font-weight: 600;
     display: flex;
     align-items: center;
-    padding-left: 40px;
+    justify-content: space-between; /* Para logo/título à esquerda e seta à direita */
+    padding: 0 20px; /* Ajusta padding para as laterais */
     font-family: 'Croissant One', cursive;
+    position: relative; /* Necessário para posicionamento absoluto de elementos internos */
 }
 .header a {
     text-decoration: none;
@@ -38,6 +40,23 @@ body {
     width: 90px;
     margin-right: 18px;
 }
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.back-arrow {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    display: block;
+}
+
 /* Container principal */
 .container {
     max-width: 1060px;
@@ -260,18 +279,35 @@ body {
 
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 0;
+        height: 60px;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Alinha logo à esquerda e seta à direita */
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center;
     }
 
     .header img {
-        width: 60px;
-        margin-bottom: 5px;
+        width: 50px;
+        margin-right: 10px;
     }
 
-    .header h2 {
-        font-size: 1.3em;
+    .header-title {
+        font-size: 0.6em; /* Tamanho do título em mobile */
+        position: absolute; /* Centraliza o título */
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
+    .back-arrow {
+        font-size: 0.8em;
+        position: relative;
+        z-index: 1;
     }
 
     .container {
@@ -279,7 +315,7 @@ body {
     }
 
     .text-details h2 {
-        font-size: 1.5em;
+        font-size:0.6em;
     }
 
     .text-details p {
@@ -296,23 +332,12 @@ body {
 }
 
 @media (max-width: 785px) {
-    .header h2 {
-        position: relative;
-        font-size: 0.6em;
-    }
-
-    .header img {
-        position: absolute;
-        left: 0;
-        top: 6px;
-    }
-    
     .container {
         padding: 20px;
     }
 
     .text-details h2 {
-        font-size: 1.3em;
+        font-size: 0.6em;
     }
 
     .text-details p {
@@ -320,11 +345,29 @@ body {
     }
 
     .footer {
-        font-size: 0.9em;
+        font-size: 0.6em;
     }
 
     .image-container {
         width: 150px;
         height: 100px;
     }
+}
+
+.alert-message {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.chart-container-style {
+    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
 }

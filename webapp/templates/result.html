@@ -14,14 +14,20 @@
 </head>
 <body>
 
-    <div class="header">
-        <img src="{{ url_for('static', filename='img/DeepFlora.png') }}" alt="Logo Planta">
-        <a href="{{ url_for('main.home') }}">
-            <h2>DeepFlora</h2>
-        </a>
+    <div class="header index-result-header">
+        <div class="header-left">
+            <img src="{{ url_for('static', filename='img/DeepFlora.png') }}" alt="Logo Planta">
+            <h2 class="header-title">DeepFlora</h2>
+        </div>
+        <a href="{{ url_for('main.index_page') }}" class="back-arrow">&#8592;</a>
     </div>
 
     <div class="container">
+        {% if low_confidence_message %}
+        <div class="alert-message">
+            {{ low_confidence_message }}
+        </div>
+        {% endif %}
         <div class="classification-section">
             <h2>Classificação Considerada:</h2>
             <div class="classification-details">
@@ -42,7 +48,7 @@
     
         <div class="chart-section">
             <h2>Resultados da Classificação:</h2>
-            <div style="height: 300px; width: 100%; max-width: 500px; margin: 0 auto;">
+            <div class="chart-container-style">
                 <canvas id="classificationChart"></canvas>
             </div>
         </div>
@@ -80,4 +86,3 @@
     <script src="{{ url_for('static', filename='js/result.js') }}"></script>
 </body>
 </html>
-
