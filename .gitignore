@@ -4,7 +4,6 @@ __pycache__/
 venv/
 .vscode/
 webapp/model/pesos_it_1.pth
-webapp/static/uploads/
 *.log
 *.whl
 _distutils_hack/
