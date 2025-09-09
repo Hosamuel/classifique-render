@@ -5,3 +5,5 @@ venv/
 .vscode/
 *.pyc
 webapp/model/pesos_it_1.pth
+webapp/static/uploads/
+*.log
