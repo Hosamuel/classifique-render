@@ -100,7 +100,7 @@ def classify():
             image = Image.open(file.stream)
         except (Image.UnidentifiedImageError, IOError) as e:
             logger.error(f"Erro ao abrir a imagem: {e}")
-            return jsonify({'error': 'Não foi possível abrir a imagem. Certifique-se de que o arquivo é uma imagem válida e não está corrompido.'}), 400
+            return jsonify({'error': 'Não foi possível abrir a imagem. Certifique-se de que o arquivo é uma imagem válida e não está corrompida.'}), 400
         
         image = image.convert('RGB') # Garante que a imagem tenha 3 canais (RGB)
         max_size = (800, 800)
