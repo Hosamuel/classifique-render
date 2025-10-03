@@ -1,7 +1,5 @@
 import os
-
 from flask import Flask
-
 from webapp.routes import main
 
 app = Flask(__name__, 
