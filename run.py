@@ -1,7 +1,4 @@
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 from flask import Flask
 
@@ -11,8 +8,6 @@ app = Flask(__name__,
     template_folder='webapp/templates',  
     static_folder='webapp/static'        
 )
-
-app.secret_key = os.getenv('SECRET_KEY')
 
 # Blueprint
 app.register_blueprint(main)
