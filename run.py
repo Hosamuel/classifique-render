@@ -7,6 +7,8 @@ app = Flask(__name__,
     static_folder='webapp/static'        
 )
 
+app.secret_key = '00112233'
+
 # Blueprint
 app.register_blueprint(main)
 
